@@ -35,3 +35,26 @@ ThinkPHP从诞生以来一直秉承大道至简的开发理念，无论从底层
 ## 商业友好的开源协议
 
 ThinkPHP遵循Apache2开源协议发布。Apache Licence是著名的非盈利开源组织Apache采用的协议。该协议和BSD类似，鼓励代码共享和尊重原作者的著作权，同样允许代码修改，再作为开源或商业软件发布。
+
+## 安装
+ * 安装php基础运行环境
+```
+sudo su
+apt-get install -y php5=5.5\*
+apt-get install -y apache2=2.4\*
+apt-get install -y php5-mysql
+apt-get install -y mysql-server-5.6
+apt-get install -y php5-gd
+apt-get install -y php5-curl
+apt-get install -y git
+
+a2enmod rewrite
+a2enmod rewrite
+a2enmod proxy
+a2enmod proxy_http
+```
+ * 安装git环境
+ * 克隆代码 git clone https://github.com/{username}/guozhi.git
+ * 导入数据库文件 guozhi.sql
+ * 修改相应的配置文件 /App/Common/Conf/Config.php
+ * OK!
