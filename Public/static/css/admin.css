@@ -1,0 +1,45 @@
+/* product */
+.fruit-list .admin_product_list_img{
+	width:60px;
+	height:60px;
+	margin-right:10px;
+}
+.fruit-list .admin_product_list_h2{
+	float:left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.fruit-list .admin_product_list_em,.fruit-list .admin_product_list_div{
+	float:left;
+	width:70%;
+}
+
+/* user */
+.fruit-list .admin_user_list_em{
+	color:#333;
+	float:left;
+	width:70%;
+}
+
+/* recomend */
+.fruit-list .admin_recommend_list_h2,.fruit-list .admin_recommend_list_em,.fruit-list .admin_recommend_list_div{
+	width:100%;
+	float:left;
+}
+
+.fruit-list .admin_recommend_list_li{
+	background-color:#e8e8e8;
+	padding:8px 0;
+	float:left;
+	border-radius:5px;
+}
+
+.fruit-list .admin_recommend_list_em{
+	font-style:normal;
+	color:#339900;
+}
+
+.fruit-list .admin_recommend_list_div{
+	color:#990033;
+}

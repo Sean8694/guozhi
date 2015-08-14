@@ -1,0 +1,62 @@
+<include file="./App/Fruit/View/header.html" />
+<body>
+	<div data-role="page" id="pageone" data-position="fixed" style="background-color:#fff;"> 
+		<div data-role="content" style="background-color:#fff;">
+			<div class="home-header">
+				<div><if condition="$user['face'] eq '0'"><img src="__PUBLIC__/upload/my_head.gif"/><else /><img src="<{$user.face}>"/></if></div>
+				<div class="home-header-2"><{$user.name}></div>
+				<div class="home-header-3"><{$user.mobile}></div>
+			</div>
+			<ul class="home-list">
+				<li>
+					<a href="__URL__/myinfo">
+						<img src="__PUBLIC__/upload/my_zl.gif"/>	
+						<h2>我的资料</h2>
+						<div class='em'>></div>
+						<div class='em'></div>
+					</a>
+				</li>
+				<li>
+					<a href="__URL__/orders" data-ajax="false">
+						<img src="__PUBLIC__/upload/my_dd.gif"/>	
+						<h2>我的订单（<{$order_num}>）</h2>
+						<div class='em'>></div>
+					</a>
+				</li>	
+				<li>
+					<a href="__URL__/sharecoupon">
+						<img src="__PUBLIC__/upload/my_qb.gif"/>	
+						<h2>我的汁儿币</h2>
+						<div class='em'>></div>
+					</a>
+				</li>	
+				<li>
+					<a href="__URL__/wallet">
+						<img src="__PUBLIC__/upload/my_qb.gif"/>	
+						<h2>我的钱包</h2>
+						<div class='em'>></div>
+					</a>
+				</li>
+				<li>
+					<a href="__URL__/opinion">
+						<img src="__PUBLIC__/upload/my_yj.gif"/>	
+						<h2>意见建议（<{$opinion_num}>）</h2>
+						<div class='em'>></div>
+					</a>
+				</li>
+				
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed"  data-theme="e" data-tap-toggle="false">
+			<div data-role="navbar">
+				<ul>
+				<li><a href="__APP__/fruit/index" data-icon="grid" >产品</a></li>
+				<li><a href="__APP__/fruit/index/mycar" data-icon="star" >购物车<span id='carnum'><{$carnum}></span></a></li>
+				<li><a href="__APP__/home" data-icon="home"  class="ui-btn-active ui-state-persist">个人中心</a></li>
+				</ul>
+			</div>
+		</div>
+	</div> 
+</body>
+</html>
+ 

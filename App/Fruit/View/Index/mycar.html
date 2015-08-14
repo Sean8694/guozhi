@@ -1,0 +1,80 @@
+﻿<include file="./App/Fruit/View/header.html" />
+<body>
+	<div data-role="page" id="pageone" data-position="fixed" data-dom-cache="false"> 
+		<div data-role="content" style="padding:0px 10px;margin:0 0 20px 0;">
+			<if condition="$carnum gt 0">
+				<form action="__URL__/check" name="formcar" method="post">
+				<ul class="car-list">
+					<span style="display:none"><{$jishuqi=0}></span>
+					<volist name="fruit" id="data" key="key">
+					<li id="fruit_li_<{$data.car_id}>">
+						<div class="fruit_li_info"
+						<if condition="$jishuqi eq 3"><{$jishuqi=0}></if>
+						<{$jishuqi++}>
+						<if condition="$jishuqi eq 1">
+							style="background-color: #FF521E;"
+						<elseif condition="$jishuqi eq 2"/>
+							style="background-color: #FFD400;"
+						<elseif condition="$jishuqi eq 3" />
+							style="background-color: #00CD68;"
+						<else />
+							style="background-color: #FF521E;"
+						</if>
+						>
+							<!--img src="__PUBLIC__/upload/<{$data.pic}>" onclick="window.open('__URL__/detail/id/1')"/-->	
+							<h2>
+								<{$data.name}>
+								<span></span>
+							</h2>
+							
+							<div class="car-number">
+								<div class="car-sub" onclick="carSub(<{$data.car_id}>)">-</div>
+								<div class="car-num" id="fruit_id_<{$data.car_id}>"><{$data.num}></div>
+								<div class="car-add" onclick="carAdd(<{$data.car_id}>)">+</div>
+								<input type="hidden" name="fruit_num_<{$data.car_id}>" id="fruit_num_<{$data.car_id}>" value="<{$data.num}>">
+							</div>
+							<div class="em">
+								￥ <{$data.price}>&nbsp;x&nbsp;
+							</div>
+						</div>
+						<div class="fruit_li_addinfo">
+							<{$data.addinfo}>
+							<span class="car-del" onclick="carDel(<{$data.car_id}>,'__URL__',<{$data.num}>)">删 除</span>
+						</div>
+					</li>	
+					</volist>	
+				</ul>
+				<div style="float:right;width:100%;margin-top:0px;" id="gotoCheck">
+					<div onclick="window.open('__URL__/index')" class="car-list-submit-more">
+						  继续添加 
+					</div>
+					<div onclick="document.formcar.submit();" class="car-list-submit">
+						 确认选择，去结算 
+					</div>
+				</div>
+				</form>
+				<input type="hidden" id="id_carnum" value="<{$carnum}>">
+			<else />
+				<p class="car-empty">
+					亲,购物车是空的
+				</p>
+				<p>
+					<div onclick="window.open('__URL__/index')" class="car-list-submit">
+						 去选购吧 
+					</div>	
+				</p>
+			</if>
+		</div>
+		<input type="hidden" id="baseurl" value="<{$baseurl}>">
+		<div data-role="footer" data-position="fixed" data-theme="e" data-tap-toggle="false">
+			<div data-role="navbar">
+				<ul>
+				<li><a href="__URL__/index" data-icon="grid">产品</a></li>
+				<li><a href="__URL__/mycar" data-icon="star" class="ui-btn-active ui-state-persist">购物车<span class='carnum' id="carnum"><{$carnum}></span></a></li>
+				<li><a href="__APP__/home" data-icon="home">个人中心</a></li>
+				</ul>
+			</div>
+		</div>
+	</div> 
+</body>
+</html>

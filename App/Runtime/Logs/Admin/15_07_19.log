@@ -1,0 +1,24 @@
+[ 2015-07-19T15:24:33+08:00 ] 114.242.249.196 /zhier/index.php/Admin/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000185s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined variable: opinion /var/www/zhier/App/Runtime/Cache/Admin/7d5bae8f2106a04379ef690681e93072.php 第 67 行.
+NOTIC: [8] Undefined variable: opinion /var/www/zhier/App/Runtime/Cache/Admin/7d5bae8f2106a04379ef690681e93072.php 第 68 行.
+NOTIC: [8] Undefined variable: opinion /var/www/zhier/App/Runtime/Cache/Admin/7d5bae8f2106a04379ef690681e93072.php 第 70 行.
+NOTIC: [8] Undefined variable: opinion /var/www/zhier/App/Runtime/Cache/Admin/7d5bae8f2106a04379ef690681e93072.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000182s ]
+

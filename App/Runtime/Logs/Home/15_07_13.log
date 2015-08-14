@@ -1,0 +1,909 @@
+[ 2015-07-13T00:48:12+08:00 ] 123.151.42.46 /zhier/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000184s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0007s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='109' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0005s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='109' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000176s ]
+
+[ 2015-07-13T13:53:05+08:00 ] 115.34.42.94 /zhier/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='132' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0004s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='132' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000129s ]
+
+[ 2015-07-13T14:20:09+08:00 ] 115.34.42.94 /zhier/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='123' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0004s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='123' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000212s ]
+
+[ 2015-07-13T14:20:13+08:00 ] 115.34.42.94 /zhier/index.php/Home/Index/myinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `user_address` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user_address` WHERE ( `user_id`='123' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `location_office` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `location_office`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000131s ]
+
+[ 2015-07-13T14:20:15+08:00 ] 115.34.42.94 /zhier/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0007s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='123' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0005s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='123' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000125s ]
+
+[ 2015-07-13T14:20:25+08:00 ] 115.34.42.94 /zhier/index.php/Home/Index/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `order` WHERE ( `user_id`='123' ) ORDER BY order_id DESC LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user_coupon` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fruit_type`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 15 /var/www/zhier/App/Home/Controller/IndexController.class.php 第 94 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12419' )  [ RunTime:0.0002s ]
+SQL: 
+SELECT c.coupon_id,t.type_id,t.coupon_name, count( c.coupon_id ) coupon_count
+FROM `user_coupon` c
+LEFT JOIN fruit_type t ON c.type_id = t.type_id
+WHERE `order_id` ='12419'
+GROUP BY c.type_id
+			 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 15 /var/www/zhier/App/Home/Controller/IndexController.class.php 第 94 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12402' )  [ RunTime:0.0002s ]
+SQL: 
+SELECT c.coupon_id,t.type_id,t.coupon_name, count( c.coupon_id ) coupon_count
+FROM `user_coupon` c
+LEFT JOIN fruit_type t ON c.type_id = t.type_id
+WHERE `order_id` ='12402'
+GROUP BY c.type_id
+			 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 15 /var/www/zhier/App/Home/Controller/IndexController.class.php 第 94 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12399' )  [ RunTime:0.0002s ]
+SQL: 
+SELECT c.coupon_id,t.type_id,t.coupon_name, count( c.coupon_id ) coupon_count
+FROM `user_coupon` c
+LEFT JOIN fruit_type t ON c.type_id = t.type_id
+WHERE `order_id` ='12399'
+GROUP BY c.type_id
+			 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 15 /var/www/zhier/App/Home/Controller/IndexController.class.php 第 94 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12398' )  [ RunTime:0.0002s ]
+SQL: 
+SELECT c.coupon_id,t.type_id,t.coupon_name, count( c.coupon_id ) coupon_count
+FROM `user_coupon` c
+LEFT JOIN fruit_type t ON c.type_id = t.type_id
+WHERE `order_id` ='12398'
+GROUP BY c.type_id
+			 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000162s ]
+
+[ 2015-07-13T14:21:15+08:00 ] 115.34.42.94 /zhier/index.php/Home/Index/wallet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_coupon` [ RunTime:0.0005s ]
+SQL: 
+			SELECT t.type_id, t.coupon_name, COUNT( c.coupon_id ) type_count
+			FROM `fruit_type` t
+			LEFT JOIN `user_coupon` c ON c.type_id = t.type_id
+			AND c.user_id ='123'
+			AND c.is_used !=1
+			WHERE 1
+			GROUP BY t.type_id
+			ORDER BY `order` DESC
+			LIMIT 0 , 10
+		 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000135s ]
+
+[ 2015-07-13T14:21:20+08:00 ] 115.34.42.94 /zhier/index.php/Home/Index/walletGetmore/typeid/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit_type` WHERE ( `type_id`=4 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000128s ]
+
+[ 2015-07-13T14:21:22+08:00 ] 115.34.42.94 /zhier/index.php/Home/Index/couponBuy/typeid/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `user_coupon` [ RunTime:0.0007s ]
+SQL: INSERT INTO `user_coupon` (`user_id`,`type_id`,`having_time`,`pay_order`) VALUES ('123','4','1436768482','20150531'),('123','4','1436768482','20150531'),('123','4','1436768482','20150531'),('123','4','1436768482','20150531'),('123','4','1436768482','20150531') [ RunTime:0.0069s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000147s ]
+
+[ 2015-07-13T14:21:24+08:00 ] 115.34.42.94 /zhier/index.php/Home/Index/wallet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_coupon` [ RunTime:0.0005s ]
+SQL: 
+			SELECT t.type_id, t.coupon_name, COUNT( c.coupon_id ) type_count
+			FROM `fruit_type` t
+			LEFT JOIN `user_coupon` c ON c.type_id = t.type_id
+			AND c.user_id ='123'
+			AND c.is_used !=1
+			WHERE 1
+			GROUP BY t.type_id
+			ORDER BY `order` DESC
+			LIMIT 0 , 10
+		 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000154s ]
+
+[ 2015-07-13T14:21:25+08:00 ] 115.34.42.94 /zhier/index.php/Home/Index/wallet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_coupon` [ RunTime:0.0005s ]
+SQL: 
+			SELECT t.type_id, t.coupon_name, COUNT( c.coupon_id ) type_count
+			FROM `fruit_type` t
+			LEFT JOIN `user_coupon` c ON c.type_id = t.type_id
+			AND c.user_id ='123'
+			AND c.is_used !=1
+			WHERE 1
+			GROUP BY t.type_id
+			ORDER BY `order` DESC
+			LIMIT 0 , 10
+		 [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000139s ]
+
+[ 2015-07-13T14:21:27+08:00 ] 115.34.42.94 /zhier/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='123' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0005s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='123' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000131s ]
+
+[ 2015-07-13T14:21:29+08:00 ] 115.34.42.94 /zhier/index.php/Home/Index/opinion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `opinion` WHERE ( `user_id`='123' ) ORDER BY opinion_id DESC LIMIT 5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 24 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 24 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000124s ]
+
+[ 2015-07-13T14:21:32+08:00 ] 115.34.42.94 /zhier/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='123' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0005s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='123' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000132s ]
+
+[ 2015-07-13T14:22:35+08:00 ] 123.151.42.47 /zhier/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='131' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0004s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='131' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000131s ]
+
+[ 2015-07-13T14:22:48+08:00 ] 123.151.42.47 /zhier/index.php/Home/Index/myinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `user_address` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user_address` WHERE ( `user_id`='131' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `location_office` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `location_office`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: location /var/www/zhier/App/Home/Controller/IndexController.class.php 第 363 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000131s ]
+
+[ 2015-07-13T16:11:55+08:00 ] 123.151.42.50 /zhier/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined index: user /var/www/zhier/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [8] Undefined index: user /var/www/zhier/App/Home/Controller/IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0004s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003463s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000135s ]
+
+[ 2015-07-13T20:40:26+08:00 ] 117.136.0.187 /zhier/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='106' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0005s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='106' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000130s ]
+
+[ 2015-07-13T21:57:33+08:00 ] 157.55.39.187 /zhier/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined index: user /var/www/zhier/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/zhier/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-07-13T23:12:02+08:00 ] 221.218.10.204 /zhier/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='106' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0004s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='106' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000130s ]
+
+[ 2015-07-13T23:12:03+08:00 ] 221.218.10.204 /zhier/index.php/Home/Index/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `order` WHERE ( `user_id`='106' ) ORDER BY order_id DESC LIMIT 10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user_coupon` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fruit_type`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 16 /var/www/zhier/App/Home/Controller/IndexController.class.php 第 94 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12421' )  [ RunTime:0.0002s ]
+SQL: 
+SELECT c.coupon_id,t.type_id,t.coupon_name, count( c.coupon_id ) coupon_count
+FROM `user_coupon` c
+LEFT JOIN fruit_type t ON c.type_id = t.type_id
+WHERE `order_id` ='12421'
+GROUP BY c.type_id
+			 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 35 /var/www/zhier/App/Home/Controller/IndexController.class.php 第 94 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12420' )  [ RunTime:0.0002s ]
+SQL: 
+SELECT c.coupon_id,t.type_id,t.coupon_name, count( c.coupon_id ) coupon_count
+FROM `user_coupon` c
+LEFT JOIN fruit_type t ON c.type_id = t.type_id
+WHERE `order_id` ='12420'
+GROUP BY c.type_id
+			 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 31 /var/www/zhier/App/Home/Controller/IndexController.class.php 第 94 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12418' )  [ RunTime:0.0002s ]
+SQL: 
+SELECT c.coupon_id,t.type_id,t.coupon_name, count( c.coupon_id ) coupon_count
+FROM `user_coupon` c
+LEFT JOIN fruit_type t ON c.type_id = t.type_id
+WHERE `order_id` ='12418'
+GROUP BY c.type_id
+			 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 10 /var/www/zhier/App/Home/Controller/IndexController.class.php 第 94 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12417' )  [ RunTime:0.0002s ]
+SQL: 
+SELECT c.coupon_id,t.type_id,t.coupon_name, count( c.coupon_id ) coupon_count
+FROM `user_coupon` c
+LEFT JOIN fruit_type t ON c.type_id = t.type_id
+WHERE `order_id` ='12417'
+GROUP BY c.type_id
+			 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 10 /var/www/zhier/App/Home/Controller/IndexController.class.php 第 94 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12416' )  [ RunTime:0.0002s ]
+SQL: 
+SELECT c.coupon_id,t.type_id,t.coupon_name, count( c.coupon_id ) coupon_count
+FROM `user_coupon` c
+LEFT JOIN fruit_type t ON c.type_id = t.type_id
+WHERE `order_id` ='12416'
+GROUP BY c.type_id
+			 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 10 /var/www/zhier/App/Home/Controller/IndexController.class.php 第 94 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12415' )  [ RunTime:0.0002s ]
+SQL: 
+SELECT c.coupon_id,t.type_id,t.coupon_name, count( c.coupon_id ) coupon_count
+FROM `user_coupon` c
+LEFT JOIN fruit_type t ON c.type_id = t.type_id
+WHERE `order_id` ='12415'
+GROUP BY c.type_id
+			 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 10 /var/www/zhier/App/Home/Controller/IndexController.class.php 第 94 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12414' )  [ RunTime:0.0002s ]
+SQL: 
+SELECT c.coupon_id,t.type_id,t.coupon_name, count( c.coupon_id ) coupon_count
+FROM `user_coupon` c
+LEFT JOIN fruit_type t ON c.type_id = t.type_id
+WHERE `order_id` ='12414'
+GROUP BY c.type_id
+			 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 16 /var/www/zhier/App/Home/Controller/IndexController.class.php 第 94 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12413' )  [ RunTime:0.0002s ]
+SQL: 
+SELECT c.coupon_id,t.type_id,t.coupon_name, count( c.coupon_id ) coupon_count
+FROM `user_coupon` c
+LEFT JOIN fruit_type t ON c.type_id = t.type_id
+WHERE `order_id` ='12413'
+GROUP BY c.type_id
+			 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 2 /var/www/zhier/App/Home/Controller/IndexController.class.php 第 94 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12396' )  [ RunTime:0.0002s ]
+SQL: 
+SELECT c.coupon_id,t.type_id,t.coupon_name, count( c.coupon_id ) coupon_count
+FROM `user_coupon` c
+LEFT JOIN fruit_type t ON c.type_id = t.type_id
+WHERE `order_id` ='12396'
+GROUP BY c.type_id
+			 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000165s ]
+
+[ 2015-07-13T23:22:18+08:00 ] 123.151.42.46 /zhier/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='109' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0004s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='109' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000146s ]
+
+[ 2015-07-13T23:22:21+08:00 ] 123.151.42.46 /zhier/index.php/Home/Index/opinion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `opinion` WHERE ( `user_id`='109' ) ORDER BY opinion_id DESC LIMIT 5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 24 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000130s ]
+
+[ 2015-07-13T23:23:45+08:00 ] 123.151.42.46 /zhier/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='109' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0004s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='109' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000163s ]
+
+[ 2015-07-13T23:39:48+08:00 ] 123.151.42.46 /zhier/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8] Undefined index: user /var/www/zhier/App/Home/Controller/IndexController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvmrNmL4_D0dyClUzSdpusTg' )  [ RunTime:0.0001s ]
+SQL: UPDATE `user` SET `ltime`='1436801988' WHERE `user_id` = 109 [ RunTime:0.0073s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='109' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0004s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='109' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000164s ]
+
+[ 2015-07-13T23:39:51+08:00 ] 123.151.42.46 /zhier/index.php/Home/Index/opinion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `opinion` WHERE ( `user_id`='109' ) ORDER BY opinion_id DESC LIMIT 5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 24 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000132s ]
+
+[ 2015-07-13T23:39:54+08:00 ] 123.151.42.46 /zhier/index.php/Home/Index/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined index: car /var/www/zhier/App/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `order` WHERE ( `user_id`='109' ) ORDER BY order_id DESC LIMIT 10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user_coupon` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fruit_type`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 3 /var/www/zhier/App/Home/Controller/IndexController.class.php 第 94 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12412' )  [ RunTime:0.0002s ]
+SQL: 
+SELECT c.coupon_id,t.type_id,t.coupon_name, count( c.coupon_id ) coupon_count
+FROM `user_coupon` c
+LEFT JOIN fruit_type t ON c.type_id = t.type_id
+WHERE `order_id` ='12412'
+GROUP BY c.type_id
+			 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 3 /var/www/zhier/App/Home/Controller/IndexController.class.php 第 94 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12411' )  [ RunTime:0.0002s ]
+SQL: 
+SELECT c.coupon_id,t.type_id,t.coupon_name, count( c.coupon_id ) coupon_count
+FROM `user_coupon` c
+LEFT JOIN fruit_type t ON c.type_id = t.type_id
+WHERE `order_id` ='12411'
+GROUP BY c.type_id
+			 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 3 /var/www/zhier/App/Home/Controller/IndexController.class.php 第 94 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12410' )  [ RunTime:0.0002s ]
+SQL: 
+SELECT c.coupon_id,t.type_id,t.coupon_name, count( c.coupon_id ) coupon_count
+FROM `user_coupon` c
+LEFT JOIN fruit_type t ON c.type_id = t.type_id
+WHERE `order_id` ='12410'
+GROUP BY c.type_id
+			 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 3 /var/www/zhier/App/Home/Controller/IndexController.class.php 第 94 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12409' )  [ RunTime:0.0002s ]
+SQL: 
+SELECT c.coupon_id,t.type_id,t.coupon_name, count( c.coupon_id ) coupon_count
+FROM `user_coupon` c
+LEFT JOIN fruit_type t ON c.type_id = t.type_id
+WHERE `order_id` ='12409'
+GROUP BY c.type_id
+			 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 22 /var/www/zhier/App/Home/Controller/IndexController.class.php 第 94 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12408' )  [ RunTime:0.0002s ]
+SQL: 
+SELECT c.coupon_id,t.type_id,t.coupon_name, count( c.coupon_id ) coupon_count
+FROM `user_coupon` c
+LEFT JOIN fruit_type t ON c.type_id = t.type_id
+WHERE `order_id` ='12408'
+GROUP BY c.type_id
+			 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 22 /var/www/zhier/App/Home/Controller/IndexController.class.php 第 94 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12404' )  [ RunTime:0.0002s ]
+SQL: 
+SELECT c.coupon_id,t.type_id,t.coupon_name, count( c.coupon_id ) coupon_count
+FROM `user_coupon` c
+LEFT JOIN fruit_type t ON c.type_id = t.type_id
+WHERE `order_id` ='12404'
+GROUP BY c.type_id
+			 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 3 /var/www/zhier/App/Home/Controller/IndexController.class.php 第 94 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12401' )  [ RunTime:0.0002s ]
+SQL: 
+SELECT c.coupon_id,t.type_id,t.coupon_name, count( c.coupon_id ) coupon_count
+FROM `user_coupon` c
+LEFT JOIN fruit_type t ON c.type_id = t.type_id
+WHERE `order_id` ='12401'
+GROUP BY c.type_id
+			 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000156s ]
+
+[ 2015-07-13T23:50:57+08:00 ] 101.226.93.234 /zhier/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined index: user /var/www/zhier/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/zhier/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-07-13T23:52:27+08:00 ] 101.226.66.179 /zhier/index.php/Home/Index/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined index: user /var/www/zhier/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/zhier/App/Home/Controller/IndexController.class.php 第 44 行.
+

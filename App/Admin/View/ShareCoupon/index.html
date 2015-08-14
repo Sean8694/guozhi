@@ -1,0 +1,29 @@
+<include file="./App/Admin/View/header.html" />
+<body>
+	<div data-role="page" id="pageone" data-position="fixed"> 
+		<div data-role="header" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+				<volist name="list" id="vo" key="key">
+				<li><a href="__APP__/Admin/<{$vo}>" data-ajax="false" <if condition="$listnow eq $vo">class="ui-btn-active ui-state-persist"</if>><{$key}></a></li>
+				</volist>
+				</ul>
+			</div>
+		</div>
+		<div data-role="content">
+			<ul class="fruit-list">
+				<volist name="coupons" id="vo">
+					发布时间：<{$vo.ctime}> | 
+					总计数量：<{$vo.num}> | 
+					领取数量：<{$vo.used}> | 
+					单个金额：<{$vo.value}> | 
+					<a href="__APP__/fruit/ShareCoupon/index/id/<{$vo.id}>" target='_blank'><{$vo.title}></a>
+					<hr/>
+				</volist>	
+			</ul>
+			<a href="__URL__/add" data-role="button" data-inline="true" data-theme="b" data-ajax="false">+ 添加分享卷</a>
+		</div>
+	</div> 
+</body>
+</html>
+ 

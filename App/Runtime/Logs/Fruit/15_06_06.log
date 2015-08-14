@@ -1,0 +1,27 @@
+[ 2015-06-06T23:46:01+08:00 ] 123.151.42.46 /zhier/index.php/Fruit/index/index/weiid/oKaufuB_MK0HuI5wSeYClF2FhzgE/sign/e59feeb3ac7dfffad6b11cae3daf76a7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oKaufuB_MK0HuI5wSeYClF2FhzgE' )  [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `ltime`='1433605561' WHERE `user_id` = 86 [ RunTime:0.0204s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/zhier/App/Fruit/Controller/IndexController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `fruit` WHERE ( `order`!=0 ) ORDER BY `order` DESC  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/zhier/App/Fruit/Controller/IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+

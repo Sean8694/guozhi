@@ -1,0 +1,25 @@
+<include file="./App/Admin/View/header.html" />
+<body>
+	<div data-role="page" id="pageone" data-position="fixed"> 
+		<div data-role="header" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+				<li><a href="__APP__/Admin/Product/edit/id/<{$fruitid}>" data-ajax="false">返回</a></li>
+				</ul>
+			</div>
+		</div>
+		<div data-role="content">
+			<{$msg}>
+			<if condition="$msg eq ''">
+			<form method="post" data-ajax="false" enctype="multipart/form-data" action="__URL__/addaddinfo/<{$fruitid}>">
+				<input name="name" placeholder="名称">
+				<input name="price" placeholder="价钱">
+				<input name="fruit_id" type="hidden" value="<{$fruitid}>">
+				<input name="display_order" placeholder="排序(越大越靠前，0为删除)">
+			  <input type="submit" data-theme="b" value="修改">
+			</form>
+			</if>
+
+</body>
+</html>
+ 

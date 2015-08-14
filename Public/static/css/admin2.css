@@ -1,0 +1,413 @@
+/* fruit-car */
+.car-list{
+	list-style-type:none;	
+	padding:0px;
+	margin-bottom:0px;
+	float:left;
+	width: 100%;
+}
+.car-list li{
+	display: block;
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+	padding-bottom: 15px;	
+}
+.car-list img{
+	padding:0px;
+	margin:0px;
+	margin-right:4%;
+	width: 73px;
+	float:left;
+}
+.car-list h2{
+	padding:0px;
+	margin:0px;
+	width:76%;
+	font-size:14px;	
+
+}
+.car-list .em{
+	font-size:14px;
+	color:#666;  
+	height:19px;
+}
+.car-list div{
+	color:#999;
+	font-size:14px;	
+}
+.car-number div{
+	float: left;
+	padding: 4px 10px;
+	border: 1px solid #ccc;
+	margin:8px 0px;
+}
+.car-number .car-num{
+	border-left:0;
+	border-right:0;
+	color:#333;
+}
+.car-number .car-del{
+	float:right;
+	background-color:#F15353;
+	color:#fff;
+	border-radius:4px;
+	font-weight:lighter;
+}
+#gotoCheck{
+	float:left;
+	width:100%;
+}
+.car-empty{
+	text-align:center;
+}
+
+
+
+/* fruit-check */
+.check-list{
+	list-style-type:none;	
+	padding:0px;
+	margin:0px;
+	border:1px solid #ccc;
+	display:block;
+	float: left;
+	width: 99%;
+	background-color:#F0F0F0;
+}
+.check-list li{
+	display: block;
+	float: left;
+	width: 90%;
+	margin: 4px 0;
+	padding: 4px;	
+}
+.check-list img{
+	padding:0px;
+	margin:0px;
+	margin-right:4%;
+	width: 17%;
+	float:left;
+}
+.check-list h2{
+	padding:0px;
+	margin:0px;
+	font-weight:normal;
+	font-size:14px;	
+	float:left;
+}
+.check-list .em{
+	margin-left:20px;
+	font-size:14px;
+	color:#666;   
+	float:left;
+}
+.check-list div{
+	color:#999;
+	font-size:14px;	
+}
+
+#gotoCheck{
+	float:left;
+	width:100%;
+}
+.check-info div{
+	margin:10px 0 0 0;
+	font-weight:bold;
+}
+.check-info input{
+	width:100%
+}
+
+
+/* fruit-detail */
+.detail img{
+	width:100%;
+}	
+.detail h2{
+	font-size:16px;	
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+.detail .empl{
+	height:40px;
+	line-height:35px;
+}
+.detail .em{
+	font-size:24px;
+	color:red;	
+	font-weight:bold;
+	float:left;
+}
+.detail .em .dolor{
+	font-size:16px;
+}
+.detail .pl{
+	padding-right:4px;
+	font-size:14px;
+	float:right;
+}
+.detail .pl a{
+	text-decoration:none;
+}
+.detail .detail_rname{
+	color:red;	
+	margin:4px 0 4px 0;
+}
+.detail_other{
+	font-size:14px;	
+	border-top:1px solid #ccc;
+	padding-top:6px;
+	margin-top:6px;
+}
+.detail_other span{
+	color:#666;	
+}
+.detail_detail{
+	padding:10px 4px;	
+}
+.detail_addsel{
+	padding:0;
+	height:46px;
+}
+.detail_addsel div{
+	float:left;
+	border:1px solid #c5c5c5;
+	color:#444;
+	padding:0 1%;
+	margin:5px 1%;
+	height:34px;
+	line-height:34px;
+	border-radius:3px;
+	width:28%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.detail_addsel .detail_addinfo_checked{
+	background-color:#ff6633;
+	color:#fff;
+}
+
+/* fruit-index */
+.fruit-list{
+	list-style-type:none;	
+	padding:0px;
+}
+.fruit-list li{
+	display: block;
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+	padding-bottom: 15px;	
+}
+.fruit-list img{
+	padding:0px;
+	margin:0px;
+	margin-right:4%;
+	border-radius: 10px;
+	box-shadow: 7px 5px 10px #ccc;
+	width: 25%;
+	float:left;
+}
+.fruit-list h2{
+	padding:0px;
+	margin:0px;
+	width:70%;
+	font-size:14px;	
+	float:right;
+	color:#333;
+}
+.fruit-list em{
+	color:red;	
+	font-size:14px;	
+}
+.fruit-list div{
+	color:#999;
+	font-size:14px;	
+}
+
+
+/* fruit-suborder */
+.suborder-notice{
+	line-height:24px;
+	font-size:12px;
+	padding:4px;
+	border-radius:6px;
+	color:#666;
+	border:1px dashed #999;
+	background-color:#ecffec;
+}
+
+
+/* home-index */
+.home-list{
+	list-style-type:none;	
+	padding:0px;
+}
+.home-list li{
+	display: block;
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom:1px solid #e8e8e8;
+}
+.home-list img{
+	padding:0px;
+	margin:0px;
+	margin-right:10px;
+	border-radius: 4px;
+	width: 24px;
+	height:24px;
+	float:left;
+}
+.home-list h2{
+	padding:0px;
+	margin:0px;
+	width:70%;
+	font-size:14px;	
+	line-height:24px;
+	float:left;
+}
+.home-list .em{
+	float:right;
+	color:#999;	
+	font-size:14px;	
+	line-height:24px;
+}
+.home-list div{
+	color:#999;
+	font-size:14px;	
+}
+
+
+/* home-opinion */
+.home-list{
+	list-style-type:none;	
+	padding:0px;
+}
+.home-list li{
+	display: block;
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom:1px solid #e8e8e8;
+}
+.home-list img{
+	padding:0px;
+	margin:0px;
+	margin-right:10px;
+	border-radius: 4px;
+	width: 24px;
+	height:24px;
+	float:left;
+}
+.home-list h2{
+	padding:0px;
+	margin:0px;
+	width:70%;
+	font-size:14px;	
+	line-height:24px;
+	float:left;
+}
+.home-list .em{
+	float:right;
+	color:#999;	
+	font-size:14px;	
+	line-height:24px;
+}
+.home-list div{
+	color:#999;
+	font-size:14px;	
+}
+
+
+/* home-orders */
+.myorder-list{
+	list-style-type:none;	
+	padding:0px;
+}
+.myorder-list li{
+	border:1px solid #ccc;	
+}
+.myorder-list-info-1{
+	height:30px;
+	line-height:30px;
+	border-bottom:1px solid #e8e8e8;
+	padding:4px;
+}
+.myorder-list-info-status{
+	float:left;
+}
+.myorder-list-info-id{
+	float:right;
+}
+.myorder-list-info-2,.myorder-list-info-3,.myorder-list-info-4{
+	padding:10px 4px;
+	border-bottom:1px solid #e8e8e8;
+}
+.myorder-list-info-4{
+	border:0px;
+	padding-bottom:30px;
+}
+.myorder-list li{
+	display: block;
+	float: left;
+	width: 100%;
+	color:#666;
+	font-size:14px;
+	background-color:#fff;
+	margin-bottom:15px;
+	border-radius:5px;
+	padding:2px;
+}
+.myorder-list-info-price{
+	float:left;
+}
+.myorder-gotopl,.myorder-gotockpl{
+	float:right;
+	padding:2px 4px;
+	border-radius:4px;
+}
+.myorder-gotopl a,.myorder-gotockpl a{
+	text-decoration:none;
+}
+.myorder-gotopl{
+	border:1px solid #F15353;
+}
+.myorder-gotockpl{
+	border:1px solid #009900;
+}
+
+/* comment */
+.myorder-ckpl-a{
+	background-color:#fff;
+	padding:10px 6px;
+	border:1px solid #dddddd;
+	margin-bottom:15px;
+	font-size:14px;
+}
+.myorder-ckpl-c{
+	color:#444;
+	padding-bottom:10px;
+	margin-bottom:10px;
+	border-bottom:1px dashed #dddddd;
+}
+.myorder-ckpl-r{
+	color:#666;
+}
+.myorder-ckpl-r span{
+	color:#999;
+}
+
+/* common */
+#carnum,.carnum{
+	color:#fff;
+	background-color:#F15353;
+	padding: 1px 6px;
+	margin-left:4px;
+	border-radius: 15px;
+	font-weight:lighter;
+}

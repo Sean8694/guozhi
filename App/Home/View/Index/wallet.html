@@ -1,0 +1,42 @@
+<include file="./App/Fruit/View/header.html" />
+<body>
+	<div data-role="page" id="pageone" data-position="fixed"> 
+		<div data-role="content">
+			<ul class="myorder-list">
+				<volist name="coupons" id="vo" key="key">
+				
+				<li>
+					<a href="__URL__/walletCoupon/typeid/<{$vo.type_id}>" class="my-coupon-all"
+					style="<if condition="$key eq 1">background-color:#00CC67;<elseif condition="$key eq 2" />background-color:#4DB0E8;<else />background-color:#FFB53D;</if>"
+					>
+						<div class="my-coupon-all-num">
+							<{$vo.type_count}> <span>张</span>
+						</div>
+						<div class="my-coupon-all-name">
+							<{$vo.coupon_name}>
+							<span>
+								点击查看我的优惠券
+							</span>
+						</div>
+					</a>
+					<a class="my-coupon-all-more" href="__URL__/walletGetmore/typeid/<{$vo.type_id}>">
+							获得更多 >
+					</a>
+				</li>
+				
+				</volist>
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="e" data-tap-toggle="false">
+			<div data-role="navbar">
+				<ul>
+				<li><a href="__APP__/fruit/index" data-icon="grid" >产品</a></li>
+				<li><a href="__APP__/fruit/index/mycar" data-icon="star">购物车<span id='carnum'><{$carnum}></span></a></li>
+				<li><a href="__APP__/home" data-icon="home" class="ui-btn-active ui-state-persist">个人中心</a></li>
+				</ul>
+			</div>
+		</div>
+	</div> 
+</body>
+</html>
+ 

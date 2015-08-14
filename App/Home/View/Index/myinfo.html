@@ -1,0 +1,43 @@
+<include file="./App/Fruit/View/header.html" />
+<body>
+	<div data-role="page" id="pageone" data-position="fixed"> 
+		<div data-role="content" style="padding:0px;margin:0 0 20px 0;">
+            <form action="__URL__/myinfo" name="form1" method="post" data-ajax="false">
+                <div data-role="fieldcontain">
+				<div class="check-location">
+					<div class="check-location-title">
+						配送信息
+					</div>
+                    <input type="text" placeholder="收货人姓名" name="fname" id="lname" value="<{$user_add.name}>">
+                    <label><br /></label>
+                    <input type="text" placeholder="手机号" name="fmobile" id="fmobile" value="<{$user_add.mobile}>">
+                    <label><br /></label>
+                    <select name="fplace" id="fplace">
+						<option value="none">国贸地区楼宇选择</option>
+						<volist name="location" id="vo" key="key">
+							<option <if condition="$user_add['location'] eq $vo['office_id']">selected</if> value="<{$vo.office_id}>"><{$vo.office_name}></option>
+						</volist>
+                    </select>
+                    <label><br /></label>
+                    <input type="text" placeholder="详细地址" name="fdetail" id="fdetail" value="<{$user_add.location_detail}>">
+                    <label><br /></label>
+					<input type="hidden" name="addid" value="<{$user_add.add_id}>">
+					<div onclick="document.form1.submit();" class="car-list-submit">
+						 保存我的信息 
+					</div>
+				</div>
+                </div>
+            </form>
+		</div>
+		<div data-role="footer" data-position="fixed"  data-theme="e" data-tap-toggle="false">
+			<div data-role="navbar">
+				<ul>
+				<li><a href="__APP__/fruit/index" data-icon="grid" >产品</a></li>
+				<li><a href="__APP__/fruit/index/mycar" data-icon="star" >购物车<span id='carnum'><{$carnum}></span></a></li>
+				<li><a href="__APP__/home" data-icon="home"  class="ui-btn-active ui-state-persist">个人中心</a></li>
+				</ul>
+			</div>
+		</div>
+	</div> 
+</body>
+</html>

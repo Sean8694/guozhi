@@ -1,0 +1,74 @@
+﻿<include file="./App/Fruit/View/header.html" />
+<body>
+	<div data-role="page" id="pageone" data-position="fixed"> 
+		<div data-role="content" style="padding:0px;margin:0 0 20px 0;">
+            <form action="__URL__/suborder" name="form1" method="post"  onsubmit="return checkform();" data-ajax="false">
+                <div data-role="fieldcontain">
+				<div class="check-location">
+					<div class="check-location-title">
+						配送信息
+					</div>
+                    <input type="text" placeholder="收货人姓名" name="fname" id="lname" value="<{$user_add.name}>">
+                    <label><br /></label>
+                    <input type="text" placeholder="手机号" name="fmobile" id="fmobile" value="<{$user_add.mobile}>">
+                    <label><br /></label>
+                    <select name="fplace" id="fplace" onchange="clearfdetail('fdetail')">
+						<option value="none">国贸地区楼宇选择</option>
+						<volist name="location" id="vo" key="key">
+							<option <if condition="$now_location eq $vo['office_id']">selected</if> value="<{$vo.office_id}>"><{$vo.office_name}></option>
+						</volist>
+                    </select>
+                    <label><br /></label>
+                    <input type="text" placeholder="详细地址" name="fdetail" id="fdetail" value="<{$user_add.location_detail}>">
+                    <label><br /></label>
+					<input type="hidden" name="addid" value="<{$user_add.add_id}>">
+					<!--select name="fsendtime" id="fsendtime">
+						<option value="0">请选择配送时间</option>
+						<volist name="sendtime" id="vo" key="key">
+							<option value="<{$vo}>">今日 <{$vo}></option>
+						</volist>
+						<volist name="sendtime2" id="vo" key="key">
+							<option value="<{$vo}>">明日 <{$vo}></option>
+						</volist>
+					</select-->
+				</div>
+				<div class="apartspace"></div>
+				<div class="check-order">
+					<div class="check-order-title">
+						订单信息
+					</div>
+						<ul class="check-list">
+							<volist name="fruits" id="data">
+							<li>
+								<h2><{$data.name}><if condition="$data.fruit_addname neq ''">&nbsp;[<{$data.fruit_addname}>]</if></h2>
+								<div class="em">
+									<span class="em1">￥ <{$data.price}> x <{$data.buynum}></span>
+									<span class="em2">使用 <{$data.coupon_num}> 张咖啡券，减<{$data.coupon_price}>元</span>
+								</div>
+							</li>	
+							</volist>	
+						</ul>
+						<if condition="$coupons[0]['value'] gt 0">
+							<div style="font-size:12px;padding:10px;border:1px solid #ccc;border-radius:5px;margin-bottom:20px;">已使用1张汁儿币卷，抵<{$coupons.0.value}>元哦！</div>
+						<else />
+							<label><br /></label>
+						</if>
+					<div onclick="checkform();" class="car-list-submit">
+						 货到付款，共￥<{$price}> , 确认下单 
+					</div>
+				</div>
+                </div>
+            </form>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="e" data-tap-toggle="false">
+			<div data-role="navbar">
+				<ul>
+				<li><a href="__URL__/index" data-icon="grid">产品</a></li>
+				<li><a href="__URL__/mycar" data-icon="star" class="ui-btn-active ui-state-persist">购物车<span id='carnum'><{$carnum}></span></a></li>
+				<li><a href="__APP__/home" data-icon="home">个人中心</a></li>
+				</ul>
+			</div>
+		</div>
+	</div> 
+</body>
+</html>

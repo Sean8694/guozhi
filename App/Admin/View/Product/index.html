@@ -1,0 +1,38 @@
+<include file="./App/Admin/View/header.html" />
+<body>
+	<div data-role="page" id="pageone" data-position="fixed"> 
+		<div data-role="header" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+				<volist name="list" id="vo" key="key">
+				<li><a href="__APP__/Admin/<{$vo}>" data-ajax="false" <if condition="$listnow eq $vo">class="ui-btn-active ui-state-persist"</if>><{$key}></a></li>
+				</volist>
+				</ul>
+			</div>
+		</div>
+		<div data-role="content">
+			<div data-role="navbar" >
+				<ul>
+				<volist name="type" id="vo" key="key">
+				<li><a href="__URL__/index/type/<{$vo.type_id}>" data-ajax="false" <if condition="$typeid eq $vo['type_id']">class="ui-btn-active ui-state-persist"</if>><{$vo.name}></a></li>
+				</volist>
+				</ul>
+			</div>
+			<ul class="fruit-list">
+				<volist name="product" id="data">
+				<a href="__URL__/edit/id/<{$data.fruit_id}>" data-ajax="false">
+				<li>
+					<img src="__PUBLIC__/upload/<{$data.pic}>"/ class="admin_product_list_img">	
+					<h2 class="admin_product_list_h2">[<{$data.name}>] <{$data.intro}></h2>
+					<em class="admin_product_list_em">￥ <{$data.price}></em>
+					<div class="admin_product_list_div">排序：<{$data.order}> | <{$data.start}> <{$data.buys}>人</div>
+				</li>	
+				</a>
+				</volist>	
+			</ul>
+			<a href="__URL__/add" data-role="button" data-inline="true" data-theme="b" data-ajax="false">+ 添加商品</a>
+		</div>
+	</div> 
+</body>
+</html>
+ 

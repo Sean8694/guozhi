@@ -1,0 +1,101 @@
+<include file="./App/Fruit/View/header.html" />
+<body>
+	<div data-role="page" id="pageone" data-position="fixed"> 
+		<div data-role="content">
+			<ul class="myorder-list">
+				<volist name="order_list" id="vo">
+				<li>
+					<span style="display:none;"><{$color = $key%2}></span>
+					<div class="myorder-list-info-1" <if condition="$color eq 1">style="background-color:#68b4ff;"</if>>
+						
+						<div class="myorder-list-info-status">
+							<{$vo.ctime}>
+						</div>
+						<div class="myorder-list-info-id">
+							订单号:<{$vo.order_id}>	
+						</div>
+					</div>
+					<div class="myorder-list-info-2">
+						<{$vo.to_name}> , <{$vo.to_mobile}>
+						<br />
+						配送地址：<{$vo.to_location}> <{$vo.to_location_detail}>
+						<!--
+						<br />
+						约定配送：当日 <{$vo.sendtime}> 点-->
+					</div>
+					<div class="myorder-list-info-3">
+						<if condition="$vo['coupon'] neq ''">
+							<div>共使用：<{$vo.coupon}></div>
+						</if>
+					</div>
+					<div class="myorder-list-info-4">
+						<div class="myorder-list-info-price">
+							订单总额：<span class="s1">￥<{$vo.price}></span>
+							<if condition="$vo['iscommend'] eq 0">
+								<if condition="$vo['statusold'] eq 4">
+									<div class="myorder-gotopl">
+										<a href="__APP__/home/index/comment/id/<{$vo.order_id}>" style="color:#F15353">
+											去评论
+										</a>
+									</div>
+								<else />
+									<span class="s2"><{$vo.status}></span>
+								</if>
+							<else />
+							</if>
+						</div>
+					</div>
+				</li>
+				</volist>
+			</ul>
+			<if condition="$vo['iscommend'] eq 0">
+				
+					<div class="myorder-pl">
+						<form method="post" action="__APP__/home/index/addcomment" name='form1'>
+							<volist name="fruit_list" id="vo">
+							<br />
+							<b><{$vo.fruit_name}></b>
+							<input type="hidden" value="<{$vo.order_id}>" name="orderid">
+							<textarea placeholder="长度在10~100之间，期待您的评论..." name="comment_<{$vo.order_detail_id}>"></textarea>
+							</volist>
+							<br />
+							<div onclick="document.form1.submit();" class="car-list-submit">
+								 提交评论 
+							</div>
+						</form>
+					</div>
+					
+				
+			<else/>
+				<div class="myorder-ckpl">
+					<volist name="fruit_list" id="vo">
+					<div class="myorder-ckpl-c">
+						[<{$vo.fruit_name}>]
+					</div>
+					<div class="myorder-ckpl-c">
+						<b>评论:</b>
+						<{$vo.commend}>
+					</div>
+					<div class="myorder-ckpl-r">
+						<b>回复:</b>
+						
+							<{$vo.rcommend}>
+						
+					</div>
+					</volist>
+				</div>
+			</if>
+		</div>
+		<div data-role="footer" data-position="fixed"  data-theme="e" data-tap-toggle="false">
+			<div data-role="navbar">
+				<ul>
+				<li><a href="__APP__/fruit/index" data-icon="grid" >产品</a></li>
+				<li><a href="__APP__/fruit/index/mycar" data-icon="star" >购物车<span id='carnum'><{$carnum}></span></a></li>
+				<li><a href="__APP__/home" data-icon="home"  class="ui-btn-active ui-state-persist">个人中心</a></li>
+				</ul>
+			</div>
+		</div>
+	</div> 
+</body>
+</html>
+ 

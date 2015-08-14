@@ -1,0 +1,36 @@
+<include file="./App/Admin/View/header.html" />
+<body>
+	<div data-role="page" id="pageone" data-position="fixed"> 
+		<div data-role="header" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+				<volist name="list" id="vo" key="key">
+				<li><a href="__APP__/Admin/<{$vo}>" data-ajax="false" <if condition="$listnow eq $vo">class="ui-btn-active ui-state-persist"</if>><{$key}></a></li>
+				</volist>
+				</ul>
+			</div>
+		</div>
+		<div data-role="content">
+			<div data-role="navbar" >
+				<ul>
+				<volist name="opinionstatus" id="vo" key="key">
+				<li><a href="__URL__/index/status/<{$vo.status}>" data-ajax="false" <if condition="$statusnow eq $vo['status']">class="ui-btn-active ui-state-persist"</if>><{$vo.statusname}></a></li>
+				</volist>
+				</ul>
+			</div>
+			<ul class="fruit-list">
+				<volist name="opinion" id="vo">
+				<a href="__URL__/edit/id/<{$vo.opinion_id}>" data-ajax="false">
+				<li class="admin_recommend_list_li">
+					<h2 class="admin_product_list_h2">[<{$vo.name}>] <{$data.intro}></h2>
+					<em class="admin_recommend_list_em">用户(<{$vo.qtime|date='Y-m-d H-i',###}>): <{$vo.question}></em>
+					<div class="admin_recommend_list_div">回复(<{$vo.rtime|date='Y-m-d H-i',###}>)：<{$vo.answer}></div>
+				</li>	
+				</a>
+				</volist>	
+			</ul>
+		</div>
+	</div> 
+</body>
+</html>
+ 

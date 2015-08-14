@@ -1,0 +1,672 @@
+[ 2015-06-07T22:37:16+08:00 ] 222.130.139.49 /zhier/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+NOTIC: [8] Undefined index: admin /opt/lampp/htdocs/zhier/App/Common/Common/function.php 第 6 行.
+
+[ 2015-06-07T22:37:16+08:00 ] 222.130.139.49 /zhier/index.php/Admin/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: opinion /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/7d5bae8f2106a04379ef690681e93072.php 第 67 行.
+NOTIC: [8] Undefined variable: opinion /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/7d5bae8f2106a04379ef690681e93072.php 第 68 行.
+NOTIC: [8] Undefined variable: opinion /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/7d5bae8f2106a04379ef690681e93072.php 第 70 行.
+NOTIC: [8] Undefined variable: opinion /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/7d5bae8f2106a04379ef690681e93072.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2015-06-07T22:37:21+08:00 ] 222.130.139.49 /zhier/index.php/Admin/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `admin` WHERE ( username='admin' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+
+[ 2015-06-07T22:37:27+08:00 ] 222.130.139.49 /zhier/index.php/Admin/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `admin` WHERE ( username='admin' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2015-06-07T22:37:28+08:00 ] 222.130.139.49 /zhier/index.php/Admin/Product/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fruit_type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `fruit` WHERE ( `type_id`='1' ) ORDER BY `order` DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2015-06-07T22:37:28+08:00 ] 222.130.139.49 /zhier/index.php/Admin/Product/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fruit_type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit` WHERE ( `type_id`='1' ) ORDER BY `order` DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2015-06-07T22:37:30+08:00 ] 222.130.139.49 /zhier/index.php/Admin/Product/index/type/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fruit_type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit` WHERE ( `type_id`='2' ) ORDER BY `order` DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2015-06-07T22:37:32+08:00 ] 222.130.139.49 /zhier/index.php/Admin/Product/index/type/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `fruit_type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit` WHERE ( `type_id`='4' ) ORDER BY `order` DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2015-06-07T22:37:33+08:00 ] 222.130.139.49 /zhier/index.php/Admin/Product/index/type/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `fruit_type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit` WHERE ( `type_id`='1' ) ORDER BY `order` DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2015-06-07T22:37:36+08:00 ] 222.130.139.49 /zhier/index.php/Admin/Product/index/type/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `fruit_type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit` WHERE ( `type_id`='1' ) ORDER BY `order` DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2015-06-07T22:37:37+08:00 ] 222.130.139.49 /zhier/index.php/Admin/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `mobile`!='' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined variable: type /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 28 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2015-06-07T22:37:40+08:00 ] 222.130.139.49 /zhier/index.php/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: limit /opt/lampp/htdocs/zhier/App/Admin/Controller/IndexController.class.php 第 28 行.
+SQL: SELECT * FROM `order` WHERE (  `status`=''  ) ORDER BY order_id DESC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2015-06-07T22:37:41+08:00 ] 222.130.139.49 /zhier/index.php/Admin/Recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SELECT f.name fruit_name,o.ctime,o.to_name,o.to_mobile,od.* FROM order_detail od LEFT JOIN `order` o ON o.order_id=od.order_id LEFT JOIN fruit f ON od.fruit_id = f.fruit_id WHERE od.`commend_status`='1' [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2015-06-07T22:37:41+08:00 ] 222.130.139.49 /zhier/index.php/Admin/Opinion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0007s ]
+SQL: SELECT u.name,o.* FROM opinion o LEFT JOIN user u ON o.user_id=u.user_id WHERE o.`status`='' [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2015-06-07T22:37:44+08:00 ] 222.130.139.49 /zhier/index.php/Admin/Product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fruit_type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fruit` WHERE ( `type_id`='1' ) ORDER BY `order` DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2015-06-07T22:37:52+08:00 ] 222.130.139.49 /zhier/index.php/Admin/Product/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `fruit` WHERE ( `fruit_id`='2' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fruit_addinfo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `fruit_addinfo` WHERE ( `fruit_id`='2' AND `display_order`!=0 ) ORDER BY display_order desc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fruit_type`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/35a64d8c950f0d1e68f44a796e979d7d.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2015-06-07T22:38:42+08:00 ] 222.130.139.49 /zhier/index.php/Admin/Product/edit/id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `fruit` WHERE ( `fruit_id`='' )  [ RunTime:0.0002s ]
+SQL: UPDATE `fruit` SET `type_id`='1',`order`='3',`name`='苹果气泡',`intro`='Apple juice drink',`price`='13',`buys`='356',`redname`='',`detail`='<p style=\"font-weight:bold;color:#ff9900;\">
+	完美组合，四种水果更健康：美国红提+草莓+哈密瓜+火龙果（鲜切盒装）
+</p>
+<p>
+	<img src=\"/fruit/Public/upload/032.jpg\" /> 
+</p>
+<p style=\"font-weight:bold;color:#ff9900;\">
+	从采购、制作、运输严格执行标准，保障卫生新鲜
+</p>
+<p>
+	<img src=\"/fruit/Public/upload/c1.jpg\" /> 
+</p>
+<p style=\"color:#666;\">
+	我们是初出茅庐的鲜果超人，专注为上班族配送极致的鲜切水果，让您健康美一天！
+</p>
+<p style=\"color:#666;\">
+	非常期待您的意见（<a href=\"/fruit/index.php/Home/Index/opinion\">发表意见</a>），如果觉得我们还不错，记得推荐给您身边的朋友哦。
+</p>
+<p>
+	<br />
+</p>',`utime`='1433687922' WHERE `fruit_id` = 2 [ RunTime:0.0184s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2015-06-07T22:38:43+08:00 ] 222.130.139.49 /zhier/index.php/Admin/Product/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fruit_type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit` WHERE ( `type_id`='1' ) ORDER BY `order` DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2015-06-07T22:51:09+08:00 ] 222.130.139.49 /zhier/index.php/Admin/Product/edit/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `fruit` WHERE ( `fruit_id`='9' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fruit_addinfo` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit_addinfo` WHERE ( `fruit_id`='9' AND `display_order`!=0 ) ORDER BY display_order desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `fruit_type`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/35a64d8c950f0d1e68f44a796e979d7d.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2015-06-07T22:51:30+08:00 ] 222.130.139.49 /zhier/index.php/Admin/Product/edit/id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `fruit` WHERE ( `fruit_id`='' )  [ RunTime:0.0002s ]
+SQL: UPDATE `fruit` SET `type_id`='1',`order`='4',`name`='柠檬汁',`intro`='Ning Meng Zhi',`price`='37',`buys`='1143',`redname`='从采购、制作、运输严格执行标准，保障卫生新鲜从采购、制作、运输严格执行标准，保障卫生新鲜从采购、制作、运输严格执行标准，保障卫生新鲜...',`detail`='<p style=\"font-weight:bold;color:#ff9900;\">
+	冰镇西瓜（鲜切盒装）
+</p>
+<p>
+	<img src=\"/fruit/Public/upload/033.jpg\" /> 
+</p>
+<p style=\"font-weight:bold;color:#ff9900;\">
+	从采购、制作、运输严格执行标准，保障卫生新鲜
+</p>
+<p>
+	<img src=\"/fruit/Public/upload/c1.jpg\" /> 
+</p>
+<p style=\"color:#666;\">
+	我们是初出茅庐的鲜果超人，专注为上班族配送极致的鲜切水果，让您健康美一天！
+</p>
+<p style=\"color:#666;\">
+	非常期待您的意见（<a href=\"/fruit/index.php/Home/Index/opinion\">发表意见</a>），如果觉得我们还不错，记得推荐给您身边的朋友哦。
+</p>
+<p>
+	<br />
+</p>',`utime`='1433688690' WHERE `fruit_id` = 9 [ RunTime:0.0137s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2015-06-07T22:51:32+08:00 ] 222.130.139.49 /zhier/index.php/Admin/Product/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fruit_type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit` WHERE ( `type_id`='1' ) ORDER BY `order` DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2015-06-07T22:51:39+08:00 ] 222.130.139.49 /zhier/index.php/Admin/Product/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `fruit` WHERE ( `fruit_id`='2' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fruit_addinfo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fruit_addinfo` WHERE ( `fruit_id`='2' AND `display_order`!=0 ) ORDER BY display_order desc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fruit_type`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined variable: data /opt/lampp/htdocs/zhier/App/Runtime/Cache/Admin/35a64d8c950f0d1e68f44a796e979d7d.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2015-06-07T22:51:48+08:00 ] 222.130.139.49 /zhier/index.php/Admin/Product/edit/id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `fruit` WHERE ( `fruit_id`='' )  [ RunTime:0.0003s ]
+SQL: UPDATE `fruit` SET `type_id`='1',`order`='3',`name`='苹果气泡',`intro`='Apple juice drink',`price`='13',`buys`='356',`redname`='从采购、制作、运输严格执行标准，保障卫生新鲜从采购、制作、运输严格执行标准，保障卫生新鲜从采购、制作、运输严格执行标准，保障卫生新鲜',`detail`='<p style=\"font-weight:bold;color:#ff9900;\">
+	完美组合，四种水果更健康：美国红提+草莓+哈密瓜+火龙果（鲜切盒装）
+</p>
+<p>
+	<img src=\"/fruit/Public/upload/032.jpg\" /> 
+</p>
+<p style=\"font-weight:bold;color:#ff9900;\">
+	从采购、制作、运输严格执行标准，保障卫生新鲜
+</p>
+<p>
+	<img src=\"/fruit/Public/upload/c1.jpg\" /> 
+</p>
+<p style=\"color:#666;\">
+	我们是初出茅庐的鲜果超人，专注为上班族配送极致的鲜切水果，让您健康美一天！
+</p>
+<p style=\"color:#666;\">
+	非常期待您的意见（<a href=\"/fruit/index.php/Home/Index/opinion\">发表意见</a>），如果觉得我们还不错，记得推荐给您身边的朋友哦。
+</p>
+<p>
+	<br />
+</p>',`utime`='1433688707' WHERE `fruit_id` = 2 [ RunTime:0.0058s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2015-06-07T22:51:49+08:00 ] 222.130.139.49 /zhier/index.php/Admin/Product/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `fruit_type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit` WHERE ( `type_id`='1' ) ORDER BY `order` DESC  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+

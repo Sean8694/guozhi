@@ -1,0 +1,12 @@
+[ 2015-05-04T21:48:30+08:00 ] 111.196.74.200 /fruit/Public/upload/033.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-04T21:55:47+08:00 ] 111.196.74.200 /fruit/Public/upload/033.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+ERR: 无法加载模块:Public
+

@@ -1,0 +1,42 @@
+﻿<include file="./App/Fruit/View/header.html" />
+<body>
+	<div data-role="page" id="pageone" data-position="fixed"> 
+		<!--div data-role="header">
+			<a href="__APP__/fruit/index/detail/id/<{$fruit.fruit_id}>" data-role="button" data-icon="back" data-transition="slide" data-direction="reverse">返回</a>
+			<h1>评论详情</h1>
+			<a href="__URL__/index" data-role="button" data-icon="home">首页</a>
+		</div-->
+		<div data-role="content">
+			<div class="myorder-ckpl">
+				<volist name="commentlist" id="vo">
+				<div class="myorder-ckpl-a">
+					<div class="myorder-ckpl-c">
+						<{$vo.to_name}>
+					</div>
+					
+					<div class="myorder-ckpl-r">
+					<{$vo.commend}>
+					<if condition="$vo['rcommend'] neq '未回复,超人需要点时间'">
+						<span>
+							<br /><br />
+							Re:<{$vo.rcommend}>
+						</span>
+					</if>
+					</div>
+				</div>
+				</volist>
+				
+			</div>
+		</div>
+		<div data-role="footer" data-position="fixed"  data-theme="e" data-tap-toggle="false">
+			<div data-role="navbar">
+				<ul>
+				<li><a href="__APP__/fruit/index/detail/id/<{$fruit.fruit_id}>" data-role="button" data-icon="back" data-transition="slide" data-direction="reverse">返回</a></li>
+				<li><a href="__URL__/mycar" data-icon="star">购物车<span class='carnum'><{$carnum}></span></a></li>
+				<li><a href="__APP__/home" data-icon="home">个人中心</a></li>
+				</ul>
+			</div>
+		</div>
+	</div> 
+</body>
+</html>

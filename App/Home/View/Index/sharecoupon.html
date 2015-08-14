@@ -1,0 +1,31 @@
+<include file="./App/Fruit/View/header.html" />
+<body>
+	<div data-role="page" id="pageone" data-position="fixed"> 
+		<div data-role="content">
+			<{$types.coupon_name}>
+			<ul class="myorder-list">
+			<if condition="$coupons">
+				<volist name="coupons" id="vo">
+				<li style="padding:4%;width:92%">
+					汁儿币：<{$vo.value}> 元，下单时自动使用。
+					<br />
+					获得日期：<{$vo.get_time}>
+				</li>
+				</volist>
+			<else />
+				您的汁儿币已用光...<br />没关系，继续关注我们，机会多多！
+			</if>
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="e" data-tap-toggle="false">
+			<div data-role="navbar">
+				<ul>
+				<li><a href="__APP__/fruit/index" data-icon="grid" >产品</a></li>
+				<li><a href="__APP__/fruit/index/mycar" data-icon="star">购物车<span id='carnum'><{$carnum}></span></a></li>
+				<li><a href="__APP__/home" data-icon="home" class="ui-btn-active ui-state-persist">个人中心</a></li>
+				</ul>
+			</div>
+		</div>
+	</div> 
+</body>
+</html>

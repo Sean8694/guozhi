@@ -1,0 +1,524 @@
+[ 2015-04-12T10:46:45+08:00 ] 111.199.71.66 /fruit/index.php/Admin/Index/index/filter/4?from=message&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `order` WHERE (  `status`='4'  ) ORDER BY order_id DESC LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12292' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12291' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12290' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12289' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12288' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12287' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='42' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12286' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='44' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12285' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12284' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12283' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2015-04-12T10:46:50+08:00 ] 111.199.71.66 /fruit/index.php/Admin/Index/index/filter/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: limit /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 20 行.
+SQL: SELECT * FROM `order` WHERE (  `status`='1'  ) ORDER BY order_id DESC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='42' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12293' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008482s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2015-04-12T10:47:08+08:00 ] 111.199.71.66 /fruit/index.php/Admin/Index/index/filter/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: limit /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 20 行.
+SQL: SELECT * FROM `order` WHERE (  `status`='2'  ) ORDER BY order_id DESC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2015-04-12T10:47:10+08:00 ] 111.199.71.66 /fruit/index.php/Admin/Index/index/filter/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: limit /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 20 行.
+SQL: SELECT * FROM `order` WHERE (  `status`='3'  ) ORDER BY order_id DESC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2015-04-12T10:47:13+08:00 ] 111.199.71.66 /fruit/index.php/Admin/Index/index/filter/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: limit /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 20 行.
+SQL: SELECT * FROM `order` WHERE (  `status`='1'  ) ORDER BY order_id DESC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='42' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12293' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2015-04-12T10:47:18+08:00 ] 111.199.71.66 /fruit/index.php/Admin/Index/changestatus/orderid/12293/tostatus/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: UPDATE `order` SET `status`='4' WHERE `order_id` = 12293 [ RunTime:0.0066s ]
+
+[ 2015-04-12T10:47:21+08:00 ] 111.199.71.66 /fruit/index.php/Admin/Index/index/filter/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `order` WHERE (  `status`='4'  ) ORDER BY order_id DESC LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='42' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12293' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12292' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12291' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12290' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12289' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12288' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12287' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='42' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12286' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='44' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12285' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12284' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2015-04-12T10:47:30+08:00 ] 111.199.71.66 /fruit/index.php/Admin/Index/index/filter/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: limit /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 20 行.
+SQL: SELECT * FROM `order` WHERE (  `status`='1'  ) ORDER BY order_id DESC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2015-04-12T20:41:05+08:00 ] 114.253.253.146 /fruit/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: limit /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 20 行.
+SQL: SELECT * FROM `order` WHERE (  `status`=''  ) ORDER BY order_id DESC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2015-04-12T20:41:08+08:00 ] 114.253.253.146 /fruit/index.php/Admin/Index/index/filter/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: limit /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 20 行.
+SQL: SELECT * FROM `order` WHERE (  `status`='1'  ) ORDER BY order_id DESC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12294' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2015-04-12T20:41:11+08:00 ] 114.253.253.146 /fruit/index.php/Admin/Index/changestatus/orderid/12294/tostatus/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: UPDATE `order` SET `status`='4' WHERE `order_id` = 12294 [ RunTime:0.0177s ]
+
+[ 2015-04-12T20:41:12+08:00 ] 114.253.253.146 /fruit/index.php/Admin/Index/index/filter/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: limit /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 20 行.
+SQL: SELECT * FROM `order` WHERE (  `status`='2'  ) ORDER BY order_id DESC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2015-04-12T20:41:13+08:00 ] 114.253.253.146 /fruit/index.php/Admin/Index/index/filter/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: limit /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 20 行.
+SQL: SELECT * FROM `order` WHERE (  `status`='3'  ) ORDER BY order_id DESC  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2015-04-12T20:41:15+08:00 ] 114.253.253.146 /fruit/index.php/Admin/Index/index/filter/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `order` WHERE (  `status`='4'  ) ORDER BY order_id DESC LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12294' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='42' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12293' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12292' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12291' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12290' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12289' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12288' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12287' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='42' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12286' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='44' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12285' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2015-04-12T22:12:05+08:00 ] 114.253.253.146 /fruit/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: limit /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 20 行.
+SQL: SELECT * FROM `order` WHERE (  `status`=''  ) ORDER BY order_id DESC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2015-04-12T22:12:06+08:00 ] 114.253.253.146 /fruit/index.php/Admin/Index/index/filter/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: limit /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 20 行.
+SQL: SELECT * FROM `order` WHERE (  `status`='1'  ) ORDER BY order_id DESC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='42' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12297' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12296' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12295' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2015-04-12T22:12:07+08:00 ] 101.226.69.108 /fruit/index.php/Admin/Index/index/filter/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: limit /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 20 行.
+SQL: SELECT * FROM `order` WHERE (  `status`='1'  ) ORDER BY order_id DESC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='42' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12297' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12296' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Admin/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12295' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2015-04-12T22:12:13+08:00 ] 114.253.253.146 /fruit/index.php/Admin/Index/changestatus/orderid/12297/tostatus/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0007s ]
+SQL: UPDATE `order` SET `status`='4' WHERE `order_id` = 12297 [ RunTime:0.0062s ]
+
+[ 2015-04-12T22:12:14+08:00 ] 114.253.253.146 /fruit/index.php/Admin/Index/changestatus/orderid/12296/tostatus/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: UPDATE `order` SET `status`='4' WHERE `order_id` = 12296 [ RunTime:0.0112s ]
+
+[ 2015-04-12T22:12:16+08:00 ] 114.253.253.146 /fruit/index.php/Admin/Index/changestatus/orderid/12295/tostatus/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: UPDATE `order` SET `status`='4' WHERE `order_id` = 12295 [ RunTime:0.0059s ]
+

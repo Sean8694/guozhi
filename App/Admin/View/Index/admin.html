@@ -1,0 +1,16 @@
+<include file="./App/Admin/View/header.html" />
+<body>
+	<div data-role="page" id="pageone" data-position="fixed"> 
+		<div data-role="header">
+			<div data-role="navbar">
+				<ul>
+				<volist name="list" id="vo" key="key">
+				<li><a href="__APP__/Admin/<{$vo}>" data-ajax="false" <if condition="$filter eq 1">class="ui-btn-active ui-state-persist"</if>><{$key}></a></li>
+				</volist>
+				</ul>
+			</div>
+		</div>
+	</div> 
+</body>
+</html>
+ 

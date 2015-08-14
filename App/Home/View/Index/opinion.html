@@ -1,0 +1,34 @@
+<include file="./App/Fruit/View/header.html" />
+<body>
+	<div data-role="page" id="pageone" data-position="fixed"> 
+		<div data-role="content">
+			<ul class="home-list">
+				<volist name="opinion" id="vo">
+				<li>
+					<div><{$vo.qtime|date="Y-m-d H:i",###}></div>
+					<div><{$vo.question}></div>
+					<div><{$vo.rtime|date="Y-m-d H:i",###}></div>
+					<div><{$vo.answer}></div>
+				</li>
+				</volist>
+			</ul>
+			<form method="post" action="__URL__/addopinion" name="form_opinion">
+				<textarea placeholder="欢迎在此处填写您的意见或建议，我们每天都会认真查阅哦！" name="opinion"></textarea>
+				<div onclick="document.form_opinion.submit();" class="car-list-submit">
+					 提交 
+				</div>
+			</form>
+		</div>
+		<div data-role="footer" data-position="fixed"  data-theme="e" data-tap-toggle="false">
+			<div data-role="navbar">
+				<ul>
+				<li><a href="__APP__/fruit/index" data-icon="grid" >产品</a></li>
+				<li><a href="__APP__/fruit/index/mycar" data-icon="star" >购物车<span id='carnum'><{$carnum}></span></a></li>
+				<li><a href="__APP__/home" data-icon="home"  class="ui-btn-active ui-state-persist">个人中心</a></li>
+				</ul>
+			</div>
+		</div>
+	</div> 
+</body>
+</html>
+ 

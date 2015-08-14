@@ -1,0 +1,82 @@
+﻿<include file="./App/Fruit/View/header.html" />
+<body>
+	<div data-role="page" id="pageone" data-position="fixed"> 
+		<div data-role="content" style="padding:0px;margin:0px;background-color: #fff;">
+			<div class="detail">
+				<img src="__PUBLIC__/upload/<{$fruit.0.picbig}>"/>	
+				<h2>
+					<span class="name"><{$fruit.0.name}></span>
+					<span class="start"><{$fruit.0.start}></span>
+					<div class="em"><span class="dolor">￥</span><{$fruit.0.price}></div>
+				</h2>
+				<h3><{$fruit.0.intro}></h3>
+				<div class="detail_rname"><{$fruit.0.redname}> <span style="color:red">活动：<{$gloabl_discount['REASION']}>，现价<{$fruit.0.discount_price}>元</span></div>
+				<div class="empl">
+					
+					<div class="pl"><a href="__APP__/fruit/index/commonlist/id/<{$fruit.0.fruit_id}>" data-transition="slide"> <{$comments}>人评论/<{$buys}>单</a></div>
+				</div>
+				<div>
+					
+					<div class="detail_infoarea">
+						<div class="detail_addsel">
+							<div class="detail_addinfo" style="color:#ACA8A3">可选项</div>
+							<volist name="fruitadd" id="vo">
+							<div class="detail_addinfo detail_addinfo_check" id="<{$vo.id}>"><span style="width: 75%;
+    overflow: hidden;
+    display: block;float:left;"><{$vo.name}></span></div>
+							</volist>
+							<if condition="$fruitaddcount eq 0">
+								<div class="detail_addinfo detail_addinfo_check" style="background-image:none;">无</div>
+							</if>
+						</div>
+						<div class="detail_pingzi">
+							<div style="background:url('__PUBLIC__/static/images/cup.jpg');background-size: 46px;background-repeat: no-repeat;">
+							</div>
+						</div>
+						<div class="detail_addsel">
+							<div class="detail_addinfo" style="color:#ACA8A3">成分</div>
+							<div class="detail_addinfo">
+								<{$fruit.0.chengfen_bfb_1}> 
+								<span class="detail_addinfo_cf"><{$fruit.0.chengfen_name_1}></span>
+							</div>
+							<div class="detail_addinfo">
+								<{$fruit.0.chengfen_bfb_2}> 
+								<span class="detail_addinfo_cf"><{$fruit.0.chengfen_name_2}></span>
+							</div>
+							<div class="detail_addinfo">
+								<{$fruit.0.chengfen_bfb_3}> 
+								<span class="detail_addinfo_cf"><{$fruit.0.chengfen_name_3}></span>
+							</div>
+						</div>
+					</div>
+					
+					<div class="empl">
+					</div>
+					<div class="detail_buy_button">
+						<if condition="$close eq 0">
+							<a href="javascript:;" id="addtocar" onclick="addtocar(<{$fruit.0.fruit_id}>,'__URL__',1)" class="buy">立即购买</a>
+							<a href="javascript:;" id="addtocar" onclick="addtocar(<{$fruit.0.fruit_id}>,'__URL__',0)" class="car">加入购物车</a>
+						<else />
+							<div style="border:1px solid #999;text-align:center;padding:10px 0;margin:0 10px;">店铺休息中，稍后再来吧...</div>
+						</if>
+					</div>
+					<div class="empl" style="height: 0px;border-bottom: 0px;">
+					</div>
+					<div class="detail_detail">
+						<{$fruit.0.detail}>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-role="footer" data-position="fixed"  data-theme="e" data-tap-toggle="false">
+			<div data-role="navbar">
+				<ul>
+				<li><a href="__URL__/index" data-icon="grid">产品</a></li>
+				<li><a href="__URL__/mycar" data-icon="star">购物车<span class='carnum'><{$carnum}></span></a></li>
+				<li><a href="__APP__/home" data-icon="home">个人中心</a></li>
+				</ul>
+			</div>
+		</div>
+	</div> 
+</body>
+</html>

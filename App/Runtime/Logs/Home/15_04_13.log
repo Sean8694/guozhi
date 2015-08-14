@@ -1,0 +1,2234 @@
+[ 2015-04-13T07:50:17+08:00 ] 114.253.253.146 /fruit/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt32sxl5g8spvXiULUTUS-fg' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='42' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0005s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='42' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2015-04-13T13:37:18+08:00 ] 123.151.139.156 /fruit/index.php/Home/Index/index/weiid/oTPVPtyvrbdbk2-fUHelKTSt3mSY/sign/6e0f8d0acff4af56dc0ab7b47a4ee9da
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPtyvrbdbk2-fUHelKTSt3mSY' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='79' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0005s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='79' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2015-04-13T13:37:18+08:00 ] 101.226.33.203 /fruit/index.php/Home/Index/index/weiid/oTPVPtyvrbdbk2-fUHelKTSt3mSY/sign/6e0f8d0acff4af56dc0ab7b47a4ee9da
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPtyvrbdbk2-fUHelKTSt3mSY' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='79' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0005s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='79' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2015-04-13T19:44:30+08:00 ] 114.241.44.125 /fruit/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0004s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2015-04-13T19:44:32+08:00 ] 114.241.44.125 /fruit/index.php/Home/Index/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `user_id`='31' ) ORDER BY order_id DESC LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12309' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12308' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12307' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12306' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12305' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12304' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12303' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12302' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12301' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12300' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2015-04-13T19:44:34+08:00 ] 114.241.44.125 /fruit/index.php/home/index/comment/id/12309
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12309' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12309' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12309' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2015-04-13T19:45:41+08:00 ] 114.241.44.125 /fruit/index.php/home/index/addcomment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0009s ]
+SQL: UPDATE `order_detail` SET `commend`='很新鲜，物流牛' WHERE `order_detail_id` = 149 [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: UPDATE `order` SET `iscommend`='1' WHERE `order_id` = 12309 [ RunTime:0.0048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2015-04-13T19:45:41+08:00 ] 114.241.44.125 /fruit/index.php/home/index/comment/id/12309
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12309' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12309' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12309' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2015-04-13T19:45:44+08:00 ] 114.241.44.125 /fruit/index.php/home/index/comment/id/12309
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002461s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12309' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12309' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12309' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2015-04-13T19:45:48+08:00 ] 114.241.44.125 /fruit/index.php/home/index/comment/id/12308
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12308' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12308' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12308' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2015-04-13T19:46:48+08:00 ] 114.241.44.125 /fruit/index.php/home/index/addcomment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+SQL: UPDATE `order_detail` SET `commend`='很凉，吃了很清爽' WHERE `order_detail_id` = 148 [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0007s ]
+SQL: UPDATE `order` SET `iscommend`='1' WHERE `order_id` = 12308 [ RunTime:0.0049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2015-04-13T19:46:48+08:00 ] 114.241.44.125 /fruit/index.php/home/index/comment/id/12308
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12308' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12308' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12308' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2015-04-13T19:46:55+08:00 ] 114.241.44.125 /fruit/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0005s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2015-04-13T19:46:57+08:00 ] 114.241.44.125 /fruit/index.php/Home/Index/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `user_id`='31' ) ORDER BY order_id DESC LIMIT 10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12309' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12308' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12307' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12306' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12305' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12304' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12303' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12302' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12301' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12300' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2015-04-13T19:47:01+08:00 ] 114.241.44.125 /fruit/index.php/home/index/comment/id/12307
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12307' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12307' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12307' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2015-04-13T19:47:34+08:00 ] 114.241.44.125 /fruit/index.php/home/index/addcomment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+SQL: UPDATE `order_detail` SET `commend`='四种水果，还挺丰富，就是盒子小点' WHERE `order_detail_id` = 147 [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: UPDATE `order` SET `iscommend`='1' WHERE `order_id` = 12307 [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2015-04-13T19:47:34+08:00 ] 114.241.44.125 /fruit/index.php/home/index/comment/id/12307
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12307' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12307' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12307' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2015-04-13T19:47:36+08:00 ] 114.241.44.125 /fruit/index.php/home/index/comment/id/12307
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12307' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12307' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12307' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2015-04-13T19:47:37+08:00 ] 114.241.44.125 /fruit/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0005s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2015-04-13T19:47:39+08:00 ] 114.241.44.125 /fruit/index.php/Home/Index/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `user_id`='31' ) ORDER BY order_id DESC LIMIT 10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12309' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12308' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12307' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12306' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12305' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12304' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12303' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12302' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12301' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12300' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2015-04-13T19:47:43+08:00 ] 114.241.44.125 /fruit/index.php/home/index/comment/id/12306
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12306' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12306' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12306' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2015-04-13T19:47:54+08:00 ] 114.241.44.125 /fruit/index.php/home/index/addcomment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+SQL: UPDATE `order_detail` SET `commend`='专业' WHERE `order_detail_id` = 146 [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0007s ]
+SQL: UPDATE `order` SET `iscommend`='1' WHERE `order_id` = 12306 [ RunTime:0.0046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2015-04-13T19:47:54+08:00 ] 114.241.44.125 /fruit/index.php/home/index/comment/id/12306
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12306' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12306' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12306' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2015-04-13T19:47:56+08:00 ] 114.241.44.125 /fruit/index.php/home/index/comment/id/12306
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12306' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12306' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12306' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2015-04-13T19:47:58+08:00 ] 114.241.44.125 /fruit/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0005s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2015-04-13T19:48:00+08:00 ] 114.241.44.125 /fruit/index.php/Home/Index/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `user_id`='31' ) ORDER BY order_id DESC LIMIT 10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12309' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12308' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12307' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12306' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12305' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12304' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12303' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12302' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12301' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12300' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2015-04-13T19:48:05+08:00 ] 114.241.44.125 /fruit/index.php/home/index/comment/id/12305
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12305' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12305' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12305' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2015-04-13T19:48:29+08:00 ] 114.241.44.125 /fruit/index.php/home/index/addcomment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0006s ]
+SQL: UPDATE `order_detail` SET `commend`='第三次定了，一如继往的好' WHERE `order_detail_id` = 145 [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: UPDATE `order` SET `iscommend`='1' WHERE `order_id` = 12305 [ RunTime:0.0046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2015-04-13T19:48:29+08:00 ] 114.241.44.125 /fruit/index.php/home/index/comment/id/12305
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12305' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12305' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12305' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2015-04-13T19:48:31+08:00 ] 114.241.44.125 /fruit/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0004s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2015-04-13T19:48:33+08:00 ] 114.241.44.125 /fruit/index.php/Home/Index/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `user_id`='31' ) ORDER BY order_id DESC LIMIT 10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12309' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12308' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12307' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12306' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12305' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12304' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12303' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12302' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12301' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12300' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2015-04-13T19:48:39+08:00 ] 114.241.44.125 /fruit/index.php/home/index/comment/id/12300
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12300' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12300' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12300' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2015-04-13T19:49:14+08:00 ] 114.241.44.125 /fruit/index.php/home/index/addcomment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+SQL: UPDATE `order_detail` SET `commend`='女朋友很喜欢，要能在线支付就好了' WHERE `order_detail_id` = 140 [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: UPDATE `order` SET `iscommend`='1' WHERE `order_id` = 12300 [ RunTime:0.0070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2015-04-13T19:49:14+08:00 ] 114.241.44.125 /fruit/index.php/home/index/comment/id/12300
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12300' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12300' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12300' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2015-04-13T19:49:18+08:00 ] 114.241.44.125 /fruit/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0004s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2015-04-13T19:49:19+08:00 ] 114.241.44.125 /fruit/index.php/Home/Index/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `order` WHERE ( `user_id`='31' ) ORDER BY order_id DESC LIMIT 10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12309' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12308' )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12307' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12306' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12305' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12304' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12303' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12302' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12301' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12300' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2015-04-13T19:49:23+08:00 ] 114.241.44.125 /fruit/index.php/home/index/comment/id/12304
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12304' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12304' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12304' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2015-04-13T19:50:23+08:00 ] 114.241.44.125 /fruit/index.php/home/index/addcomment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+SQL: UPDATE `order_detail` SET `commend`='盒子小，这价钱也划算，朋友们定大的吧，反正小的我不够吃' WHERE `order_detail_id` = 144 [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: UPDATE `order` SET `iscommend`='1' WHERE `order_id` = 12304 [ RunTime:0.0062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2015-04-13T19:50:23+08:00 ] 114.241.44.125 /fruit/index.php/home/index/comment/id/12304
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12304' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12304' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12304' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2015-04-13T19:50:27+08:00 ] 114.241.44.125 /fruit/index.php/home/index/comment/id/12304
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12304' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12304' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12304' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2015-04-13T19:50:34+08:00 ] 114.241.44.125 /fruit/index.php/Home/Index/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `user_id`='31' ) ORDER BY order_id DESC LIMIT 10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12309' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12308' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12307' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12306' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12305' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12304' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12303' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12302' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12301' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12300' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2015-04-13T19:50:41+08:00 ] 114.241.44.125 /fruit/index.php/home/index/comment/id/12301
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12301' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12301' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12301' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2015-04-13T19:50:54+08:00 ] 114.241.44.125 /fruit/index.php/home/index/addcomment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0006s ]
+SQL: UPDATE `order_detail` SET `commend`='干净新鲜' WHERE `order_detail_id` = 141 [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: UPDATE `order` SET `iscommend`='1' WHERE `order_id` = 12301 [ RunTime:0.0051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2015-04-13T19:50:54+08:00 ] 114.241.44.125 /fruit/index.php/home/index/comment/id/12301
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12301' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12301' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12301' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2015-04-13T19:50:57+08:00 ] 114.241.44.125 /fruit/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0005s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2015-04-13T19:50:59+08:00 ] 114.241.44.125 /fruit/index.php/Home/Index/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `user_id`='31' ) ORDER BY order_id DESC LIMIT 10   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12309' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12308' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12307' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12306' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12305' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12304' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12303' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12302' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12301' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12300' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2015-04-13T19:51:04+08:00 ] 114.241.44.125 /fruit/index.php/home/index/comment/id/12303
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12303' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12303' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12303' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2015-04-13T19:51:49+08:00 ] 114.241.44.125 /fruit/index.php/home/index/addcomment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0006s ]
+SQL: UPDATE `order_detail` SET `commend`='感觉比711的新鲜，便宜，就是水果种类少' WHERE `order_detail_id` = 143 [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0007s ]
+SQL: UPDATE `order` SET `iscommend`='1' WHERE `order_id` = 12303 [ RunTime:0.0042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2015-04-13T19:51:49+08:00 ] 114.241.44.125 /fruit/index.php/home/index/comment/id/12303
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12303' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12303' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12303' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2015-04-13T19:51:54+08:00 ] 114.241.44.125 /fruit/index.php/home/index/comment/id/12303
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12303' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12303' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12303' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2015-04-13T19:52:00+08:00 ] 114.241.44.125 /fruit/index.php/home/index/comment/id/12303
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12303' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12303' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12303' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2015-04-13T19:52:05+08:00 ] 114.241.44.125 /fruit/index.php/Home/Index/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `user_id`='31' ) ORDER BY order_id DESC LIMIT 10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12309' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12308' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12307' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12306' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12305' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12304' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12303' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12302' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12301' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12300' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2015-04-13T19:52:11+08:00 ] 114.241.44.125 /fruit/index.php/home/index/comment/id/12302
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12302' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12302' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12302' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2015-04-13T19:52:21+08:00 ] 114.241.44.125 /fruit/index.php/home/index/addcomment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0006s ]
+SQL: UPDATE `order_detail` SET `commend`='沙拉酱给力' WHERE `order_detail_id` = 142 [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: UPDATE `order` SET `iscommend`='1' WHERE `order_id` = 12302 [ RunTime:0.0044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2015-04-13T19:52:21+08:00 ] 114.241.44.125 /fruit/index.php/home/index/comment/id/12302
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12302' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12302' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12302' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2015-04-13T19:52:22+08:00 ] 114.241.44.125 /fruit/index.php/home/index/comment/id/12302
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12302' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12302' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12302' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2015-04-13T19:52:29+08:00 ] 114.241.44.125 /fruit/index.php/Home/Index/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `user_id`='31' ) ORDER BY order_id DESC LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12309' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12308' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12307' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12306' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12305' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12304' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12303' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12302' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12301' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12300' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2015-04-13T19:54:24+08:00 ] 114.241.44.125 /fruit/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0005s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='31' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2015-04-13T19:54:26+08:00 ] 114.241.44.125 /fruit/index.php/Home/Index/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `user_id`='31' ) ORDER BY order_id DESC LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12309' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12308' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12307' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12306' )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12305' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12304' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12303' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12302' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12301' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12300' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2015-04-13T19:54:28+08:00 ] 114.241.44.125 /fruit/index.php/home/index/comment/id/12309
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt9UuaxWXULje44IcXLIFr34' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12309' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12309' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12309' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2015-04-13T21:24:12+08:00 ] 221.223.216.23 /fruit/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt6hxl1eKK6dlXBNy3trm2ME' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='43' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0005s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='43' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2015-04-13T21:24:39+08:00 ] 221.223.216.23 /fruit/index.php/Home/Index/opinion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt6hxl1eKK6dlXBNy3trm2ME' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `opinion` WHERE ( `user_id`='43' ) ORDER BY opinion_id DESC LIMIT 5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given /opt/lampp/htdocs/fruit/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 19 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /opt/lampp/htdocs/fruit/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2015-04-13T21:25:34+08:00 ] 221.223.216.23 /fruit/index.php/Home/Index/addopinion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt6hxl1eKK6dlXBNy3trm2ME' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0005s ]
+SQL: INSERT INTO `opinion` (`question`,`user_id`,`qtime`) VALUES ('量真足，果真鲜','43','1428931534') [ RunTime:0.0055s ]
+SQL: SELECT * FROM `opinion` WHERE ( `user_id`='43' ) ORDER BY opinion_id DESC LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given /opt/lampp/htdocs/fruit/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 19 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /opt/lampp/htdocs/fruit/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 19 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /opt/lampp/htdocs/fruit/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2015-04-13T21:25:40+08:00 ] 221.223.216.23 /fruit/index.php/Home/Index/opinion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt6hxl1eKK6dlXBNy3trm2ME' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `opinion` WHERE ( `user_id`='43' ) ORDER BY opinion_id DESC LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given /opt/lampp/htdocs/fruit/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 19 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /opt/lampp/htdocs/fruit/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 19 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /opt/lampp/htdocs/fruit/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2015-04-13T21:26:30+08:00 ] 221.223.216.23 /fruit/index.php/Home/Index/opinion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt6hxl1eKK6dlXBNy3trm2ME' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `opinion` WHERE ( `user_id`='43' ) ORDER BY opinion_id DESC LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given /opt/lampp/htdocs/fruit/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 19 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /opt/lampp/htdocs/fruit/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 19 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /opt/lampp/htdocs/fruit/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2015-04-13T21:26:54+08:00 ] 111.196.75.237 /fruit/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt32sxl5g8spvXiULUTUS-fg' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='42' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0005s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='42' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2015-04-13T21:26:56+08:00 ] 111.196.75.237 /fruit/index.php/Home/Index/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt32sxl5g8spvXiULUTUS-fg' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `order` WHERE ( `user_id`='42' ) ORDER BY order_id DESC LIMIT 10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12299' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12298' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12297' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12293' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12286' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12282' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12281' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12280' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12279' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12278' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2015-04-13T21:26:57+08:00 ] 222.73.76.253 /fruit/index.php/Home/Index/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+NOTIC: [8] Undefined index: user /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 10 行.
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: user /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `order` WHERE ( `user_id`='' ) ORDER BY order_id DESC LIMIT 10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2015-04-13T21:26:59+08:00 ] 221.223.216.23 /fruit/index.php/Home/Index/opinion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt6hxl1eKK6dlXBNy3trm2ME' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `opinion` WHERE ( `user_id`='43' ) ORDER BY opinion_id DESC LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given /opt/lampp/htdocs/fruit/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 19 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /opt/lampp/htdocs/fruit/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 19 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /opt/lampp/htdocs/fruit/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2015-04-13T21:27:02+08:00 ] 111.196.75.237 /fruit/index.php/home/index/comment/id/12299
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt32sxl5g8spvXiULUTUS-fg' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12299' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12299' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12299' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2015-04-13T21:27:08+08:00 ] 111.196.75.237 /fruit/index.php/home/index/comment/id/12299
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt32sxl5g8spvXiULUTUS-fg' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `order_id`='12299' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 120 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12299' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12299' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2015-04-13T21:28:01+08:00 ] 111.196.75.237 /fruit/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt32sxl5g8spvXiULUTUS-fg' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='42' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0005s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='42' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2015-04-13T21:28:03+08:00 ] 111.196.75.237 /fruit/index.php/Home/Index/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oTPVPt32sxl5g8spvXiULUTUS-fg' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( `user_id`='42' ) ORDER BY order_id DESC LIMIT 10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12299' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12298' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12297' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12293' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12286' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12282' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12281' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12280' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12279' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 010_hd_rkzxzy /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12278' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2015-04-13T21:28:08+08:00 ] 180.153.114.200 /fruit/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8] Undefined index: user /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 10 行.
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: user /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0008s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: car /opt/lampp/htdocs/fruit/App/Home/Controller/IndexController.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+

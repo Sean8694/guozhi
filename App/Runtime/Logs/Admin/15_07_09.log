@@ -1,0 +1,1375 @@
+[ 2015-07-09T23:13:11+08:00 ] 123.151.42.46 /zhier/index.php/Admin/Admin/?from=singlemessage&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: opinion /var/www/zhier/App/Runtime/Cache/Admin/7d5bae8f2106a04379ef690681e93072.php 第 67 行.
+NOTIC: [8] Undefined variable: opinion /var/www/zhier/App/Runtime/Cache/Admin/7d5bae8f2106a04379ef690681e93072.php 第 68 行.
+NOTIC: [8] Undefined variable: opinion /var/www/zhier/App/Runtime/Cache/Admin/7d5bae8f2106a04379ef690681e93072.php 第 70 行.
+NOTIC: [8] Undefined variable: opinion /var/www/zhier/App/Runtime/Cache/Admin/7d5bae8f2106a04379ef690681e93072.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000154s ]
+
+[ 2015-07-09T23:16:00+08:00 ] 101.40.17.166 /zhier/index.php/admin/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: opinion /var/www/zhier/App/Runtime/Cache/Admin/7d5bae8f2106a04379ef690681e93072.php 第 67 行.
+NOTIC: [8] Undefined variable: opinion /var/www/zhier/App/Runtime/Cache/Admin/7d5bae8f2106a04379ef690681e93072.php 第 68 行.
+NOTIC: [8] Undefined variable: opinion /var/www/zhier/App/Runtime/Cache/Admin/7d5bae8f2106a04379ef690681e93072.php 第 70 行.
+NOTIC: [8] Undefined variable: opinion /var/www/zhier/App/Runtime/Cache/Admin/7d5bae8f2106a04379ef690681e93072.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000154s ]
+
+[ 2015-07-09T23:16:20+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `admin` WHERE ( username='admin' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000166s ]
+
+[ 2015-07-09T23:16:21+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Product/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Undefined index: admin /var/www/zhier/App/Common/Common/function.php 第 6 行.
+
+[ 2015-07-09T23:16:21+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined variable: opinion /var/www/zhier/App/Runtime/Cache/Admin/7d5bae8f2106a04379ef690681e93072.php 第 67 行.
+NOTIC: [8] Undefined variable: opinion /var/www/zhier/App/Runtime/Cache/Admin/7d5bae8f2106a04379ef690681e93072.php 第 68 行.
+NOTIC: [8] Undefined variable: opinion /var/www/zhier/App/Runtime/Cache/Admin/7d5bae8f2106a04379ef690681e93072.php 第 70 行.
+NOTIC: [8] Undefined variable: opinion /var/www/zhier/App/Runtime/Cache/Admin/7d5bae8f2106a04379ef690681e93072.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000157s ]
+
+[ 2015-07-09T23:16:33+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000180s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `admin` WHERE ( username='admin' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000168s ]
+
+[ 2015-07-09T23:16:34+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Product/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fruit` WHERE ( `type_id`='1' ) ORDER BY `order` DESC  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000147s ]
+
+[ 2015-07-09T23:16:46+08:00 ] 101.40.17.166 /zhier/index.php/Admin/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Undefined variable: type /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 28 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000159s ]
+
+[ 2015-07-09T23:17:14+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: limit /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 28 行.
+SQL: SELECT * FROM `order` WHERE (  `status`=''  ) ORDER BY order_id DESC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000181s ]
+
+[ 2015-07-09T23:17:21+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Index/index/filter/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: limit /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 28 行.
+SQL: SELECT * FROM `order` WHERE (  `status`='1'  ) ORDER BY order_id DESC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 31 /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 37 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='115' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12403' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 15 /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 37 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='123' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12402' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 3 /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 37 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='109' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12401' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 2 /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 37 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='115' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12400' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 15 /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 37 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='123' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12399' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 15 /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 37 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='123' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12398' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 2 /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 37 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='113' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12397' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 2 /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 37 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='106' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12396' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 28 /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 37 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='125' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12395' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 17 /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 37 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='125' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12394' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 31 /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 37 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='125' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12393' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000175s ]
+
+[ 2015-07-09T23:19:38+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Index/index/filter/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: limit /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 28 行.
+SQL: SELECT * FROM `order` WHERE (  `status`='1'  ) ORDER BY order_id DESC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 22 /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 37 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='109' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12404' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 31 /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 37 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='115' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12403' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 15 /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 37 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='123' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12402' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 3 /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 37 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='109' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12401' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 2 /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 37 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='115' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12400' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 15 /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 37 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='123' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12399' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 15 /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 37 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='123' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12398' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 2 /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 37 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='113' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12397' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 2 /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 37 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='106' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12396' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 28 /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 37 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='125' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12395' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 17 /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 37 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='125' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12394' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 31 /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 37 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='125' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12393' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000160s ]
+
+[ 2015-07-09T23:19:49+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Index/changestatus/orderid/12404/tostatus/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: UPDATE `order` SET `status`='2' WHERE `order_id` = 12404 [ RunTime:0.0175s ]
+
+[ 2015-07-09T23:20:11+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Index/changestatus/orderid/12403/tostatus/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: UPDATE `order` SET `status`='3' WHERE `order_id` = 12403 [ RunTime:0.0048s ]
+
+[ 2015-07-09T23:20:15+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Index/index/filter/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: limit /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 28 行.
+SQL: SELECT * FROM `order` WHERE (  `status`='3'  ) ORDER BY order_id DESC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 31 /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 37 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='115' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12403' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000158s ]
+
+[ 2015-07-09T23:20:34+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Index/index/filter/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: limit /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 28 行.
+SQL: SELECT * FROM `order` WHERE (  `status`='2'  ) ORDER BY order_id DESC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 22 /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 37 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='109' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12404' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000153s ]
+
+[ 2015-07-09T23:20:40+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Index/changestatus/orderid/12404/tostatus/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: UPDATE `order` SET `status`='3' WHERE `order_id` = 12404 [ RunTime:0.0047s ]
+
+[ 2015-07-09T23:20:57+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Index/index/filter/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `order` WHERE (  `status`='4'  ) ORDER BY order_id DESC LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000155s ]
+
+[ 2015-07-09T23:20:59+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Index/index/filter/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: limit /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 28 行.
+SQL: SELECT * FROM `order` WHERE (  `status`='3'  ) ORDER BY order_id DESC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 22 /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 37 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='109' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12404' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 31 /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 37 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='115' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12403' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000150s ]
+
+[ 2015-07-09T23:21:01+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Index/changestatus/orderid/12404/tostatus/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: UPDATE `order` SET `status`='4' WHERE `order_id` = 12404 [ RunTime:0.0047s ]
+
+[ 2015-07-09T23:21:14+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Index/index/filter/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `order` WHERE (  `status`='4'  ) ORDER BY order_id DESC LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 22 /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 37 行.
+SQL: SELECT count(1) num FROM `order` WHERE ( `user_id`='109' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12404' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000157s ]
+
+[ 2015-07-09T23:22:31+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+SQL: SELECT f.name fruit_name,o.ctime,o.to_name,o.to_mobile,od.* FROM order_detail od LEFT JOIN `order` o ON o.order_id=od.order_id LEFT JOIN fruit f ON od.fruit_id = f.fruit_id WHERE od.`commend_status`='1' [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000162s ]
+
+[ 2015-07-09T23:22:35+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Recommend/index/status/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+SQL: SELECT f.name fruit_name,o.ctime,o.to_name,o.to_mobile,od.* FROM order_detail od LEFT JOIN `order` o ON o.order_id=od.order_id LEFT JOIN fruit f ON od.fruit_id = f.fruit_id WHERE od.`commend_status`='1' [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000158s ]
+
+[ 2015-07-09T23:22:36+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Recommend/index/status/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+SQL: SELECT f.name fruit_name,o.ctime,o.to_name,o.to_mobile,od.* FROM order_detail od LEFT JOIN `order` o ON o.order_id=od.order_id LEFT JOIN fruit f ON od.fruit_id = f.fruit_id WHERE od.`commend_status`='2' [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000211s ]
+
+[ 2015-07-09T23:22:38+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Recommend/index/status/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+SQL: SELECT f.name fruit_name,o.ctime,o.to_name,o.to_mobile,od.* FROM order_detail od LEFT JOIN `order` o ON o.order_id=od.order_id LEFT JOIN fruit f ON od.fruit_id = f.fruit_id WHERE od.`commend_status`='3' [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000164s ]
+
+[ 2015-07-09T23:22:39+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Recommend/index/status/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+SQL: SELECT f.name fruit_name,o.ctime,o.to_name,o.to_mobile,od.* FROM order_detail od LEFT JOIN `order` o ON o.order_id=od.order_id LEFT JOIN fruit f ON od.fruit_id = f.fruit_id WHERE od.`commend_status`='0' [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000163s ]
+
+[ 2015-07-09T23:22:43+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Recommend/index/status/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+SQL: SELECT f.name fruit_name,o.ctime,o.to_name,o.to_mobile,od.* FROM order_detail od LEFT JOIN `order` o ON o.order_id=od.order_id LEFT JOIN fruit f ON od.fruit_id = f.fruit_id WHERE od.`commend_status`='4' [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000153s ]
+
+[ 2015-07-09T23:22:45+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `fruit` WHERE ( `type_id`='1' ) ORDER BY `order` DESC  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000161s ]
+
+[ 2015-07-09T23:22:51+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Product/index/type/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `fruit_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fruit` WHERE ( `type_id`='2' ) ORDER BY `order` DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000153s ]
+
+[ 2015-07-09T23:22:53+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Product/index/type/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fruit` WHERE ( `type_id`='4' ) ORDER BY `order` DESC  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000149s ]
+
+[ 2015-07-09T23:22:57+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000180s ]
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fruit_type`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined variable: product /var/www/zhier/App/Runtime/Cache/Admin/7f798b353c5b1a865ba027ccbfdac8e6.php 第 76 行.
+NOTIC: [8] Undefined variable: product /var/www/zhier/App/Runtime/Cache/Admin/7f798b353c5b1a865ba027ccbfdac8e6.php 第 79 行.
+NOTIC: [8] Undefined variable: product /var/www/zhier/App/Runtime/Cache/Admin/7f798b353c5b1a865ba027ccbfdac8e6.php 第 82 行.
+NOTIC: [8] Undefined variable: product /var/www/zhier/App/Runtime/Cache/Admin/7f798b353c5b1a865ba027ccbfdac8e6.php 第 85 行.
+NOTIC: [8] Undefined variable: product /var/www/zhier/App/Runtime/Cache/Admin/7f798b353c5b1a865ba027ccbfdac8e6.php 第 88 行.
+NOTIC: [8] Undefined variable: product /var/www/zhier/App/Runtime/Cache/Admin/7f798b353c5b1a865ba027ccbfdac8e6.php 第 91 行.
+NOTIC: [8] Undefined variable: product /var/www/zhier/App/Runtime/Cache/Admin/7f798b353c5b1a865ba027ccbfdac8e6.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000157s ]
+
+[ 2015-07-09T23:23:04+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `fruit` WHERE ( `type_id`='1' ) ORDER BY `order` DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000153s ]
+
+[ 2015-07-09T23:23:06+08:00 ] 101.40.17.166 /zhier/index.php/Admin/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined variable: type /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 28 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000152s ]
+
+[ 2015-07-09T23:23:41+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: limit /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 28 行.
+SQL: SELECT * FROM `order` WHERE (  `status`=''  ) ORDER BY order_id DESC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000167s ]
+
+[ 2015-07-09T23:23:44+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+SQL: SELECT f.name fruit_name,o.ctime,o.to_name,o.to_mobile,od.* FROM order_detail od LEFT JOIN `order` o ON o.order_id=od.order_id LEFT JOIN fruit f ON od.fruit_id = f.fruit_id WHERE od.`commend_status`='1' [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000158s ]
+
+[ 2015-07-09T23:23:46+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Opinion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0007s ]
+SQL: SELECT u.name,o.* FROM opinion o LEFT JOIN user u ON o.user_id=u.user_id WHERE o.`status`='' [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000148s ]
+
+[ 2015-07-09T23:24:14+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Opinion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0007s ]
+SQL: SELECT u.name,o.* FROM opinion o LEFT JOIN user u ON o.user_id=u.user_id WHERE o.`status`='' [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000156s ]
+
+[ 2015-07-09T23:24:22+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Opinion/edit/id/34
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0007s ]
+SQL: SELECT u.name,o.* FROM opinion o LEFT JOIN user u ON o.user_id=u.user_id WHERE `opinion_id`='34' [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/b9bcb78cca80c5ba5e5ff6214e2c97d6.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000158s ]
+
+[ 2015-07-09T23:24:31+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Opinion/edit/id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0007s ]
+SQL: UPDATE `opinion` SET `answer`='nimabi',`rtime`='1436455471',`status`='1' WHERE `opinion_id` = 34 [ RunTime:0.0053s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000160s ]
+
+[ 2015-07-09T23:24:32+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Opinion/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0007s ]
+SQL: SELECT u.name,o.* FROM opinion o LEFT JOIN user u ON o.user_id=u.user_id WHERE o.`status`='' [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 34 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/zhier/App/Runtime/Cache/Admin/96fb37e019936b72e7741650b56e9262.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000153s ]
+
+[ 2015-07-09T23:27:13+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fruit` WHERE ( `type_id`='1' ) ORDER BY `order` DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000157s ]
+
+[ 2015-07-09T23:27:14+08:00 ] 101.40.17.166 /zhier/index.php/Admin/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined variable: type /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 28 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 32 行.
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/4295d5db477f3199c8db51638416159f.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000155s ]
+
+[ 2015-07-09T23:27:17+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: limit /var/www/zhier/App/Admin/Controller/IndexController.class.php 第 28 行.
+SQL: SELECT * FROM `order` WHERE (  `status`=''  ) ORDER BY order_id DESC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000152s ]
+
+[ 2015-07-09T23:27:18+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+SQL: SELECT f.name fruit_name,o.ctime,o.to_name,o.to_mobile,od.* FROM order_detail od LEFT JOIN `order` o ON o.order_id=od.order_id LEFT JOIN fruit f ON od.fruit_id = f.fruit_id WHERE od.`commend_status`='1' [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000149s ]
+
+[ 2015-07-09T23:27:23+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Recommend/index/status/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+SQL: SELECT f.name fruit_name,o.ctime,o.to_name,o.to_mobile,od.* FROM order_detail od LEFT JOIN `order` o ON o.order_id=od.order_id LEFT JOIN fruit f ON od.fruit_id = f.fruit_id WHERE od.`commend_status`='1' [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000165s ]
+
+[ 2015-07-09T23:27:24+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Recommend/index/status/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+SQL: SELECT f.name fruit_name,o.ctime,o.to_name,o.to_mobile,od.* FROM order_detail od LEFT JOIN `order` o ON o.order_id=od.order_id LEFT JOIN fruit f ON od.fruit_id = f.fruit_id WHERE od.`commend_status`='2' [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000153s ]
+
+[ 2015-07-09T23:27:26+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Recommend/index/status/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+SQL: SELECT f.name fruit_name,o.ctime,o.to_name,o.to_mobile,od.* FROM order_detail od LEFT JOIN `order` o ON o.order_id=od.order_id LEFT JOIN fruit f ON od.fruit_id = f.fruit_id WHERE od.`commend_status`='3' [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000154s ]
+
+[ 2015-07-09T23:27:27+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Recommend/index/status/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+SQL: SELECT f.name fruit_name,o.ctime,o.to_name,o.to_mobile,od.* FROM order_detail od LEFT JOIN `order` o ON o.order_id=od.order_id LEFT JOIN fruit f ON od.fruit_id = f.fruit_id WHERE od.`commend_status`='0' [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000149s ]
+
+[ 2015-07-09T23:27:38+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Recommend/edit/id/277
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000168s ]
+SQL: SELECT f.name fruit_name,o.ctime,o.to_name,o.to_mobile,od.* FROM order_detail od LEFT JOIN `order` o ON o.order_id=od.order_id LEFT JOIN fruit f ON od.fruit_id = f.fruit_id WHERE od.`order_detail_id`='277' [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined variable: data /var/www/zhier/App/Runtime/Cache/Admin/d5903c0aeb549a94ed07b22dc3dc8382.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000177s ]
+
+[ 2015-07-09T23:27:48+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Recommend/edit/id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0008s ]
+SQL: UPDATE `order_detail` SET `commend_status`='0',`commend`='0',`rcommend`='zenmeyang ' WHERE `order_detail_id` = 277 [ RunTime:0.0088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000159s ]
+
+[ 2015-07-09T23:27:49+08:00 ] 101.40.17.166 /zhier/index.php/Admin/Recommend/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+SQL: SELECT f.name fruit_name,o.ctime,o.to_name,o.to_mobile,od.* FROM order_detail od LEFT JOIN `order` o ON o.order_id=od.order_id LEFT JOIN fruit f ON od.fruit_id = f.fruit_id WHERE od.`commend_status`='1' [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000153s ]
+

@@ -1,0 +1,32 @@
+<include file="./App/Fruit/View/header.html" />
+<body>
+	<div data-role="page" id="pageone" data-position="fixed"> 
+		<div data-role="content" style="text-align: center;">
+			<if condition="($result eq 'success') ">
+				<img src="__PUBLIC__/static/images/suborder.gif" style="width: 70px;
+margin: 30px;" />
+				<p style="margin: auto;
+text-align: center;
+font-weight: bold;
+font-size: 20px;">恭喜,订单已成功提交！</p>
+				<p style="text-align: center;
+line-height: 30px;
+color: #ACA8A3;
+font-family: 微软雅黑;
+font-size: 14px;">我们将在指定时间内为您配送，<br />您可以在“个人中心”查看您的订单。</p>
+			<else />
+				抱歉服务器脑子进水了，请联系客服。
+			</if>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="e" data-tap-toggle="false">
+			<div data-role="navbar">
+				<ul>
+				<li><a href="__URL__/index" data-icon="grid">产品</a></li>
+				<li><a href="__URL__/mycar" data-icon="star" class="ui-btn-active ui-state-persist">购物车<span id='carnum'><{$carnum}></span></a></li>
+				<li><a href="__APP__/home" data-icon="home">个人中心</a></li>
+				</ul>
+			</div>
+		</div>
+	</div> 
+</body>
+</html>

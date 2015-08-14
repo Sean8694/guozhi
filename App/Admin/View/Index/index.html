@@ -1,0 +1,136 @@
+<include file="./App/Admin/View/header.html" />
+<script>
+	function changeStatus(orderid,tostatus){
+		var filter	= <{$filter}>;
+		if( tostatus < filter ){
+			if(confirm("你要回退吗？")){
+			}else{
+				return false;
+			}
+		}
+		// 发送Ajax请求，成功后隐藏这条记录
+		$(document).load("__URL__/changestatus/orderid/"+orderid+"/tostatus/"+tostatus,function(responseTxt,statusTxt,xhr){
+			// 购物车提示信息
+			$.mobile.loading('show', {  
+				textVisible: true, //是否显示文字  
+				theme: 'a',        //加载器主题样式a-e  
+				textonly: false,   //是否只显示文字  
+				html: ""           //要显示的html内容，如图片等  
+			});
+			if(statusTxt=="success"){
+				// 返回的是购物车的商品数量
+				if( responseTxt>0 ){
+					setTimeout("hiddenLoading()",1); 
+					$('#order_'+orderid).slideUp('slow'); 
+				}
+			}
+			if(statusTxt=="error"){
+				alert("失败，请重试。");
+			}
+		});
+	}
+	// 清除提示信息
+    function hiddenLoading(){
+        $.mobile.loading('hide','normal');
+    }
+	// 声音提示
+	$(function(){ 
+		$("#chatData").focus();
+		$('<audio id="chatAudio"><source src="__PUBLIC__/static/notify.ogg" type="audio/ogg"><source src="__PUBLIC__/static/notify.mp3" type="audio/mpeg"><source src="__PUBLIC__/static/notify.wav" type="audio/wav"></audio>').appendTo('body');
+
+		$("#havenew").ready(function(){
+			if(document.getElementById('havenew').innerHTML == 2){
+				$('#chatAudio')[0].play();
+				// 有新的订单,就不刷新了
+				//alert('有新的订单，');
+			}else{
+				setTimeout("window.location.reload()",60000); 
+			}
+		});
+	});
+
+</script>
+
+<body>
+	<div data-role="page" id="pageone" data-position="fixed"> 
+		<div data-role="header" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+					<volist name="list" id="vo" key="key">
+					<li><a href="__APP__/Admin/<{$vo}>" data-ajax="false" <if condition="$listnow eq $vo">class="ui-btn-active ui-state-persist"</if>><{$key}></a></li>
+					</volist>
+					</ul>
+				</div>
+		</div>
+		<div data-role="content">
+			<div data-role="navbar">
+				<ul>
+				<li><a href="__URL__/index/filter/1" data-ajax="false" <if condition="$filter eq 1">class="ui-btn-active ui-state-persist"</if>>已下单</a></li>
+				<li><a href="__URL__/index/filter/2" data-ajax="false" <if condition="$filter eq 2">class="ui-btn-active ui-state-persist"</if>>制作中</a></li>
+				<li><a href="__URL__/index/filter/3" data-ajax="false" <if condition="$filter eq 3">class="ui-btn-active ui-state-persist"</if>>配送中</a></li>
+				<li><a href="__URL__/index/filter/4" data-ajax="false" <if condition="$filter eq 4">class="ui-btn-active ui-state-persist"</if>>已送达</a></li>
+				<li><a href="__URL__/index/filter/5" data-ajax="false" <if condition="$filter eq 5">class="ui-btn-active ui-state-persist"</if>>已退单</a></li>
+				</ul>
+			</div>
+			<ul class="myorder-list">
+			<if condition="$filter eq 1">
+				<if condition="$order_list_count neq 0">
+					<div id="havenew" style="display:none;">2</div>
+				<else />
+					<div id="havenew" style="display:none;">0</div>
+				</if>
+			</if>
+				<volist name="order_list" id="vo" key="key">
+				
+				<li id="order_<{$vo.order_id}>" <if condition="$key%2 eq 1">style="background-color:#d7ffd7"</if>>
+					<div class="myorder-list-info-1">
+						<div class="myorder-list-info-status">
+							<{$vo.status}><if condition="$vo['detail_num'] eq 1"><font color="red">【首单】</font><else/>【<{$vo.detail_num}>】</if>
+						</div>
+						<div class="myorder-list-info-id">
+							订单号:<{$vo.order_id}>	
+						</div>
+					</div>
+					<div class="myorder-list-info-2">
+						<{$vo.to_location}><br /><{$vo.to_location_detail}>
+						<br />
+						<{$vo.to_name}>【<{$vo.to_mobile}>】
+						<br />
+						下单时间：<{$vo.ctime}>
+						<br />
+						已过时间：<{$vo.ptime}> 分
+					</div>
+					<div class="myorder-list-info-3">
+						<{$vo.detail}>
+					</div>
+					<div class="myorder-list-info-4">
+						订单总额:￥<{$vo.price}>
+					</div>
+					<div class="myorder-list-info-4">
+						<div data-role="controlgroup" data-type="horizontal">
+						<if condition="$filter neq 1">
+							<div data-role="button" onclick="changeStatus(<{$vo.order_id}>,1)">已下单</div>
+						</if>
+						<if condition="$filter neq 2">
+							<div data-role="button" onclick="changeStatus(<{$vo.order_id}>,2)">制作中</div>
+						</if>
+						<if condition="$filter neq 3">
+							<div data-role="button" onclick="changeStatus(<{$vo.order_id}>,3)">配送中</div>
+						</if>
+						<if condition="$filter neq 4">
+							<div data-role="button" onclick="changeStatus(<{$vo.order_id}>,4)">已送达</div>
+						</if>
+						<if condition="$filter neq 5">
+							<div data-role="button" onclick="changeStatus(<{$vo.order_id}>,5)">已退单</div>
+						</if>
+						</div>
+					</div>
+				</li>
+				</volist>
+			</ul>
+		</div>
+
+	</div> 
+</body>
+</html>
+ 
