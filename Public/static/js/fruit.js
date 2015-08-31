@@ -136,6 +136,14 @@
             });          
     }
 
+	function setDetail(){
+		// 得到页面宽度
+		var pageWidth	= document.body.scrollWidth;
+		// 设置页面高度
+		pageHeight		= pageWidth*0.583;
+		$('.fruit-list-li').height(pageHeight);
+	}
+
 // mycare
     function carSub(fruit_id){
         var nowNum=parseInt(document.getElementById('fruit_id_'+fruit_id).innerHTML);

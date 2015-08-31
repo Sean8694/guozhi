@@ -3,7 +3,7 @@
 	height:40px;
 }
 .fruit-list-type a{
-	margin: 19px 3% 12px 3%;
+	margin: 19px 3% 8px 3%;
 	border-bottom: 1px solid #fff;
 	padding-bottom: 4px;
 	width: 19%;
@@ -381,6 +381,8 @@
 	display: block;
 	float: left;
 	width: 100%;	
+	margin-top:5px;
+	position:relative;
 }
 .fruit-list img{
 	padding:0px;
@@ -401,12 +403,12 @@
 	text-align: center;
 	font-size: 28px;
 	letter-spacing: 2px;
-	padding-top: 44px;
+	padding-top: 18%;
 	font-weight: normal;
 }
 .fruit-list h3{
   text-align: center;
-  margin: 2px 2px 30px 0px;
+  margin: 2px 2px 14% 0px;
   color: #fff;
   text-shadow:0px 0px 0px;
   font-size: smaller;
@@ -421,6 +423,9 @@
 	font-weight: normal;
 	font-size: 20px;
 	text-shadow:0px 0px 0px;
+	position: absolute;
+	bottom:0px;
+	right: 0px;
 }
 .fruit-list em span{
 	font-size:16px;
@@ -433,6 +438,8 @@
 	color: #ff6600;
 	font-weight: lighter;
 	text-shadow:0px 0px 0px;
+	position: absolute;
+	bottom:10px;
 }
 .fruit-list div span{
 	color:#fff;

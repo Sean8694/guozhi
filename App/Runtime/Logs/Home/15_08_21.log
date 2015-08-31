@@ -1,0 +1,626 @@
+[ 2015-08-21T00:59:57+08:00 ] 222.45.51.236 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T01:31:15+08:00 ] 182.118.60.87 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T01:58:55+08:00 ] 52.0.89.236 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T02:30:24+08:00 ] 36.225.254.229 vip163mx01.mxmail.netease.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T03:55:04+08:00 ] 223.95.73.217 http://wap.ip138.com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T03:55:04+08:00 ] 223.95.73.217 open.weixin.qq.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T05:36:25+08:00 ] 89.248.172.173 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T10:42:12+08:00 ] 61.160.213.110 http://www.baidu.com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T12:24:12+08:00 ] 59.56.69.195 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T14:41:07+08:00 ] 95.211.168.172 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T15:14:15+08:00 ] 42.156.250.112 http://www.taobao.com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T15:31:05+08:00 ] 223.95.73.217 http://wap.ip138.com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T15:31:05+08:00 ] 223.95.73.217 open.weixin.qq.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T16:34:12+08:00 ] 123.57.92.174 http://search.yahoo.co.jp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T16:34:12+08:00 ] 123.57.92.174 open.weixin.qq.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T16:34:14+08:00 ] 123.57.92.174 open.weixin.qq.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T18:52:59+08:00 ] 140.207.185.122 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T18:52:59+08:00 ] 117.135.149.14 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T18:52:59+08:00 ] 183.195.233.181 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T18:53:01+08:00 ] 183.195.232.24 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T19:09:43+08:00 ] 117.185.27.104 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T19:09:43+08:00 ] 120.204.201.77 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T20:03:18+08:00 ] 77.247.181.165 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T22:03:33+08:00 ] 94.103.80.202 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T22:17:09+08:00 ] 125.86.110.34 support.weixin.qq.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T22:44:07+08:00 ] 111.199.57.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T22:44:08+08:00 ] 119.147.146.189 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T22:44:11+08:00 ] 111.199.57.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: carnum /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0004s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000162s ]
+
+[ 2015-08-21T22:50:06+08:00 ] 125.86.110.34 support.weixin.qq.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T23:23:10+08:00 ] 125.86.110.34 support.weixin.qq.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T23:24:00+08:00 ] 111.199.57.42 /index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000152s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='106' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0004s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='106' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000135s ]
+
+[ 2015-08-21T23:25:01+08:00 ] 111.199.57.42 /index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='106' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0004s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='106' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000130s ]
+
+[ 2015-08-21T23:25:03+08:00 ] 111.199.57.42 /index.php/Home/Index/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `order` WHERE ( `user_id`='106' ) ORDER BY order_id DESC LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user_coupon` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fruit_type`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 6 /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 95 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12468' )  [ RunTime:0.0001s ]
+SQL: 
+SELECT c.coupon_id,t.type_id,t.coupon_name, count( c.coupon_id ) coupon_count
+FROM `user_coupon` c
+LEFT JOIN fruit_type t ON c.type_id = t.type_id
+WHERE `order_id` ='12468'
+GROUP BY c.type_id
+			 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 6 /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 95 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12467' )  [ RunTime:0.0001s ]
+SQL: 
+SELECT c.coupon_id,t.type_id,t.coupon_name, count( c.coupon_id ) coupon_count
+FROM `user_coupon` c
+LEFT JOIN fruit_type t ON c.type_id = t.type_id
+WHERE `order_id` ='12467'
+GROUP BY c.type_id
+			 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 6 /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 95 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12466' )  [ RunTime:0.0001s ]
+SQL: 
+SELECT c.coupon_id,t.type_id,t.coupon_name, count( c.coupon_id ) coupon_count
+FROM `user_coupon` c
+LEFT JOIN fruit_type t ON c.type_id = t.type_id
+WHERE `order_id` ='12466'
+GROUP BY c.type_id
+			 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 6 /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 95 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12464' )  [ RunTime:0.0002s ]
+SQL: 
+SELECT c.coupon_id,t.type_id,t.coupon_name, count( c.coupon_id ) coupon_count
+FROM `user_coupon` c
+LEFT JOIN fruit_type t ON c.type_id = t.type_id
+WHERE `order_id` ='12464'
+GROUP BY c.type_id
+			 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000161s ]
+
+[ 2015-08-21T23:32:13+08:00 ] 123.151.42.46 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvmrNmL4_D0dyClUzSdpusTg' )  [ RunTime:0.0001s ]
+SQL: UPDATE `user` SET `ltime`='1440171133' WHERE `user_id` = 109 [ RunTime:0.0061s ]
+NOTIC: [8] Undefined index: carnum /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='109' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0004s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='109' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000162s ]
+
+[ 2015-08-21T23:32:13+08:00 ] 111.30.132.190 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T23:32:13+08:00 ] 111.30.132.146 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T23:32:13+08:00 ] 111.30.141.47 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T23:32:13+08:00 ] 125.39.210.31 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T23:32:13+08:00 ] 125.39.210.27 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T23:32:13+08:00 ] 61.49.57.60 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T23:32:13+08:00 ] 125.39.57.38 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T23:32:13+08:00 ] 61.49.57.61 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T23:32:16+08:00 ] 111.30.132.190 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T23:32:16+08:00 ] 111.30.132.176 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T23:32:16+08:00 ] 111.161.57.163 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T23:33:39+08:00 ] 111.161.59.195 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T23:36:21+08:00 ] 101.226.33.227 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T23:41:15+08:00 ] 222.45.51.236 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T23:54:43+08:00 ] 111.30.132.194 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T23:54:43+08:00 ] 125.39.57.38 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-21T23:57:08+08:00 ] 125.86.110.34 support.weixin.qq.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+

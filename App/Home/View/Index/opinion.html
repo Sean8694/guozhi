@@ -6,15 +6,15 @@
 				<volist name="opinion" id="vo">
 				<li>
 					<div><{$vo.qtime|date="Y-m-d H:i",###}></div>
-					<div><{$vo.question}></div>
-					<div><{$vo.rtime|date="Y-m-d H:i",###}></div>
-					<div><{$vo.answer}></div>
+					<div><b>您：</b><{$vo.question}></div>
+					<div style="margin-top:5px;"><{$vo.rtime|date="Y-m-d H:i",###}></div>
+					<div><if condition="$vo['answer']"><b>汁儿B：</b></if><{$vo.answer}></div>
 				</li>
 				</volist>
 			</ul>
 			<form method="post" action="__URL__/addopinion" name="form_opinion">
-				<textarea placeholder="欢迎在此处填写您的意见或建议，我们每天都会认真查阅哦！" name="opinion"></textarea>
-				<div onclick="document.form_opinion.submit();" class="car-list-submit">
+				<textarea placeholder="请在此处填写您的意见与建议，我们会尽快收悉并提供反馈，竭诚为您服务！" name="opinion" class="opinion_val"></textarea>
+				<div onclick="return checkForm();" class="car-list-submit">
 					 提交 
 				</div>
 			</form>
@@ -22,13 +22,23 @@
 		<div data-role="footer" data-position="fixed"  data-theme="e" data-tap-toggle="false">
 			<div data-role="navbar">
 				<ul>
-				<li><a href="__APP__/fruit/index" data-icon="grid" >产品</a></li>
+				<li><a href="__APP__/fruit/index" data-icon="grid" data-ajax="false">产品</a></li>
 				<li><a href="__APP__/fruit/index/mycar" data-icon="star" >购物车<span id='carnum'><{$carnum}></span></a></li>
 				<li><a href="__APP__/home" data-icon="home"  class="ui-btn-active ui-state-persist">个人中心</a></li>
 				</ul>
 			</div>
 		</div>
 	</div> 
+	<script>
+		function checkForm(){
+			var opinion = $(".opinion_val").val();
+			if(opinion.length < 1){
+				alert('请填写您的意见哦！');
+				return false;
+			}
+			document.form_opinion.submit();
+		}
+	</script>
 </body>
 </html>
  

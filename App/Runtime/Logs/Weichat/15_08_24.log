@@ -1,0 +1,33 @@
+[ 2015-08-24T08:26:03+08:00 ] 123.151.42.46 /index.php/Weichat/index/jumpto/action/orders?code=041f1fc4e0471080061831387f473d4o&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvmrNmL4_D0dyClUzSdpusTg' )  [ RunTime:0.0003s ]
+
+[ 2015-08-24T13:09:37+08:00 ] 125.65.143.138 /index.php/Weichat/index/jumpto/action/location?code=0410bffa8054291f5545b3af87a4d88i&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvj4Sz7QzD9RbVGhPD-kO-4U' )  [ RunTime:0.0003s ]
+
+[ 2015-08-24T22:14:17+08:00 ] 223.104.3.254 /index.php/Weichat/index/jumpto/action/location?code=011be05dd81e41ae73d20df94cec1d9C&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvneJ6xRythTnGkX8vudDcVM' )  [ RunTime:0.0003s ]
+

@@ -1,0 +1,22 @@
+[ 2015-08-16T21:40:00+08:00 ] 111.202.68.25 /index.php/Weichat/index/jumpto/action/location?code=041263acfdcad9639b7db19e050fabek&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvpYkhNWAWvyppLYkuYoSM_U' )  [ RunTime:0.0003s ]
+
+[ 2015-08-16T23:19:50+08:00 ] 123.151.42.46 /index.php/Weichat/index/jumpto/action/orders?code=0218235d7d140297fd7de10e1762726y&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvmrNmL4_D0dyClUzSdpusTg' )  [ RunTime:0.0003s ]
+

@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <title>汁儿</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/zhier/Public/static/css/admin2.css">
-<link rel="stylesheet" href="/zhier/Public/static/css/admin.css">
-<link rel="stylesheet" href="/zhier/Public/static/css/jquery.mobile-1.3.2.min.css">
-<script src="/zhier/Public/static/js/jquery-1.8.3.min.js"></script>
-<script src="/zhier/Public/static/js/jquery.mobile-1.3.2.min.js"></script>
+<link rel="stylesheet" href="/Public/static/css/admin2.css">
+<link rel="stylesheet" href="/Public/static/css/admin.css">
+<link rel="stylesheet" href="/Public/static/css/jquery.mobile-1.3.2.min.css">
+<script src="/Public/static/js/jquery-1.8.3.min.js"></script>
+<script src="/Public/static/js/jquery.mobile-1.3.2.min.js"></script>
 <script>
 
 </script>
@@ -18,7 +18,7 @@
 		<div data-role="header" data-position="fixed">
 			<div data-role="navbar">
 				<ul>
-				<?php if(is_array($list)): $key = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($key % 2 );++$key;?><li><a href="/zhier/index.php/Admin/<?php echo ($vo); ?>" data-ajax="false" <?php if($listnow == $vo): ?>class="ui-btn-active ui-state-persist"<?php endif; ?>><?php echo ($key); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+				<?php if(is_array($list)): $key = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($key % 2 );++$key;?><li><a href="/index.php/Admin/<?php echo ($vo); ?>" data-ajax="false" <?php if($listnow == $vo): ?>class="ui-btn-active ui-state-persist"<?php endif; ?>><?php echo ($key); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
 				</ul>
 			</div>
 		</div>
@@ -28,10 +28,10 @@
 					总计数量：<?php echo ($vo["num"]); ?> | 
 					领取数量：<?php echo ($vo["used"]); ?> | 
 					单个金额：<?php echo ($vo["value"]); ?> | 
-					<a href="/zhier/index.php/fruit/ShareCoupon/index/id/<?php echo ($vo["id"]); ?>" target='_blank'><?php echo ($vo["title"]); ?></a>
+					<a href="/index.php/fruit/ShareCoupon/index/id/<?php echo ($vo["id"]); ?>" target='_blank'><?php echo ($vo["title"]); ?></a>
 					<hr/><?php endforeach; endif; else: echo "" ;endif; ?>	
 			</ul>
-			<a href="/zhier/index.php/Admin/ShareCoupon/add" data-role="button" data-inline="true" data-theme="b" data-ajax="false">+ 添加分享卷</a>
+			<a href="/index.php/Admin/ShareCoupon/add" data-role="button" data-inline="true" data-theme="b" data-ajax="false">+ 添加分享卷</a>
 		</div>
 	</div> 
 </body>

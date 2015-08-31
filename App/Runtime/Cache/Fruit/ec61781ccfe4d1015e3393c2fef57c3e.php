@@ -16,7 +16,7 @@
     height: auto;
     position: relative;
     text-align: center;
-    background: url("/zhier/Public/static/css/images/hongbao.gif") no-repeat scroll 0 0 #EE5859;
+    background: url("/Public/static/css/images/hongbao.gif") no-repeat scroll 0 0 #EE5859;
 	background-size:100%;
 }
   .parent{
@@ -72,11 +72,11 @@
   </style>
  </head>
  <body id='location_img'>
-	<div style="display:none;"><img src="/zhier/Public/static/css/images/logo.jpg"/></div>
+	<div style="display:none;"><img src="/Public/static/css/images/logo.jpg"/></div>
   	<div class="parent">
   		<div class="title"><span style="font-size:18px;font-weight:bold;"><?php echo ($coupon["title"]); ?></span><br /><br />红包剩余<?php echo ($coupon["left"]); ?>个，还不快抢！</div>
   		<div class="button" onclick="gethb();">
-			<a style="text-decoration:none;color:#FFD879" href="/zhier/index.php/Fruit/ShareCoupon/get/id/<?php echo ($coupon["id"]); ?>/t/<?php echo ($coupon["ctime"]); ?>" data-ajax='false'>领取红包</a>
+			<a style="text-decoration:none;color:#FFD879" href="/index.php/Fruit/ShareCoupon/get/id/<?php echo ($coupon["id"]); ?>/t/<?php echo ($coupon["ctime"]); ?>" data-ajax='false'>领取红包</a>
 		</div>
   	</div>
 <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>

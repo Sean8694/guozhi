@@ -98,10 +98,12 @@ class IndexController extends Controller {
 		$type		= intval(I("get.type"));
 		if( $type > 0 ){
 			$where	= " `type_id`={$type} ";
+			$order  = "`order` DESC";
 			// 选中样式
 			$this->assign('selected',$type);
 		}else{
 			$where	= " `recommend`=1 ";
+			$order  = "`price` DESC";
 			// 选中样式
 			$this->assign('selected','recommend');
 		}
@@ -111,7 +113,7 @@ class IndexController extends Controller {
 		$this->assign('type',$type);
 
 		$fruit_m	= M('fruit');
-		$fruit		= $fruit_m->where("`order`!=0 AND {$where} ")->order("`order` DESC")->select();
+		$fruit		= $fruit_m->where("`order`!=0 AND {$where} ")->order($order)->select();
 		$this->assign('fruit',$fruit);
         $this->assign('title','欢迎来到鲜果超人的世界！');
         $this->assign('carnum',$_SESSION['carnum']);
@@ -472,13 +474,19 @@ class IndexController extends Controller {
 		$this->assign('sendtime2',$sendtime2);	// 明日配送
 		$this->assign('user_add',$user_add);
         $this->assign('fruits',$fruits);
-        $this->assign('price',$total_price-$coupons[0]['value']);
+		$price = $total_price-$coupons[0]['value'];
+		$price = $price > 0 ? $prive : 0;
+        $this->assign('price',$price);
         $this->display();
     }
 
 	// 提交订单
 	public function suborder(){
 		$post	= I('post.');
+        if( count($post) < 1 ){
+            header("Location:".C('FRUIT_APP_URL')."/index.php/fruit/index");
+            exit;
+        }
 		$order	= $_SESSION['orders'];
 		$weiId	= $_SESSION['weiId'];
 		$_SESSION['carnum'] = 0;
@@ -587,6 +595,7 @@ class IndexController extends Controller {
 			$result	= 'error';
 		}
 		$_SESSION['carnum'] =0;
+        $this->assign('orderid',$orderid);
 		$this->assign('result',$result);
 		$this->display();
 	}

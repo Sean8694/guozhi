@@ -1,12 +1,12 @@
 ﻿<include file="./App/Fruit/View/header.html" />
-<body>
+<body onload="setDetail()">
 	<div data-role="page" id="pageone" data-position="fixed"> 
 		<div data-role="content" style="padding:0px;background-color:#fff;">
 		<!--p style="border:1px dashed #1bbc9b;color:#666;padding:4px;font-size:14px;">冰爽鲜切水果，只需8元起！无配送费。</p-->
 			<div class="fruit-list-type">
-				<a href="__URL__" <if condition="$selected eq 'recommend'">class="selected"</if> >今日推荐</a>
+				<a href="__URL__" data-ajax="false"<if condition="$selected eq 'recommend'">class="selected"</if> >今日推荐</a>
 				<volist name="type" id="vo" key="key">
-				<a href="__URL__/index/type/<{$vo.type_id}>" <if condition="$selected eq $vo['type_id']">class="selected"</if>>
+				<a href="__URL__/index/type/<{$vo.type_id}>" data-ajax="false"<if condition="$selected eq $vo['type_id']" >class="selected"</if>>
 					<{$vo.name}>
 				</a>
 				</volist>
@@ -17,15 +17,15 @@
 				<else />	
 				<a href="__URL__/detail/id/<{$data.fruit_id}>" data-ajax="false">
 				</if>
-				<li style="background:url('__PUBLIC__/upload/<{$data.pic}>');background-size: cover;"
+				<li class="fruit-list-li" style="background:url('__PUBLIC__/upload/<{$data.pic}>');background-size: cover;"
 				<if condition="$data['order'] eq '-1'">
 					onclick="alert('今日已售罄,看看别的吧~')"
 				</if>
 				>
 					<!--img src="__PUBLIC__/upload/<{$data.pic}>"/-->	
-					<h2><{$data.name}> <if condition="$data['order'] eq '-1'"><span style="font-size:16px;">今日售罄</span></if></h2>
-					<h3><{$data.intro}></h3>
-					<div><{$data.start}> <span>已售<{$data.buys}>份</span></div>
+					<h2>&nbsp;<!--{$data.name}--> <if condition="$data['order'] eq '-1'"><span style="font-size:16px;">今日售罄</span></if></h2>
+					<h3>&nbsp;<!--{$data.intro}--></h3>
+					<div><!--<{$data.start}>--> <span>已售<{$data.buys}>份</span></div>
 					<em><span>￥</span> <{$data.price}></em>
 					
 				</li>	
@@ -39,7 +39,7 @@
 		<div data-role="footer" data-position="fixed" data-theme="e" data-tap-toggle="false">
 			<div data-role="navbar">
 				<ul>
-				<li><a href="__URL__/index" data-icon="grid" class="ui-btn-active ui-state-persist">产品</a></li>
+				<li><a href="__URL__/index" data-icon="grid" class="ui-btn-active ui-state-persist" data-ajax="false">产品</a></li>
 				<li><a href="__URL__/mycar" data-icon="star">购物车<span id='carnum'><{$carnum}></span></a></li>
 				<li><a href="__APP__/home" data-icon="home">个人中心</a></li>
 				</ul>

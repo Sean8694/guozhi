@@ -153,10 +153,7 @@ GROUP BY c.type_id
 		$data['qtime']		= time();
 		$opinion_m		= M('opinion');
 		$opinion_r		= $opinion_m->add($data);
-		// 显示列表
-		$opinion_list	= $opinion_m->where("`user_id`='".$user['user_id']."'")->order("opinion_id DESC")->limit("5")->select();
-		$this->assign('opinion',$opinion_list);
-		$this->display('opinion');
+		$this->display('opinion_ok');
 	}
 
 	// 添加评论
@@ -238,6 +235,7 @@ GROUP BY c.type_id
 			if( is_numeric($order_detail_id) ){
 				$data['order_detail_id']	= $order_detail_id;
 				$data['commend']			= $v;
+				$data['commend_status']			= 1;
 				$order_detail_m->save($data);
 			}
 		}
@@ -302,6 +300,7 @@ GROUP BY c.type_id
 
 	// 我的钱包-购买优惠券
 	public function couponBuy(){
+        echo 'zhier...';exit;
 		$type_id	= I("get.typeid");
 		$time		= time();
 		$is_used	= 0;
@@ -360,6 +359,7 @@ GROUP BY c.type_id
 				unset($newdata['add_id']);
 				$address_m->add($newdata);
 			}
+			$this->redirect('index');
 			$this->assign('user_add',$newdata);
 		}else{
 			// 查询地址

@@ -1,0 +1,11 @@
+[ 2015-08-25T13:56:41+08:00 ] 125.65.143.138 /index.php/Weichat/index/jumpto/action/location?code=0113fba59443e1a6cf735de0edeeb5bV&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvj4Sz7QzD9RbVGhPD-kO-4U' )  [ RunTime:0.0003s ]
+

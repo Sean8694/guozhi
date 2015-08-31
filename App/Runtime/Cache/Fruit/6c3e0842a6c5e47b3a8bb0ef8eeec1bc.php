@@ -74,14 +74,14 @@
   	<div class="parent">
   		<div class="title"><?php echo ($coupon["title"]); ?><br />红包剩余<?php echo ($coupon["left"]); ?>个，还不快抢！</div>
   		<div class="button" onclick="gethb();">
-			<a style="text-decoration:none;color:#FFD879" href="/zhier/index.php/Fruit/ShareCoupon/get/id/<?php echo ($coupon["id"]); ?>/t/<?php echo ($coupon["ctime"]); ?>" data-ajax='false'>领取红包</a>
+			<a style="text-decoration:none;color:#FFD879" href="/index.php/Fruit/ShareCoupon/get/id/<?php echo ($coupon["id"]); ?>/t/<?php echo ($coupon["ctime"]); ?>" data-ajax='false'>领取红包</a>
 		</div>
   	</div>
 	<div class="shade">
 		<div class="hbshade">
 			<?php if($echo > 0): ?><h2>恭喜您，获得了 <?php echo ($echo); ?> 元汁儿币，已存入您的账户！</h2>
-				<div class="hb_button" onclick="window.open('/zhier/index.php/home/index/sharecoupon')">
-					<a href="/zhier/index.php/home/index/sharecoupon" data-ajax="false" style="text-decoration:none;color:#ff3300">查&nbsp;&nbsp;&nbsp;看</a>
+				<div class="hb_button" onclick="window.open('/index.php/home/index/sharecoupon')">
+					<a href="/index.php/home/index/sharecoupon" data-ajax="false" style="text-decoration:none;color:#ff3300">查&nbsp;&nbsp;&nbsp;看</a>
 				</div>
 			<?php elseif($echo == 0): ?>
 				<h2>手慢一步，优惠券被领取光啦，关注我们，机会多多哦！</h2>
@@ -89,8 +89,8 @@
 				<h2>您没有授权微信登录，无法领取！请通过微信访问本链接。</h2>
 			<?php elseif($echo == -2): ?>
 				<h2>您已经领取过啦！</h2>
-				<div class="hb_button" onclick="window.open('/zhier/index.php/home/index/sharecoupon')">
-					<a href="/zhier/index.php/home/index/sharecoupon" data-ajax="false" style="text-decoration:none;color:#ff3300">查&nbsp;&nbsp;&nbsp;看</a>
+				<div class="hb_button" onclick="window.open('/index.php/home/index/sharecoupon')">
+					<a href="/index.php/home/index/sharecoupon" data-ajax="false" style="text-decoration:none;color:#ff3300">查&nbsp;&nbsp;&nbsp;看</a>
 				</div><?php endif; ?>
 		</div>
 	</div>

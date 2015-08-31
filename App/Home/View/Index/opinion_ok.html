@@ -1,0 +1,36 @@
+<include file="./App/Fruit/View/header.html" />
+<body>
+	<div data-role="page" id="pageone" data-position="fixed"> 
+		<div data-role="content">
+			<ul class="home-list">
+				<volist name="opinion" id="vo">
+				<li>
+					<div><{$vo.qtime|date="Y-m-d H:i",###}></div>
+					<div><{$vo.question}></div>
+					<div><{$vo.rtime|date="Y-m-d H:i",###}></div>
+					<div><{$vo.answer}></div>
+				</li>
+				</volist>
+			</ul>
+			<form method="post" action="__URL__/addopinion" name="form_opinion">
+				<div style="margin-bottom:30px">
+					您的反馈我们已经收到，非常感谢您对汁儿Bistro@Work的支持，我一定竭尽全力不断完善为您提供最尊享的服务！
+				</div>
+				<div onclick="window.open('__URL__')" class="car-list-submit">
+					 确认 
+				</div>
+			</form>
+		</div>
+		<div data-role="footer" data-position="fixed"  data-theme="e" data-tap-toggle="false">
+			<div data-role="navbar">
+				<ul>
+				<li><a href="__APP__/fruit/index" data-icon="grid" data-ajax="false">产品</a></li>
+				<li><a href="__APP__/fruit/index/mycar" data-icon="star" >购物车<span id='carnum'><{$carnum}></span></a></li>
+				<li><a href="__APP__/home" data-icon="home"  class="ui-btn-active ui-state-persist">个人中心</a></li>
+				</ul>
+			</div>
+		</div>
+	</div> 
+</body>
+</html>
+ 

@@ -1,0 +1,1025 @@
+[ 2015-08-15T09:22:27+08:00 ] 114.243.222.150 /index.php/fruit/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit_type` ORDER BY `order` DESC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fruit` WHERE ( `order`!=0 AND  `recommend`=1   ) ORDER BY `order` DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000136s ]
+
+[ 2015-08-15T09:22:43+08:00 ] 114.243.222.150 /index.php/Fruit/Index/detail/id/29
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `fruit` WHERE ( fruit_id=29 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fruit_addinfo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fruit_addinfo` WHERE ( `fruit_id`='29' AND `display_order`!=0 ) ORDER BY display_order desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0006s ]
+SQL: SELECT count(1) comments FROM `order_detail` WHERE ( fruit_id=29 and commend!='0' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000165s ]
+
+[ 2015-08-15T09:23:24+08:00 ] 114.243.222.150 /index.php/Fruit/Index/detail/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `fruit` WHERE ( fruit_id=5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fruit_addinfo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fruit_addinfo` WHERE ( `fruit_id`='5' AND `display_order`!=0 ) ORDER BY display_order desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+SQL: SELECT count(1) comments FROM `order_detail` WHERE ( fruit_id=5 and commend!='0' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000171s ]
+
+[ 2015-08-15T09:23:59+08:00 ] 114.243.222.150 /index.php/Fruit/Index/index/type/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit_type` ORDER BY `order` DESC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `fruit` WHERE ( `order`!=0 AND  `type_id`=1   ) ORDER BY `order` DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000153s ]
+
+[ 2015-08-15T09:24:18+08:00 ] 114.243.222.150 /index.php/Fruit/Index/detail/id/19
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `fruit` WHERE ( fruit_id=19 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `fruit_addinfo` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit_addinfo` WHERE ( `fruit_id`='19' AND `display_order`!=0 ) ORDER BY display_order desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+SQL: SELECT count(1) comments FROM `order_detail` WHERE ( fruit_id=19 and commend!='0' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000167s ]
+
+[ 2015-08-15T09:24:31+08:00 ] 114.243.222.150 /index.php/Fruit/Index/detail/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fruit` WHERE ( fruit_id=9 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fruit_addinfo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fruit_addinfo` WHERE ( `fruit_id`='9' AND `display_order`!=0 ) ORDER BY display_order desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+SQL: SELECT count(1) comments FROM `order_detail` WHERE ( fruit_id=9 and commend!='0' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000163s ]
+
+[ 2015-08-15T09:24:54+08:00 ] 114.243.222.150 /index.php/Fruit/Index/detail/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fruit` WHERE ( fruit_id=2 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fruit_addinfo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `fruit_addinfo` WHERE ( `fruit_id`='2' AND `display_order`!=0 ) ORDER BY display_order desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+SQL: SELECT count(1) comments FROM `order_detail` WHERE ( fruit_id=2 and commend!='0' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000175s ]
+
+[ 2015-08-15T09:25:30+08:00 ] 114.243.222.150 /index.php/Fruit/Index/detail/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fruit` WHERE ( fruit_id=8 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fruit_addinfo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fruit_addinfo` WHERE ( `fruit_id`='8' AND `display_order`!=0 ) ORDER BY display_order desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+SQL: SELECT count(1) comments FROM `order_detail` WHERE ( fruit_id=8 and commend!='0' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000164s ]
+
+[ 2015-08-15T09:25:37+08:00 ] 114.243.222.150 /index.php/Fruit/Index/detail/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fruit` WHERE ( fruit_id=22 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fruit_addinfo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fruit_addinfo` WHERE ( `fruit_id`='22' AND `display_order`!=0 ) ORDER BY display_order desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0006s ]
+SQL: SELECT count(1) comments FROM `order_detail` WHERE ( fruit_id=22 and commend!='0' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000163s ]
+
+[ 2015-08-15T09:25:49+08:00 ] 114.243.222.150 /index.php/Fruit/Index/detail/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `fruit` WHERE ( fruit_id=18 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fruit_addinfo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `fruit_addinfo` WHERE ( `fruit_id`='18' AND `display_order`!=0 ) ORDER BY display_order desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+SQL: SELECT count(1) comments FROM `order_detail` WHERE ( fruit_id=18 and commend!='0' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000164s ]
+
+[ 2015-08-15T09:26:00+08:00 ] 114.243.222.150 /index.php/Fruit/Index/detail/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fruit` WHERE ( fruit_id=21 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fruit_addinfo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `fruit_addinfo` WHERE ( `fruit_id`='21' AND `display_order`!=0 ) ORDER BY display_order desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0006s ]
+SQL: SELECT count(1) comments FROM `order_detail` WHERE ( fruit_id=21 and commend!='0' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000167s ]
+
+[ 2015-08-15T09:26:21+08:00 ] 114.243.222.150 /index.php/Fruit/Index/detail/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fruit` WHERE ( fruit_id=20 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fruit_addinfo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fruit_addinfo` WHERE ( `fruit_id`='20' AND `display_order`!=0 ) ORDER BY display_order desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+SQL: SELECT count(1) comments FROM `order_detail` WHERE ( fruit_id=20 and commend!='0' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000165s ]
+
+[ 2015-08-15T09:26:33+08:00 ] 114.243.222.150 /index.php/Fruit/Index/index/type/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit_type` ORDER BY `order` DESC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `fruit` WHERE ( `order`!=0 AND  `type_id`=4   ) ORDER BY `order` DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000153s ]
+
+[ 2015-08-15T09:26:40+08:00 ] 114.243.222.150 /index.php/Fruit/Index/detail/id/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `fruit` WHERE ( fruit_id=41 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fruit_addinfo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fruit_addinfo` WHERE ( `fruit_id`='41' AND `display_order`!=0 ) ORDER BY display_order desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+SQL: SELECT count(1) comments FROM `order_detail` WHERE ( fruit_id=41 and commend!='0' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000164s ]
+
+[ 2015-08-15T09:26:54+08:00 ] 114.243.222.150 /index.php/fruit/index/mycar
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 237 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 237 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 248 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 248 行.
+SQL: SHOW COLUMNS FROM `fruit_addinfo` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 265 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 265 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000142s ]
+
+[ 2015-08-15T09:26:55+08:00 ] 114.243.222.150 /index.php/Fruit/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fruit_type` ORDER BY `order` DESC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fruit` WHERE ( `order`!=0 AND  `recommend`=1   ) ORDER BY `order` DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000132s ]
+
+[ 2015-08-15T09:27:24+08:00 ] 114.243.222.150 /index.php/Fruit/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit_type` ORDER BY `order` DESC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fruit` WHERE ( `order`!=0 AND  `recommend`=1   ) ORDER BY `order` DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000136s ]
+
+[ 2015-08-15T09:27:26+08:00 ] 114.243.222.150 /index.php/Fruit/Index/index/type/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit_type` ORDER BY `order` DESC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fruit` WHERE ( `order`!=0 AND  `type_id`=2   ) ORDER BY `order` DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000189s ]
+
+[ 2015-08-15T09:27:29+08:00 ] 114.243.222.150 /index.php/Fruit/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit_type` ORDER BY `order` DESC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `fruit` WHERE ( `order`!=0 AND  `recommend`=1   ) ORDER BY `order` DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000138s ]
+
+[ 2015-08-15T09:27:31+08:00 ] 114.243.222.150 /index.php/Fruit/Index/index/type/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit_type` ORDER BY `order` DESC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `fruit` WHERE ( `order`!=0 AND  `type_id`=2   ) ORDER BY `order` DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000140s ]
+
+[ 2015-08-15T09:27:33+08:00 ] 114.243.222.150 /index.php/Fruit/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit_type` ORDER BY `order` DESC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `fruit` WHERE ( `order`!=0 AND  `recommend`=1   ) ORDER BY `order` DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000136s ]
+
+[ 2015-08-15T14:09:02+08:00 ] 123.151.42.46 /index.php/fruit/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit_type` ORDER BY `order` DESC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `fruit` WHERE ( `order`!=0 AND  `recommend`=1   ) ORDER BY `order` DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2015-08-15T14:09:04+08:00 ] 123.151.42.46 /index.php/Fruit/Index/detail/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fruit` WHERE ( fruit_id=9 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fruit_addinfo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fruit_addinfo` WHERE ( `fruit_id`='9' AND `display_order`!=0 ) ORDER BY display_order desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+SQL: SELECT count(1) comments FROM `order_detail` WHERE ( fruit_id=9 and commend!='0' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000164s ]
+
+[ 2015-08-15T14:09:05+08:00 ] 180.153.206.27 /index.php/Fruit/Index/detail/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: carnum /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 56 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fruit` WHERE ( fruit_id=9 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fruit_addinfo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `fruit_addinfo` WHERE ( `fruit_id`='9' AND `display_order`!=0 ) ORDER BY display_order desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+SQL: SELECT count(1) comments FROM `order_detail` WHERE ( fruit_id=9 and commend!='0' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000155s ]
+
+[ 2015-08-15T14:09:09+08:00 ] 123.151.42.46 /index.php/Fruit/Index/addtocar/id/9/buyit/1/addinfo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 167 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 167 行.
+NOTIC: [8] Undefined variable: has /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 174 行.
+
+[ 2015-08-15T14:09:09+08:00 ] 123.151.42.46 /index.php/Fruit/Index/mycar
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fruit` WHERE ( fruit_id in(9) ) ORDER BY `price` DESC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fruit_addinfo` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: fruit_addname /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 267 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000164s ]
+
+[ 2015-08-15T14:09:09+08:00 ] 101.226.51.228 /index.php/Fruit/Index/mycar
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: carnum /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 56 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 237 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 237 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 248 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 248 行.
+SQL: SHOW COLUMNS FROM `fruit_addinfo` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 265 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 265 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000199s ]
+
+[ 2015-08-15T15:35:09+08:00 ] 111.197.81.171 /index.php/Fruit/Index/location.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvka0ww9L8bZ60ANm9azi8sw' )  [ RunTime:0.0001s ]
+SQL: UPDATE `user` SET `ltime`='1439624109' WHERE `user_id` = 108 [ RunTime:0.0195s ]
+NOTIC: [8] Undefined index: carnum /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 56 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000163s ]
+
+[ 2015-08-15T15:35:18+08:00 ] 111.197.81.171 /index.php/Fruit/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit_type` ORDER BY `order` DESC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fruit` WHERE ( `order`!=0 AND  `recommend`=1   ) ORDER BY `order` DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000233s ]
+
+[ 2015-08-15T15:35:25+08:00 ] 111.197.81.171 /index.php/Fruit/Index/index/type/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fruit_type` ORDER BY `order` DESC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `fruit` WHERE ( `order`!=0 AND  `type_id`=2   ) ORDER BY `order` DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000144s ]
+
+[ 2015-08-15T15:35:30+08:00 ] 111.197.81.171 /index.php/Fruit/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `fruit_type` ORDER BY `order` DESC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `fruit` WHERE ( `order`!=0 AND  `recommend`=1   ) ORDER BY `order` DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000143s ]
+
+[ 2015-08-15T15:35:47+08:00 ] 111.197.81.171 /index.php/Fruit/Index/index/type/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit_type` ORDER BY `order` DESC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `fruit` WHERE ( `order`!=0 AND  `type_id`=1   ) ORDER BY `order` DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000155s ]
+
+[ 2015-08-15T15:35:49+08:00 ] 111.197.81.171 /index.php/Fruit/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fruit_type` ORDER BY `order` DESC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fruit` WHERE ( `order`!=0 AND  `recommend`=1   ) ORDER BY `order` DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007538s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000132s ]
+
+[ 2015-08-15T15:35:51+08:00 ] 111.197.81.171 /index.php/Fruit/Index/index/type/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit_type` ORDER BY `order` DESC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fruit` WHERE ( `order`!=0 AND  `type_id`=2   ) ORDER BY `order` DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000146s ]
+
+[ 2015-08-15T15:35:55+08:00 ] 111.197.81.171 /index.php/Fruit/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fruit_type` ORDER BY `order` DESC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fruit` WHERE ( `order`!=0 AND  `recommend`=1   ) ORDER BY `order` DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000136s ]
+
+[ 2015-08-15T20:30:20+08:00 ] 117.136.0.169 /index.php/Fruit/Index/location.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvhPNOqg-HFP2ud_80WibAWA' )  [ RunTime:0.0001s ]
+SQL: UPDATE `user` SET `ltime`='1439641820' WHERE `user_id` = 118 [ RunTime:0.0195s ]
+NOTIC: [8] Undefined index: carnum /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 56 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000163s ]
+
+[ 2015-08-15T20:30:23+08:00 ] 117.136.0.169 /index.php/Fruit/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: car /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/guozhi/App/Fruit/Controller/IndexController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fruit_type` ORDER BY `order` DESC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fruit` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fruit` WHERE ( `order`!=0 AND  `recommend`=1   ) ORDER BY `order` DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007756s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000165s ]
+

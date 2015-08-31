@@ -13,7 +13,9 @@ font-size: 20px;">恭喜,订单已成功提交！</p>
 line-height: 30px;
 color: #ACA8A3;
 font-family: 微软雅黑;
-font-size: 14px;">我们将在指定时间内为您配送，<br />您可以在“个人中心”查看您的订单。</p>
+font-size: 14px;">我们将在指定时间内为您配送，<br />您可以在“个人中心”查看您的订单。<br/><br/>
+<a href="__APP__/home/index/sharecouponshare/id/<{$orderid}>" data-ajax="false" style="color:red;font-weight:bold;text-decoration:none;">猛戳此处，发红包给好友！</a>
+</p>
 			<else />
 				抱歉服务器脑子进水了，请联系客服。
 			</if>
@@ -21,7 +23,7 @@ font-size: 14px;">我们将在指定时间内为您配送，<br />您可以在�
 		<div data-role="footer" data-position="fixed" data-theme="e" data-tap-toggle="false">
 			<div data-role="navbar">
 				<ul>
-				<li><a href="__URL__/index" data-icon="grid">产品</a></li>
+				<li><a href="__URL__/index" data-icon="grid" data-ajax="false">产品</a></li>
 				<li><a href="__URL__/mycar" data-icon="star" class="ui-btn-active ui-state-persist">购物车<span id='carnum'><{$carnum}></span></a></li>
 				<li><a href="__APP__/home" data-icon="home">个人中心</a></li>
 				</ul>

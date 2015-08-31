@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <title>汁儿</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/zhier/Public/static/css/admin2.css">
-<link rel="stylesheet" href="/zhier/Public/static/css/admin.css">
-<link rel="stylesheet" href="/zhier/Public/static/css/jquery.mobile-1.3.2.min.css">
-<script src="/zhier/Public/static/js/jquery-1.8.3.min.js"></script>
-<script src="/zhier/Public/static/js/jquery.mobile-1.3.2.min.js"></script>
+<link rel="stylesheet" href="/Public/static/css/admin2.css">
+<link rel="stylesheet" href="/Public/static/css/admin.css">
+<link rel="stylesheet" href="/Public/static/css/jquery.mobile-1.3.2.min.css">
+<script src="/Public/static/js/jquery-1.8.3.min.js"></script>
+<script src="/Public/static/js/jquery.mobile-1.3.2.min.js"></script>
 <script>
 
 </script>
@@ -23,7 +23,7 @@
 			}
 		}
 		// 发送Ajax请求，成功后隐藏这条记录
-		$(document).load("/zhier/index.php/Admin/Index/changestatus/orderid/"+orderid+"/tostatus/"+tostatus,function(responseTxt,statusTxt,xhr){
+		$(document).load("/index.php/Admin/Index/changestatus/orderid/"+orderid+"/tostatus/"+tostatus,function(responseTxt,statusTxt,xhr){
 			// 购物车提示信息
 			$.mobile.loading('show', {  
 				textVisible: true, //是否显示文字  
@@ -50,7 +50,7 @@
 	// 声音提示
 	$(function(){ 
 		$("#chatData").focus();
-		$('<audio id="chatAudio"><source src="/zhier/Public/static/notify.ogg" type="audio/ogg"><source src="/zhier/Public/static/notify.mp3" type="audio/mpeg"><source src="/zhier/Public/static/notify.wav" type="audio/wav"></audio>').appendTo('body');
+		$('<audio id="chatAudio"><source src="/Public/static/notify.ogg" type="audio/ogg"><source src="/Public/static/notify.mp3" type="audio/mpeg"><source src="/Public/static/notify.wav" type="audio/wav"></audio>').appendTo('body');
 
 		$("#havenew").ready(function(){
 			if(document.getElementById('havenew').innerHTML == 2){
@@ -70,18 +70,18 @@
 		<div data-role="header" data-position="fixed">
 				<div data-role="navbar">
 					<ul>
-					<?php if(is_array($list)): $key = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($key % 2 );++$key;?><li><a href="/zhier/index.php/Admin/<?php echo ($vo); ?>" data-ajax="false" <?php if($listnow == $vo): ?>class="ui-btn-active ui-state-persist"<?php endif; ?>><?php echo ($key); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+					<?php if(is_array($list)): $key = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($key % 2 );++$key;?><li><a href="/index.php/Admin/<?php echo ($vo); ?>" data-ajax="false" <?php if($listnow == $vo): ?>class="ui-btn-active ui-state-persist"<?php endif; ?>><?php echo ($key); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
 					</ul>
 				</div>
 		</div>
 		<div data-role="content">
 			<div data-role="navbar">
 				<ul>
-				<li><a href="/zhier/index.php/Admin/Index/index/filter/1" data-ajax="false" <?php if($filter == 1): ?>class="ui-btn-active ui-state-persist"<?php endif; ?>>已下单</a></li>
-				<li><a href="/zhier/index.php/Admin/Index/index/filter/2" data-ajax="false" <?php if($filter == 2): ?>class="ui-btn-active ui-state-persist"<?php endif; ?>>制作中</a></li>
-				<li><a href="/zhier/index.php/Admin/Index/index/filter/3" data-ajax="false" <?php if($filter == 3): ?>class="ui-btn-active ui-state-persist"<?php endif; ?>>配送中</a></li>
-				<li><a href="/zhier/index.php/Admin/Index/index/filter/4" data-ajax="false" <?php if($filter == 4): ?>class="ui-btn-active ui-state-persist"<?php endif; ?>>已送达</a></li>
-				<li><a href="/zhier/index.php/Admin/Index/index/filter/5" data-ajax="false" <?php if($filter == 5): ?>class="ui-btn-active ui-state-persist"<?php endif; ?>>已退单</a></li>
+				<li><a href="/index.php/Admin/Index/index/filter/1" data-ajax="false" <?php if($filter == 1): ?>class="ui-btn-active ui-state-persist"<?php endif; ?>>已下单</a></li>
+				<li><a href="/index.php/Admin/Index/index/filter/2" data-ajax="false" <?php if($filter == 2): ?>class="ui-btn-active ui-state-persist"<?php endif; ?>>制作中</a></li>
+				<li><a href="/index.php/Admin/Index/index/filter/3" data-ajax="false" <?php if($filter == 3): ?>class="ui-btn-active ui-state-persist"<?php endif; ?>>配送中</a></li>
+				<li><a href="/index.php/Admin/Index/index/filter/4" data-ajax="false" <?php if($filter == 4): ?>class="ui-btn-active ui-state-persist"<?php endif; ?>>已送达</a></li>
+				<li><a href="/index.php/Admin/Index/index/filter/5" data-ajax="false" <?php if($filter == 5): ?>class="ui-btn-active ui-state-persist"<?php endif; ?>>已退单</a></li>
 				</ul>
 			</div>
 			<ul class="myorder-list">

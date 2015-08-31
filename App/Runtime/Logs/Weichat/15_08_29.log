@@ -1,0 +1,480 @@
+[ 2015-08-29T00:37:19+08:00 ] 123.151.42.46 /index.php/Weichat/index/jumpto/action/orders?code=0415734f22be61237eeaf32e996dbdel&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvmrNmL4_D0dyClUzSdpusTg' )  [ RunTime:0.0003s ]
+
+[ 2015-08-29T00:39:31+08:00 ] 123.151.42.46 /index.php/Weichat/index/jumpto/action/location?code=041dfd531f071105d70403a4574f21ad&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvmrNmL4_D0dyClUzSdpusTg' )  [ RunTime:0.0003s ]
+
+[ 2015-08-29T00:39:32+08:00 ] 61.151.218.118 /index.php/Weichat/index/jumpto/action/location
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$access_token /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 38 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 38 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
+[ 2015-08-29T01:11:35+08:00 ] 111.202.0.163 /index.php/Weichat/index/jumpto/action/location?code=021065deea270c0289e14c53cfae6d24&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvtcp7ytnYNcmp3nPEFjRUos' )  [ RunTime:0.0003s ]
+
+[ 2015-08-29T01:12:16+08:00 ] 180.153.206.31 /index.php/Weichat/index/jumpto/action/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$access_token /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 38 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 38 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
+[ 2015-08-29T01:12:17+08:00 ] 111.202.0.163 /index.php/Weichat/index/jumpto/action/orders?code=00175a3c21f549a2fe96231b67a44b53&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvtcp7ytnYNcmp3nPEFjRUos' )  [ RunTime:0.0003s ]
+
+[ 2015-08-29T01:25:41+08:00 ] 101.226.93.233 /index.php/Weichat/index/jumpto/action/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$access_token /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 38 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 38 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
+[ 2015-08-29T07:00:09+08:00 ] 111.161.114.229 /index.php/Weichat/index/jumpto/action/location?code=041f9f080ae009ddba93f53483decdca&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvigtX901Et1nGrLCX1a9fGg' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
+[ 2015-08-29T07:46:41+08:00 ] 61.148.243.167 /index.php/Weichat/index/jumpto/action/orders?code=021f4feba695b9e2424a3c8621b5c3cD&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvigtX901Et1nGrLCX1a9fGg' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
+[ 2015-08-29T14:03:55+08:00 ] 223.104.3.249 /index.php/Weichat/index/jumpto/action/location?code=0218bc82b3b879addff7843b2039238T&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvpLP_ItHBKhMA_PdAOfUpV4' )  [ RunTime:0.0003s ]
+
+[ 2015-08-29T14:04:04+08:00 ] 223.104.3.249 /index.php/Weichat/index/jumpto/action/location?code=04143225f1abbb054415a6bec2ab67fP&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvpLP_ItHBKhMA_PdAOfUpV4' )  [ RunTime:0.0003s ]
+
+[ 2015-08-29T14:17:30+08:00 ] 101.226.93.234 /index.php/Weichat/index/jumpto/action/location
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$access_token /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 38 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 38 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
+[ 2015-08-29T17:07:02+08:00 ] 123.118.128.240 /index.php/Weichat/index/jumpto/action/location?code=0310e4bb3c48a2bc4a73f9fa9291f7cf&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvpvujuIO9e_sJ7fdVOlN178' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
+[ 2015-08-29T17:11:04+08:00 ] 123.118.128.240 /index.php/Weichat/index/jumpto/action/location?code=0213e0c32a123ec037228a90192b74bD&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvpvujuIO9e_sJ7fdVOlN178' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
+[ 2015-08-29T17:14:02+08:00 ] 123.118.128.240 /index.php/Weichat/index/jumpto/action/location?code=001f993ed75034e698d493654ddeb105&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvpvujuIO9e_sJ7fdVOlN178' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
+[ 2015-08-29T17:14:07+08:00 ] 180.153.206.13 /index.php/Weichat/index/jumpto/action/location
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$access_token /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 38 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 38 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
+[ 2015-08-29T17:14:08+08:00 ] 123.118.128.240 /index.php/Weichat/index/jumpto/action/location?code=02196b73e9b462aaa5405c54f9b56819&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvpvujuIO9e_sJ7fdVOlN178' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
+[ 2015-08-29T17:14:12+08:00 ] 123.118.128.240 /index.php/Weichat/index/jumpto/action/orders?code=041a52be4a9d06ae9951d5a2db9c16am&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvpvujuIO9e_sJ7fdVOlN178' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
+[ 2015-08-29T17:14:17+08:00 ] 123.118.128.240 /index.php/Weichat/index/jumpto/action/orders?code=02190a850db35107d6029ae4d40908f-&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvpvujuIO9e_sJ7fdVOlN178' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
+[ 2015-08-29T17:14:21+08:00 ] 123.118.128.240 /index.php/Weichat/index/jumpto/action/orders?code=02132cf0535c266c21567cb8a58a6f1F&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvpvujuIO9e_sJ7fdVOlN178' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
+[ 2015-08-29T17:16:51+08:00 ] 123.118.128.240 /index.php/Weichat/index/jumpto/action/location?code=001566150dfc7da212e038442f50355X&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvpvujuIO9e_sJ7fdVOlN178' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
+[ 2015-08-29T17:18:41+08:00 ] 123.151.42.49 /index.php/Weichat/index/jumpto/action/location?code=021f51b7b5bcc9a7ca9ca02e18df17dd&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvmQ73zDgbStOIbIQRyYD24A' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
+[ 2015-08-29T17:19:34+08:00 ] 123.118.128.240 /index.php/Weichat/index/jumpto/action/location?code=01125072f3989d79210b9cdfdf457b0Q&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvpvujuIO9e_sJ7fdVOlN178' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
+[ 2015-08-29T19:09:47+08:00 ] 123.151.176.198 /index.php/Weichat/index/jumpto/action/location?code=04105c2aa2692bf3211a038d027cba79&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvmFr3fKF0bGIqObvMQumtqY' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
+[ 2015-08-29T19:09:53+08:00 ] 123.151.176.198 /index.php/Weichat/index/jumpto/action/location?code=001adc685eb8be67361d3444fbc9569B&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvmFr3fKF0bGIqObvMQumtqY' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
+[ 2015-08-29T19:10:01+08:00 ] 123.151.176.198 /index.php/Weichat/index/jumpto/action/location?code=0313d48f20b9a17dba5de4b53a7964dH&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvmFr3fKF0bGIqObvMQumtqY' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
+[ 2015-08-29T19:10:06+08:00 ] 123.151.176.198 /index.php/Weichat/index/jumpto/action/location?code=001c4064126690b37ebb05e15c32ad6B&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvmFr3fKF0bGIqObvMQumtqY' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
+[ 2015-08-29T19:10:39+08:00 ] 123.151.176.198 /index.php/Weichat/index/jumpto/action/location?code=0115081e33915e66c800fbd7548f06dn&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvmFr3fKF0bGIqObvMQumtqY' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
+[ 2015-08-29T19:36:55+08:00 ] 123.151.153.36 /index.php/Weichat/index/jumpto/action/orders?code=04120f5a941f4842ca1a22b0e9bb692D&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvpvujuIO9e_sJ7fdVOlN178' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
+[ 2015-08-29T19:47:33+08:00 ] 223.104.3.249 /index.php/Weichat/index/jumpto/action/location?code=0311fba79954ab9e25d0aef806e8ed1H&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvpLP_ItHBKhMA_PdAOfUpV4' )  [ RunTime:0.0001s ]
+
+[ 2015-08-29T19:48:26+08:00 ] 123.118.65.109 /index.php/Weichat/index/jumpto/action/location?code=001764ea267ad2b5a33f70d4d32c615v&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvpLP_ItHBKhMA_PdAOfUpV4' )  [ RunTime:0.0003s ]
+
+[ 2015-08-29T20:31:17+08:00 ] 221.223.75.158 /index.php/Weichat/index/jumpto/action/location?code=021310ab22fc82ba986e26a6b9014836&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvmFr3fKF0bGIqObvMQumtqY' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
+[ 2015-08-29T21:15:29+08:00 ] 123.151.176.198 /index.php/Weichat/index/jumpto/action/location?code=0210c520148c9974731bc702040f309u&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvmFr3fKF0bGIqObvMQumtqY' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
+[ 2015-08-29T22:36:32+08:00 ] 123.151.64.143 /index.php/Weichat/index/jumpto/action/location?code=03118a5d79cfe318c42f81b5b7704209&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvoNrEyK13Jnf85Pmnv-96Sc' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
+[ 2015-08-29T22:37:23+08:00 ] 123.151.64.143 /index.php/Weichat/index/jumpto/action/location?code=041c530f3c53ebf6b6f96a8eb47d0f8R&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvoNrEyK13Jnf85Pmnv-96Sc' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
+[ 2015-08-29T22:37:34+08:00 ] 125.39.210.27 /index.php/Weichat/index/jumpto/action/orders?code=001c492264e71da509f01f13be9ca632&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvoNrEyK13Jnf85Pmnv-96Sc' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
+[ 2015-08-29T22:38:33+08:00 ] 123.151.64.143 /index.php/Weichat/index/jumpto/action/location?code=041798b10c76bb3079f9e08965fc83eI&state=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( `wei_id`='oWeLOvoNrEyK13Jnf85Pmnv-96Sc' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined property: stdClass::$openid /var/www/guozhi/App/Weichat/Controller/IndexController.class.php 第 40 行.
+
