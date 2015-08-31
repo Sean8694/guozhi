@@ -2929,3 +2929,414 @@ INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
 NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
 NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
 
+[ 2015-08-31T22:57:06+08:00 ] 114.243.165.238 /index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='171' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0004s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='171' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000147s ]
+
+[ 2015-08-31T22:57:08+08:00 ] 114.243.165.238 /index.php/Home/Index/orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `order` WHERE ( `user_id`='171' ) ORDER BY order_id DESC LIMIT 10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user_coupon` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fruit_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fruit_type`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 2 /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 95 行.
+SQL: SELECT * FROM `order_detail` WHERE ( `order_id`='12475' )  [ RunTime:0.0001s ]
+SQL: 
+SELECT c.coupon_id,t.type_id,t.coupon_name, count( c.coupon_id ) coupon_count
+FROM `user_coupon` c
+LEFT JOIN fruit_type t ON c.type_id = t.type_id
+WHERE `order_id` ='12475'
+GROUP BY c.type_id
+			 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000179s ]
+
+[ 2015-08-31T22:57:11+08:00 ] 114.243.165.238 /index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='171' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0004s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='171' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000137s ]
+
+[ 2015-08-31T22:57:13+08:00 ] 114.243.165.238 /index.php/Home/Index/opinion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `opinion` WHERE ( `user_id`='171' ) ORDER BY opinion_id DESC LIMIT 5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/guozhi/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 24 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/guozhi/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 24 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/guozhi/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000131s ]
+
+[ 2015-08-31T22:57:23+08:00 ] 114.243.165.238 /index.php/Home/Index/opinion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `opinion` WHERE ( `user_id`='171' ) ORDER BY opinion_id DESC LIMIT 5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/guozhi/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 24 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/guozhi/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 24 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/guozhi/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000182s ]
+
+[ 2015-08-31T22:57:32+08:00 ] 114.243.165.238 /index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='171' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0004s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='171' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000150s ]
+
+[ 2015-08-31T22:57:44+08:00 ] 114.243.165.238 /index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='171' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0004s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='171' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000131s ]
+
+[ 2015-08-31T22:57:47+08:00 ] 114.243.165.238 /index.php/Home/Index/opinion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `opinion` WHERE ( `user_id`='171' ) ORDER BY opinion_id DESC LIMIT 5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/guozhi/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 24 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/guozhi/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 24 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/guozhi/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000137s ]
+
+[ 2015-08-31T22:58:17+08:00 ] 114.243.165.238 /index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='171' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0004s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='171' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000139s ]
+
+[ 2015-08-31T23:00:37+08:00 ] 106.80.157.191 support.weixin.qq.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Undefined index: user /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+NOTIC: [8] Undefined index: hasJumped /var/www/guozhi/App/Home/Controller/IndexController.class.php 第 44 行.
+
+[ 2015-08-31T23:00:40+08:00 ] 114.243.165.238 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0007s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='171' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0004s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='171' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000175s ]
+
+[ 2015-08-31T23:00:42+08:00 ] 114.243.165.238 /index.php/Home/Index/opinion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000184s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `opinion` WHERE ( `user_id`='171' ) ORDER BY opinion_id DESC LIMIT 5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/guozhi/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 24 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/guozhi/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 24 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/guozhi/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000174s ]
+
+[ 2015-08-31T23:00:52+08:00 ] 114.243.165.238 /index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000168s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='171' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0004s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='171' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000135s ]
+
+[ 2015-08-31T23:00:54+08:00 ] 114.243.165.238 /index.php/Home/Index/opinion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `opinion` WHERE ( `user_id`='171' ) ORDER BY opinion_id DESC LIMIT 5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/guozhi/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 24 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/guozhi/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 24 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/guozhi/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000155s ]
+
+[ 2015-08-31T23:01:02+08:00 ] 114.243.165.238 /index.php/Home/Index/addopinion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0007s ]
+SQL: INSERT INTO `opinion` (`question`,`user_id`,`qtime`) VALUES ('你好好','171','1441033261') [ RunTime:0.0054s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined variable: opinion /var/www/guozhi/App/Runtime/Cache/Home/ec94c3835fdaeea8bcbe9948c61a4452.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000186s ]
+
+[ 2015-08-31T23:01:03+08:00 ] 114.243.165.238 /index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SELECT count(1) order_num FROM `order` WHERE ( `user_id`='171' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0005s ]
+SQL: SELECT count(1) opinion_num FROM `opinion` WHERE ( `user_id`='171' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000154s ]
+
+[ 2015-08-31T23:01:05+08:00 ] 114.243.165.238 /index.php/Home/Index/opinion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `opinion` WHERE ( `user_id`='171' ) ORDER BY opinion_id DESC LIMIT 5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/guozhi/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 24 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/guozhi/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 24 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/guozhi/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 24 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /var/www/guozhi/App/Runtime/Cache/Home/3b34dde2236f229f0a8c3848b6417fef.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000161s ]
+

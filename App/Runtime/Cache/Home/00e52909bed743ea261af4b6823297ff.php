@@ -53,7 +53,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="/index.php/Home/Index/opinion">
+					<a href="/index.php/Home/Index/opinion" data-ajax="false">
 						<img src="/Public/upload/my_yj.gif"/>	
 						<h2>意见建议（<?php echo ($opinion_num); ?>）</h2>
 						<div class='em'>></div>
