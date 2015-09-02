@@ -5,16 +5,16 @@ return array(
 	'TMPL_R_DELIM'=>'}>', //修改右定界符
 	'SHOW_PAGE_TRACE'=>false,//开启页面Trace
 	'FRUIT_APP_URL'	=> 'http://izhier.com/', // 应用目录
-    'FRUIT_APP_URL_DE'	=> 'izhier.com', // 应用目录
+        'FRUIT_APP_URL_DE'	=> 'izhier.com', // 应用目录
 	// 微信参数
-	'WEICHAT_APPID'	=> 'wx659ec57ec2da708e',
-	'WEICHAT_SECRET'=> '32eb64709524ea9eb8d0c9dd8b4a63d0',
+	'WEICHAT_APPID'	=> 'xxxx',
+	'WEICHAT_SECRET'=> 'xxxx',
 	// 数据库
 	'DB_TYPE'=>'mysql', //设置数据库类型
 	'DB_HOST'=>'localhost',//设置主机
-	'DB_NAME'=>'zhier',//设置数据库名
-	'DB_USER'=>'root', //设置用户名
-	'DB_PWD'=>'zhi*er@o1W', //设置密码
+	'DB_NAME'=>'xxxx',//设置数据库名
+	'DB_USER'=>'xxxx', //设置用户名
+	'DB_PWD'=>'xxxx', //设置密码
 	'DB_PORT'=>'3306', //设置端口号
 	'DB_PREFIX'=>'', //设置表前缀
 	// 订单状态对应关系
