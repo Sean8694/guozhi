@@ -144,7 +144,7 @@ class IndexController extends Controller {
 		$fruit[0]['discount_price'] = intval($gloabl_discount['DISCOUNT']*$fruit[0]['price']);
 
 		$shi	= date("H");
-		if( $shi > 19 || $shi < 10 ){
+		if( $shi > C('TIME_CLOSE') || $shi < C('TIME_OPEN') ){
 			$close = 1;
 		}else{
 			$close = 0;
@@ -472,7 +472,7 @@ class IndexController extends Controller {
 		$user		= $_SESSION['user'];
         $userinfo   = M('user')->where(['user_id'=>$user['user_id']])->select();
         $userinfo   = $userinfo[0];
-        $zhierbi    = $userinfo['zhierbi'] ? $userinfo['zhierbi'] : 4;
+        $zhierbi    = $userinfo['zhierbi'] ? $userinfo['zhierbi'] : 0;
         $zhierbi = $price >= $zhierbi ? $zhierbi : $price;
 		
 		$this->assign('location',$location);
@@ -537,13 +537,15 @@ class IndexController extends Controller {
 		// 查询这次下单的收货地址
         // 使用汁儿币
         $use_zhierbi = $post['use_zhierbi'];
+		// 小费
+		$xiaofei = $post['xiaofei'] ? $post['xiaofei'] : 0;
         if( $use_zhierbi ){
             $user		= $_SESSION['user'];
             $userinfo   = M('user')->where(['user_id'=>$user['user_id']])->select();
             $userinfo   = $userinfo[0];
-            $zhierbi    = $userinfo['zhierbi'] ? $userinfo['zhierbi'] : 4;
+            $zhierbi    = $userinfo['zhierbi'] ? $userinfo['zhierbi'] : 0;
             $zhierbi = $_SESSION['total_price'] >= $zhierbi ? $zhierbi : $_SESSION['total_price'];  
-            $_SESSION['total_price'] = $_SESSION['total_price'] - $zhierbi;
+            $_SESSION['total_price'] = $_SESSION['total_price'] - $zhierbi + $xiaofei;
 
             $user_m_zhibi  = M('user');
             $data3_zhibi['user_id'] = $user['user_id'];
@@ -563,6 +565,8 @@ class IndexController extends Controller {
 		$user_order_data['to_mobile']			= $user_add[0]['mobile'];
 		$user_order_data['to_location']			= $user_add[0]['location'];
 		$user_order_data['to_location_detail']	= $user_add[0]['location_detail'];
+		$user_order_data['xiaofei'] = $xiaofei;
+		$user_order_data['zhierbi'] = $zhierbi;
 		$user_order_m	= M('order');
 		$orderid		= $user_order_m->add($user_order_data);
 

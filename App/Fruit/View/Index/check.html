@@ -48,6 +48,9 @@
 							</li>	
 							</volist>	
 						</ul>
+						<div style="margin:0 0 15px 0px;padding:10px;background-color:#f6f6f6;border:1px solid #ccc;">
+							订单总金额：￥<{$price}>
+						</div>
 						<if condition="$zhierbi gt 0">
 							<div style="font-size:12px;padding:10px;border:1px solid #ccc;border-radius:5px;margin-bottom:20px;line-height: 32px;">可用<{$zhierbi}>汁儿币，抵<{$zhierbi}>元哦！
 								<div style="float:right;">
@@ -60,8 +63,14 @@
 						<else />
 							<label><br /></label>
 						</if>
+						<div style="font-size:12px;padding:10px;border:1px solid #ccc;border-radius:5px;margin-bottom:20px;line-height: 32px;">
+							<div data-role="fieldcontain">
+								<label for="points" style="font-size:12px">另付小费（可选，滑动选择）:</label>
+								<input type="range" name="xiaofei" id="points" value="0" min="0" max="100">
+							</div>
+						</div>
 					<div onclick="checkform();" class="car-list-submit">
-						 货到付款，共￥<{$price}> , 确认下单 
+						 确认下单（货到付款）
 					</div>
 				</div>
                 </div>

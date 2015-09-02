@@ -104,7 +104,9 @@
 						<{$vo.detail}>
 					</div>
 					<div class="myorder-list-info-4">
-						订单总额:￥<{$vo.price}>
+						<b>订单总额:￥<{$vo.price}></b>
+						<if condition="$vo['zhierbi'] gt 0"><br />----使用汁儿币：￥<{$vo.zhierbi}></if>
+						<if condition="$vo['xiaofei'] gt 0"><br />----支付小费：￥<{$vo.xiaofei}></if>
 					</div>
 					<div class="myorder-list-info-4">
 						<div data-role="controlgroup" data-type="horizontal">

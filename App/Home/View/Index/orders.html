@@ -32,6 +32,8 @@
 					<div class="myorder-list-info-4">
 						<div class="myorder-list-info-price">
 							订单总额：<span class="s1">￥<{$vo.price}></span>
+							<if condition="$vo['zhierbi'] gt 0"><br />使用汁儿币：￥<{$vo.zhierbi}></if>
+							<if condition="$vo['xiaofei'] gt 0"><br />支付小费：￥<{$vo.xiaofei}></if>
 							<if condition="$vo['iscommend'] eq 0">
 								<if condition="$vo['statusold'] eq 4">
 									<div class="myorder-gotockpl" style="margin-left:10px;border-color:#ff3300;">
