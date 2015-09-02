@@ -57,6 +57,9 @@ class IndexController extends Controller {
 	public function index(){
 		// 个人信息
 		$user		= $_SESSION['user'];
+        $userinfo   = M('user')->where(['user_id'=>$user['user_id']])->select();
+        $userinfo   = $userinfo[0];
+
 		// 订单数量
 		$order_m	= M('order');
 		$order_num	= $order_m->where("`user_id`='".$user['user_id']."'")->field("count(1) order_num")->select();
@@ -65,6 +68,7 @@ class IndexController extends Controller {
 		$opinion_num	= $opinion_m->where("`user_id`='".$user['user_id']."'")->field("count(1) opinion_num")->select();
 		
 		$this->assign('user',$user);
+        $this->assign('userinfo',$userinfo);
 		$this->assign('order_num',$order_num[0]['order_num']);
 		$this->assign('opinion_num',$opinion_num[0]['opinion_num']);
 		$this->assign('carnum',$_SESSION['carnum']);

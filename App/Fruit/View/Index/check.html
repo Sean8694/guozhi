@@ -48,8 +48,15 @@
 							</li>	
 							</volist>	
 						</ul>
-						<if condition="$coupons[0]['value'] gt 0">
-							<div style="font-size:12px;padding:10px;border:1px solid #ccc;border-radius:5px;margin-bottom:20px;">已使用1张汁儿币卷，抵<{$coupons.0.value}>元哦！</div>
+						<if condition="$zhierbi gt 0">
+							<div style="font-size:12px;padding:10px;border:1px solid #ccc;border-radius:5px;margin-bottom:20px;line-height: 32px;">可用<{$zhierbi}>汁儿币，抵<{$zhierbi}>元哦！
+								<div style="float:right;">
+									<select name="use_zhierbi" id="switch" data-role="slider" >
+									  <option value="0"></option>
+									  <option value="1"></option>
+									</select>
+								</div>
+							</div>
 						<else />
 							<label><br /></label>
 						</if>
