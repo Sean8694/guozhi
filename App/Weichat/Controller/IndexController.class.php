@@ -33,14 +33,14 @@ class IndexController extends Controller {
 		$user		= $user_m->where("`wei_id`='".$_SESSION['openid']."'")->select();
 		$face		= $user[0]['face'];
 		// 3. 如果没有注册过，则尝试获取用户微信头像、昵称
-		if( $face == 0 ){
+		if( $face == 0 && !$re_code ){
 			// 尝试获取用户微信头像等信息
 			$re_info_detail	= file_get_contents('https://api.weixin.qq.com/sns/userinfo?access_token='.$re_arr->access_token.'&openid='.$re_arr->openid.'&lang=zh_CN');
 			$re_arr_detail	= json_decode($re_info_detail);
 			if( !$re_arr_detail->openid ){
 				// 跳转到授权页面
 				$base_url	= urlencode(C('FRUIT_APP_URL'));
-				redirect('https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx659ec57ec2da708e&redirect_uri='.$base_url.'%2Findex.php%2FWeichat%2Findex%2Fjumpto%2Faction%2Flocation&response_type=code&scope=snsapi_base&state=123#wechat_redirect');
+				redirect('https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx659ec57ec2da708e&redirect_uri='.$base_url.'index.php%2FWeichat%2Findex%2Fjumpto%2Faction%2Flocation&response_type=code&scope=snsapi_base&state=123#wechat_redirect');
 			}else{
 				// 远程头像保存到本地
 				// 太慢了，先用远程的头像
@@ -65,6 +65,9 @@ class IndexController extends Controller {
 				$_SESSION['headimgurl']	= $re_arr_detail->headimgurl ? $re_arr_detail->headimgurl : '';
 			}
 		}
+
+		$_SESSION['nickname']	= $re_arr_detail->nickname ? $re_arr_detail->nickname : '汁儿用户';
+		$_SESSION['headimgurl']	= $re_arr_detail->headimgurl ? $re_arr_detail->headimgurl : '';
 		
 		// 跳转
 		if( $action == 'orders' ){
