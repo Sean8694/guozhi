@@ -41,7 +41,7 @@
 				<li>
 					<a href="/index.php/Home/Index/sharecoupon">
 						<img src="/Public/upload/my_qb.gif"/>	
-						<h2>我的汁儿币</h2>
+						<h2>我的汁儿币（<?php echo ($userinfo["zhierbi"]); ?>）</h2>
 						<div class='em'>></div>
 					</a>
 				</li>	

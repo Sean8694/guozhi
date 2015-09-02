@@ -55,7 +55,14 @@
 								</div>
 							</li><?php endforeach; endif; else: echo "" ;endif; ?>	
 						</ul>
-						<?php if($coupons[0]['value'] > 0): ?><div style="font-size:12px;padding:10px;border:1px solid #ccc;border-radius:5px;margin-bottom:20px;">已使用1张汁儿币卷，抵<?php echo ($coupons["0"]["value"]); ?>元哦！</div>
+						<?php if($zhierbi > 0): ?><div style="font-size:12px;padding:10px;border:1px solid #ccc;border-radius:5px;margin-bottom:20px;line-height: 32px;">可用<?php echo ($zhierbi); ?>汁儿币，抵<?php echo ($zhierbi); ?>元哦！
+								<div style="float:right;">
+									<select name="use_zhierbi" id="switch" data-role="slider" >
+									  <option value="0"></option>
+									  <option value="1"></option>
+									</select>
+								</div>
+							</div>
 						<?php else: ?>
 							<label><br /></label><?php endif; ?>
 					<div onclick="checkform();" class="car-list-submit">

@@ -465,17 +465,22 @@ class IndexController extends Controller {
 			}
 		}
 
-        $coupons_m		= M('share_coupon_code');
-	    $coupons		= $coupons_m->where("`user_id`=$login_user_id AND `status`=0")->order("`value` DESC")->select();
-		$this->assign("coupons",$coupons);
+        $price = $total_price;
+		$price = $price > 0 ? $price : 0;
+
+        // 个人信息
+		$user		= $_SESSION['user'];
+        $userinfo   = M('user')->where(['user_id'=>$user['user_id']])->select();
+        $userinfo   = $userinfo[0];
+        $zhierbi    = $userinfo['zhierbi'] ? $userinfo['zhierbi'] : 4;
+        $zhierbi = $price >= $zhierbi ? $zhierbi : $price;
 		
 		$this->assign('location',$location);
 		$this->assign('sendtime',$sendtime);
 		$this->assign('sendtime2',$sendtime2);	// 明日配送
 		$this->assign('user_add',$user_add);
         $this->assign('fruits',$fruits);
-		$price = $total_price-$coupons[0]['value'];
-		$price = $price > 0 ? $prive : 0;
+        $this->assign('zhierbi',$zhierbi);
         $this->assign('price',$price);
         $this->display();
     }
@@ -530,25 +535,28 @@ class IndexController extends Controller {
 			$user_add_m->save($user_add_data);
 		}
 		// 查询这次下单的收货地址
-		$user_add	= $user_add_m->where("`add_id`={$addid}")->select();
+        // 使用汁儿币
+        $use_zhierbi = $post['use_zhierbi'];
+        if( $use_zhierbi ){
+            $user		= $_SESSION['user'];
+            $userinfo   = M('user')->where(['user_id'=>$user['user_id']])->select();
+            $userinfo   = $userinfo[0];
+            $zhierbi    = $userinfo['zhierbi'] ? $userinfo['zhierbi'] : 4;
+            $zhierbi = $_SESSION['total_price'] >= $zhierbi ? $zhierbi : $_SESSION['total_price'];  
+            $_SESSION['total_price'] = $_SESSION['total_price'] - $zhierbi;
 
-		// 3 订单信息
-        $coupons_m		= M('share_coupon_code');
-	    $coupons		= $coupons_m->where("`user_id`=".$user_m_info[0]['user_id']." AND `status`=0")->order("`value` DESC")->select();
-		$this->assign("coupons",$coupons);
-        if( $coupons[0]['value'] ){
-            $code_value = $coupons[0]['value'];
-            $coupons_data['id']  = $coupons[0]['id'];
-            $coupons_data['status']  = 1;
-            $coupons_m->save($coupons_data); 
-        }else{
-            $code_value = 0;
+            $user_m_zhibi  = M('user');
+            $data3_zhibi['user_id'] = $user['user_id'];
+            $data3_zhibi['zhierbi'] = $userinfo['zhierbi'] - $zhierbi;
+            $user_m_zhibi->save($data3_zhibi);
         }
+
+		$user_add	= $user_add_m->where("`add_id`={$addid}")->select();
 
 		$user_order_data['sendtime']	= $post['fsendtime'] ? $post['fsendtime'] : 0000000000;
 		$user_order_data['user_id']	= $user_m_info[0]['user_id'];
 		$user_order_data['status']	= 1;
-		$user_order_data['price']	= $_SESSION['total_price'] - $code_value;
+		$user_order_data['price']	= $_SESSION['total_price'];
 		$user_order_data['ctime']	= time();
 		$user_order_data['etime']	= '';
 		$user_order_data['to_name']				= $user_add[0]['name'];

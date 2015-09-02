@@ -20,12 +20,14 @@
 			<?php echo ($types["coupon_name"]); ?>
 			<ul class="myorder-list">
 			<?php if($coupons): if(is_array($coupons)): $i = 0; $__LIST__ = $coupons;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li style="padding:4%;width:92%">
-					汁儿币：<?php echo ($vo["value"]); ?> 元，下单时自动使用。
+					汁儿币：<?php echo ($vo["value"]); ?> 元，已存入您的账户
 					<br />
 					获得日期：<?php echo ($vo["get_time"]); ?>
 				</li><?php endforeach; endif; else: echo "" ;endif; ?>
 			<?php else: ?>
-				您的汁儿币已用光...<br />没关系，继续关注我们，机会多多！<?php endif; ?>
+				您还没有汁儿币记录！
+				<br />
+				没关系关注我们，机会多多~<?php endif; ?>
 			</ul>
 		</div>
 		<div data-role="footer" data-position="fixed" data-theme="e" data-tap-toggle="false">

@@ -108,6 +108,15 @@ class ShareCouponController extends Controller {
                     $data2['used']	= $coupon[0]['used'] + 1;
                     $m->save($data2);
                     $echo = $data['value'];
+
+                    $user		= $_SESSION['user'];
+                    $userinfo   = M('user')->where(['user_id'=>$user['user_id']])->select();
+                    $userinfo   = $userinfo[0];
+                    $user_id = $user['user_id'];
+                    $user_m  = M('user');
+                    $data3['user_id'] = $user_id;
+                    $data3['zhierbi'] = $userinfo['zhierbi'] + $data['value'];
+                    $user_m->save($data3);
                 }
 			}else{
 				$echo = -1; // Î´µÇÂ¼

@@ -7,13 +7,15 @@
 			<if condition="$coupons">
 				<volist name="coupons" id="vo">
 				<li style="padding:4%;width:92%">
-					汁儿币：<{$vo.value}> 元，下单时自动使用。
+					汁儿币：<{$vo.value}> 元，已存入您的账户！
 					<br />
 					获得日期：<{$vo.get_time}>
 				</li>
 				</volist>
 			<else />
-				您的汁儿币已用光...<br />没关系，继续关注我们，机会多多！
+				您还没有汁儿币记录！
+				<br />
+				没关系关注我们，机会多多~
 			</if>
 			</ul>
 		</div>
