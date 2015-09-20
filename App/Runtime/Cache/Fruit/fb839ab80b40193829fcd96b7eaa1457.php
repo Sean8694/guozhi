@@ -42,7 +42,7 @@
 		<div data-role="footer" data-position="fixed"  data-theme="e" data-tap-toggle="false">
 			<div data-role="navbar">
 				<ul>
-				<li><a href="/index.php/fruit/index/detail/id/<?php echo ($fruit["fruit_id"]); ?>" data-role="button" data-icon="back" data-transition="slide" data-direction="reverse">返回</a></li>
+				<li><a href="/index.php/fruit/index/detail/id/<?php echo ($fruit["fruit_id"]); ?>" data-role="button" data-icon="back" data-transition="slide" data-direction="reverse" data-ajax="false">返回</a></li>
 				<li><a href="/index.php/Fruit/Index/mycar" data-icon="star">购物车<span class='carnum'><?php echo ($carnum); ?></span></a></li>
 				<li><a href="/index.php/home" data-icon="home">个人中心</a></li>
 				</ul>

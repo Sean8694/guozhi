@@ -334,10 +334,68 @@ GROUP BY c.type_id
 		if( $_SESSION['user']['user_id'] ){
 			$userid	= $_SESSION['user']['user_id'];
 			$m			= M('share_coupon_code');
-			$coupons		= $m->where("`user_id`=$userid AND `status`=0")->select();
+			$coupons		= $m->where("`user_id`=$userid AND `status`=0")
+				->order('id desc')
+				->limit(20)
+				->select();
 			$this->assign("coupons",$coupons);
 			$this->display();
 		}
+	}
+
+	public function exchangecoupon(){
+		$title = strtolower(I('post.code'));
+		if( !$title ){
+			$this->assign('echo','-10');
+			$this->display();
+			exit;
+		}
+
+		$m			= M('exchange_coupon');
+		$coupon		= $m->where("`title`='$title'")->select();
+		$coupon[0]['left'] = $coupon[0]['num'] - $coupon[0]['used'];
+
+		if( $coupon[0]['expired_date'] > date("Y-m-d") && $coupon[0]['left'] > 0 ){
+			if( $_SESSION['user']['user_id'] ){
+                // 是否抢过
+				$code	= M('share_coupon_code');
+                $hasget = $code->where("`user_id`='".$_SESSION['user']['user_id']."' AND `coupon_id`='".$coupon[0]['id']."'")
+                    ->select();
+                if( $hasget ){
+                    $echo = -2; // 已有
+                }else{
+                    $data['coupon_id']	= $coupon[0]['id'];
+                    $data['user_id']	= $_SESSION['user']['user_id'];
+                    $data['value']		= $coupon[0]['value'];
+                    $data['status']		= 0;
+                    $date				= date("Y-m-d H:i:s");
+                    $data['get_time']	= $date;
+                    $data['use_time']	= '';
+                    $code->add($data);
+
+                    $data2['id']	= $coupon[0]['id'];
+                    $data2['used']	= $coupon[0]['used'] + 1;
+                    $m->save($data2);
+                    $echo = $data['value'];
+
+                    $user		= $_SESSION['user'];
+                    $userinfo   = M('user')->where(['user_id'=>$user['user_id']])->select();
+                    $userinfo   = $userinfo[0];
+                    $user_id = $user['user_id'];
+                    $user_m  = M('user');
+                    $data3['user_id'] = $user_id;
+                    $data3['zhierbi'] = $userinfo['zhierbi'] + $data['value'];
+                    $user_m->save($data3);
+                }
+			}else{
+				$echo = -1; // 未登录
+			}
+		}else{
+			$echo = 0;  // 抢光了
+		}
+		//echo $echo;exit;
+		$this->assign('echo',$echo);
+		$this->display();
 	}
 
 	// 个人资料

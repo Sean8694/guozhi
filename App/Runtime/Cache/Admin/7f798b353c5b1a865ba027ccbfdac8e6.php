@@ -4,20 +4,20 @@
 <meta charset="utf-8">
 <title>汁儿</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/zhier/Public/static/css/admin2.css">
-<link rel="stylesheet" href="/zhier/Public/static/css/admin.css">
-<link rel="stylesheet" href="/zhier/Public/static/css/jquery.mobile-1.3.2.min.css">
-<script src="/zhier/Public/static/js/jquery-1.8.3.min.js"></script>
-<script src="/zhier/Public/static/js/jquery.mobile-1.3.2.min.js"></script>
+<link rel="stylesheet" href="/Public/static/css/admin2.css">
+<link rel="stylesheet" href="/Public/static/css/admin.css">
+<link rel="stylesheet" href="/Public/static/css/jquery.mobile-1.3.2.min.css">
+<script src="/Public/static/js/jquery-1.8.3.min.js"></script>
+<script src="/Public/static/js/jquery.mobile-1.3.2.min.js"></script>
 <script>
 
 </script>
 </head>
 
 <!-- 编辑器 -->
-		<link rel="stylesheet" href="/zhier/Public/kindeditor/themes/default/default.css" />
-		<script charset="utf-8" src="/zhier/Public/kindeditor/kindeditor-min.js"></script>
-		<script charset="utf-8" src="/zhier/Public/kindeditor/lang/zh_CN.js"></script>
+		<link rel="stylesheet" href="/Public/kindeditor/themes/default/default.css" />
+		<script charset="utf-8" src="/Public/kindeditor/kindeditor-min.js"></script>
+		<script charset="utf-8" src="/Public/kindeditor/lang/zh_CN.js"></script>
 		<script>
 			var editor;
 			KindEditor.ready(function(K) {
@@ -60,12 +60,12 @@
 		<div data-role="header" data-position="fixed">
 			<div data-role="navbar">
 				<ul>
-				<li><a href="/zhier/index.php/Admin/Product" data-ajax="false">返回</a></li>
+				<li><a href="/index.php/Admin/Product" data-ajax="false">返回</a></li>
 				</ul>
 			</div>
 		</div>
 		<div data-role="content">
-			<form method="post" data-ajax="false" enctype="multipart/form-data" action="/zhier/index.php/Admin/Product/add">
+			<form method="post" data-ajax="false" enctype="multipart/form-data" action="/index.php/Admin/Product/add">
 			  <div data-role="fieldcontain">
 				<label for="fullname">所属分类：</label>
 				<select name="type_id">
@@ -106,10 +106,10 @@
 				<label for="fullname">值3：</label>
 				<input type="text" name="chengfen_bfb_3" id="chengfen_bfb_3" placeholder="" value="<?php echo ($product["chengfen_bfb_3"]); ?>">
 				<br /><br />
-				<label for="fullname">列表小图(640*310|JPG格式)：</label>
+				<label for="fullname">详情(500*450|JPG格式)：</label>
 				<input type="file" name="img_s">
 				<br /><br />
-				<label for="fullname">详情大图(500*450|JPG格式)：</label>
+				<label for="fullname">列表(640*310|JPG格式)：</label>
 				<input type="file" name="img_b">
 				<br /><br />
 

@@ -65,8 +65,15 @@
 						</if>
 						<div style="font-size:12px;padding:10px;border:1px solid #ccc;border-radius:5px;margin-bottom:20px;line-height: 32px;">
 							<div data-role="fieldcontain">
-								<label for="points" style="font-size:12px">另付小费（可选，滑动选择）:</label>
-								<input type="range" name="xiaofei" id="points" value="0" min="0" max="100">
+								<label for="points" style="font-size:12px">另付小费:</label>
+								<fieldset data-role="controlgroup">
+									<label for="xf_0">无</label>
+									<input type="radio" name="xiaofei" checked="checked" id="xf_0" value="0">
+									<label for="xf_2">2元</label>
+									<input type="radio" name="xiaofei" id="xf_2" value="2">	
+									<label for="xf_5">5元</label>
+									<input type="radio" name="xiaofei" id="xf_5" value="5">
+							    </fieldset>
 							</div>
 						</div>
 					<div onclick="checkform();" class="car-list-submit">

@@ -1,0 +1,44 @@
+<include file="./App/Fruit/View/header.html" />
+<body>
+	<div data-role="page" id="pageone" data-position="fixed"> 
+		<div data-role="content">
+		<if condition="$echo eq 0">
+			来晚啦，优惠券已被抢光！
+		<elseif condition="$echo eq -2" />
+			您已经兑换过咯，请前往“个人中心”->“汁儿币”查看！
+		<elseif condition="$echo eq -1" />
+			请先登录！
+		<elseif condition="$echo gt 0" />
+			恭喜，兑换成功，请前往“个人中心”->“汁儿币”查看！
+		<else />
+			<form method="post" action="__URL__/exchangecoupon" name="form_opinion">
+				<input type="text" class="opinion_val" name="code" placeholder="输入优惠码，兑换汁儿币！">
+				<div onclick="return checkForm();" class="car-list-submit">
+					 兑换 
+				</div>
+			</form>
+		</if>
+		</div>
+		<div data-role="footer" data-position="fixed"  data-theme="e" data-tap-toggle="false">
+			<div data-role="navbar">
+				<ul>
+				<li><a href="__APP__/fruit/index" data-icon="grid" data-ajax="false">产品</a></li>
+				<li><a href="__APP__/fruit/index/mycar" data-icon="star" >购物车<span id='carnum'><{$carnum}></span></a></li>
+				<li><a href="__APP__/home" data-icon="home"  class="ui-btn-active ui-state-persist">个人中心</a></li>
+				</ul>
+			</div>
+		</div>
+	</div> 
+	<script>
+		function checkForm(){
+			var opinion = $(".opinion_val").val();
+			if(opinion.length < 1){
+				alert('请输入兑换码哦！');
+				return false;
+			}
+			document.form_opinion.submit();
+		}
+	</script>
+</body>
+</html>
+ 

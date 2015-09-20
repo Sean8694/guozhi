@@ -73,8 +73,21 @@ class ShareCouponController extends Controller {
 		$coupon		= $m->where("`id`=$couponid")->select();
 		$coupon[0]['left'] = $coupon[0]['num'] - $coupon[0]['used'];
 
+        $coupon_owner = $m->query("
+            SELECT o.user_id from share_coupon s
+            LEFT JOIN `order` o ON s.order_id = o.order_id
+            WHERE s.id = $couponid
+        ");
+        
+        if( $_SESSION['user']['user_id'] == $coupon_owner[0]['user_id'] ){
+            $is_owner = 1;
+        }else{
+            $is_owner = 0;
+        }
+
         $this->assign('title','Ö­¶ùÓÅ»İÈ¯');
         $this->assign('coupon',$coupon[0]);
+        $this->assign('is_owner',$is_owner);
         $this->display();
     }
 

@@ -17,6 +17,7 @@ return array(
 	'DB_PWD'=>'zhi*er@o1W', //设置密码
 	'DB_PORT'=>'3306', //设置端口号
 	'DB_PREFIX'=>'', //设置表前缀
+	'SESSION_EXPIRE'        =>7200,
 	// 订单状态对应关系
 	'ORDER_STATUS'	=> array('1'=>'<span style="color:red">已下单</span>','2'=>'<span style="color:blue">制作中','3'=>'<span style="color:green">配送中</span>',4=>'已送达',5=>'已退单'),
 	// 加密参数
@@ -26,7 +27,7 @@ return array(
 	// 配送时间
 	'SEND_TIME'		=> array('14:00'=>'14:00-15:00','16:00'=>'16:00-17:00'),
 	// 管理后台-菜单列表
-	'ADMIN_LIST'	=> array('产品'=>'Product','用户'=>'User','订单'=>'Index','评价'=>'Recommend','反馈'=>'Opinion','分享券'=>'ShareCoupon'),
+	'ADMIN_LIST'	=> array('产品'=>'Product','用户'=>'User','订单'=>'Index','评价'=>'Recommend','反馈'=>'Opinion','分享券'=>'ShareCoupon','兑换券'=>'ExchangeCoupon'),
 	// 管理后台-图片上传目录
 	'ADMIN_UPLOAD'	=> '/var/www/guozhi/Public/upload',
 	// 管理后台-展示图片位置

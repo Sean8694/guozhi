@@ -76,7 +76,9 @@
   	<div class="parent">
   		<div class="title"><span style="font-size:18px;font-weight:bold;"><?php echo ($coupon["title"]); ?></span><br /><br />红包剩余<?php echo ($coupon["left"]); ?>个，还不快抢！</div>
   		<div class="button" onclick="gethb();">
-			<a style="text-decoration:none;color:#FFD879" href="/index.php/Fruit/ShareCoupon/get/id/<?php echo ($coupon["id"]); ?>/t/<?php echo ($coupon["ctime"]); ?>" data-ajax='false'>领取红包</a>
+		<?php if($is_owner == 0): ?><a style="text-decoration:none;color:#FFD879" href="/index.php/Fruit/ShareCoupon/get/id/<?php echo ($coupon["id"]); ?>/t/<?php echo ($coupon["ctime"]); ?>" data-ajax='false'>领取红包</a>
+		<?php else: ?>
+			<a style="text-decoration:none;color:#FFD879" href="javascript:alert('不能领取自己的红包哦！')" data-ajax='false'>领取红包</a><?php endif; ?>
 		</div>
   	</div>
 <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>

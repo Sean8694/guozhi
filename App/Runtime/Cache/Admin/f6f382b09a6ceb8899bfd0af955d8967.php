@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <title>汁儿</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/zhier/Public/static/css/admin2.css">
-<link rel="stylesheet" href="/zhier/Public/static/css/admin.css">
-<link rel="stylesheet" href="/zhier/Public/static/css/jquery.mobile-1.3.2.min.css">
-<script src="/zhier/Public/static/js/jquery-1.8.3.min.js"></script>
-<script src="/zhier/Public/static/js/jquery.mobile-1.3.2.min.js"></script>
+<link rel="stylesheet" href="/Public/static/css/admin2.css">
+<link rel="stylesheet" href="/Public/static/css/admin.css">
+<link rel="stylesheet" href="/Public/static/css/jquery.mobile-1.3.2.min.css">
+<script src="/Public/static/js/jquery-1.8.3.min.js"></script>
+<script src="/Public/static/js/jquery.mobile-1.3.2.min.js"></script>
 <script>
 
 </script>
@@ -19,12 +19,12 @@
 		<div data-role="header" data-position="fixed">
 			<div data-role="navbar">
 				<ul>
-				<li><a href="/zhier/index.php/Admin/ShareCoupon" data-ajax="false">返回</a></li>
+				<li><a href="/index.php/Admin/ShareCoupon" data-ajax="false">返回</a></li>
 				</ul>
 			</div>
 		</div>
 		<div data-role="content">
-			<form method="post" data-ajax="false" enctype="multipart/form-data" action="/zhier/index.php/Admin/ShareCoupon/add">
+			<form method="post" data-ajax="false" enctype="multipart/form-data" action="/index.php/Admin/ShareCoupon/add">
 			  <div data-role="fieldcontain">
 				<label for="fullname">标题：</label>
 				<input type="text" name="title" id="fullname" value="<?php echo ($product["order"]); ?>">   

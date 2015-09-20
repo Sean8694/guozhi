@@ -1,0 +1,33 @@
+<include file="./App/Admin/View/header.html" />
+
+<body>
+	<div data-role="page" id="pageone" data-position="fixed"> 
+		<div data-role="header" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+				<li><a href="__APP__/Admin/ExchangeCoupon" data-ajax="false">返回</a></li>
+				</ul>
+			</div>
+		</div>
+		<div data-role="content">
+			<form method="post" data-ajax="false" enctype="multipart/form-data" action="__URL__/add">
+			  <div data-role="fieldcontain">
+				<label for="fullname">优惠编码(不区分大小)：</label>
+				<input type="text" name="title" id="fullname" value="<{$product.order}>">   
+				<br /><br />
+				<label for="fullname">总计数量：</label>
+				<input type="text" name="num" id="fullname" value="<{$product.name}>">   
+				<br /><br />
+				<label for="fullname">单个金额：</label>
+				<input type="text" name="value" id="fullname" value="<{$product.intro}>">
+				<br /><br />
+				<label for="fullname">过期日期（格式为 2015-09-01）：</label>
+				<input type="text" name="expired_date" id="fullname" value="<{$product.intro}>">
+			  </div>
+			  <input type="submit" data-theme="b" value="添加">
+			</form>
+		</div>
+	</div> 
+</body>
+</html>
+ 
