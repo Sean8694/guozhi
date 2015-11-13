@@ -31,7 +31,7 @@
 					<a href="/index.php/fruit/ShareCoupon/index/id/<?php echo ($vo["id"]); ?>" target='_blank'><?php echo ($vo["title"]); ?></a>
 					<hr/><?php endforeach; endif; else: echo "" ;endif; ?>	
 			</ul>
-			<a href="/index.php/Admin/ShareCoupon/add" data-role="button" data-inline="true" data-theme="b" data-ajax="false">+ 添加分享卷</a>
+			<a href="/index.php/admin/share_coupon/add" data-role="button" data-inline="true" data-theme="b" data-ajax="false">+ 添加分享卷</a>
 		</div>
 	</div> 
 </body>

@@ -25,7 +25,7 @@
 					<div><?php if($vo['answer']): ?><b>汁儿B：</b><?php endif; echo ($vo["answer"]); ?></div>
 				</li><?php endforeach; endif; else: echo "" ;endif; ?>
 			</ul>
-			<form method="post" action="/index.php/Home/Index/addopinion" name="form_opinion">
+			<form method="post" action="/index.php/home/index/addopinion" name="form_opinion">
 				<textarea placeholder="请在此处填写您的意见与建议，我们会尽快收悉并提供反馈，竭诚为您服务！" name="opinion" class="opinion_val"></textarea>
 				<div onclick="return checkForm();" class="car-list-submit">
 					 提交 
