@@ -65,7 +65,7 @@
 			</div>
 		</div>
 		<div data-role="content">
-			<form method="post" data-ajax="false" enctype="multipart/form-data" action="/index.php/Admin/Recommend/edit/id/<?php echo ($data["fruit_id"]); ?>">
+			<form method="post" data-ajax="false" enctype="multipart/form-data" action="/index.php/admin/recommend/edit/id/<?php echo ($data["fruit_id"]); ?>">
 			  <div data-role="fieldcontain">
 				<label for="fullname">订单：[<?php echo ($opinion["fruit_name"]); ?>](<?php echo (date('Y-m-d H-i',$opinion["ctime"])); ?>)</label>
 				<br /><br />

@@ -1,4 +1,24 @@
 ﻿<include file="./App/Fruit/View/header.html" />
+
+<script type="text/javascript">
+    $(function() {
+        $("img").lazyload({
+            effect : "fadeIn",
+            placeholder : "__PUBLIC__/static/images/loading.gif",
+			load : showem
+        });
+		/*
+        $('img').load(function(){
+            varemid = $(this).attr('id');
+            $("#em-"+varemid+"").show(600);    
+        });
+		*/
+		function showem(){
+			varemid = $(this).attr('id');
+            $("#em-"+varemid+"").show(600); 
+		}
+    });
+</script> 
 <body onload="setDetail()">
 	<div data-role="page" id="pageone" data-position="fixed"> 
 		<div data-role="content" style="padding:0px;background-color:#fff;">
@@ -12,21 +32,25 @@
 				</volist>
 			</div>
 			<ul class="fruit-list">
-				<volist name="fruit" id="data">
+				<volist name="fruit" id="data" key="key">
 				<if condition="$data['order'] eq '-1'">
 				<else />	
 				<a href="__URL__/detail/id/<{$data.fruit_id}>" data-ajax="false">
 				</if>
-				<li class="fruit-list-li" style="background:url('__PUBLIC__/upload/<{$data.pic}>');background-size: cover;"
+                <!--style="background:url('__PUBLIC__/upload/<{$data.pic}>');background-size: cover;"-->
+				<li class="fruit-list-li" 
 				<if condition="$data['order'] eq '-1'">
 					onclick="alert('今日已售罄,看看别的吧~')"
 				</if>
 				>
-					<!--img src="__PUBLIC__/upload/<{$data.pic}>"/-->	
-					<h2>&nbsp;<!--{$data.name}--> <if condition="$data['order'] eq '-1'"><span style="font-size:16px;">今日售罄</span></if></h2>
-					<h3>&nbsp;<!--{$data.intro}--></h3>
+					<img  src="__PUBLIC__/static/images/loading.gif" data-original="__PUBLIC__/upload/<{$data.pic}>" id="<{$key}>">	
+                    <if condition="$data['order'] eq '-1'">
+					<h2>&nbsp;<!--{$data.name}--> 
+						<span style="font-size:16px;">今日售罄</span>
+                    </h2>
+                    </if>
 					<div><!--<{$data.start}>--> <span>已售<{$data.buys}>份</span></div>
-					<em><span>￥</span> <{$data.price}></em>
+					<em id="em-<{$key}>" style="display:none;"><span>￥</span> <{$data.price}></em>
 					
 				</li>	
 				<if condition="$data['order'] eq '-1'">

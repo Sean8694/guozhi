@@ -25,11 +25,11 @@
 		<div data-role="content">
 			<div data-role="navbar" >
 				<!--ul>
-				<?php if(is_array($type)): $key = 0; $__LIST__ = $type;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($key % 2 );++$key;?><li><a href="/index.php/Admin/User/index/type/<?php echo ($vo["type_id"]); ?>" data-ajax="false" <?php if($typeid == $vo['type_id']): ?>class="ui-btn-active ui-state-persist"<?php endif; ?>><?php echo ($vo["name"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+				<?php if(is_array($type)): $key = 0; $__LIST__ = $type;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($key % 2 );++$key;?><li><a href="/index.php/admin/user/index/type/<?php echo ($vo["type_id"]); ?>" data-ajax="false" <?php if($typeid == $vo['type_id']): ?>class="ui-btn-active ui-state-persist"<?php endif; ?>><?php echo ($vo["name"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
 				</ul-->
 			</div>
 			<ul class="fruit-list">
-				<?php if(is_array($user)): $i = 0; $__LIST__ = $user;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><!--a href="/index.php/Admin/User/edit/id/<?php echo ($data["fruit_id"]); ?>" data-ajax="false"-->
+				<?php if(is_array($user)): $i = 0; $__LIST__ = $user;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><!--a href="/index.php/admin/user/edit/id/<?php echo ($data["fruit_id"]); ?>" data-ajax="false"-->
 				<li>
 					<img src="<?php echo ($vo["face"]); ?>" class="admin_product_list_img">	
 					<h2 class="admin_product_list_h2">[<?php echo ($vo["name"]); ?>] <?php echo ($data["intro"]); ?></h2>

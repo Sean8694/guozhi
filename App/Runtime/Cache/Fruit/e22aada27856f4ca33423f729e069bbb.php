@@ -19,7 +19,7 @@
 					<input type="text" id="search_location" placeholder="请在联想列表中选择您的写字楼">
 					<input type="hidden" id="base_url" value="<?php echo ($baseurl); ?>">
 					<div class="location-search-result">
-						<a href="/index.php/Fruit/Index/index" data-ajax="false">直接进入</a>
+						<a href="/index.php/fruit/index/index" data-ajax="false">直接进入</a>
 					</div>
 				</div>
 				<div class="location-info">为保证饮品的新鲜度 , 当前仅支持北京国贸商圈</div>

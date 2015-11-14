@@ -62,7 +62,7 @@
 			</div>
 		</div>
 		<div data-role="content">
-			<form method="post" data-ajax="false" enctype="multipart/form-data" action="/index.php/Admin/Admin/index">
+			<form method="post" data-ajax="false" enctype="multipart/form-data" action="/index.php/admin/admin/index">
 			  <div data-role="fieldcontain">
 				<label for="fullname">用户：<?php echo ($opinion["name"]); ?></label>
 				<input type="text" name="username" id="fullname" placeholder="" value="<?php echo ($opinion["answer"]); ?>">

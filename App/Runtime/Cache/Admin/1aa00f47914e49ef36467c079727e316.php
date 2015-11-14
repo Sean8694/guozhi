@@ -25,11 +25,11 @@
 		<div data-role="content">
 			<div data-role="navbar" >
 				<ul>
-				<?php if(is_array($type)): $key = 0; $__LIST__ = $type;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($key % 2 );++$key;?><li><a href="/index.php/Admin/Product/index/type/<?php echo ($vo["type_id"]); ?>" data-ajax="false" <?php if($typeid == $vo['type_id']): ?>class="ui-btn-active ui-state-persist"<?php endif; ?>><?php echo ($vo["name"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+				<?php if(is_array($type)): $key = 0; $__LIST__ = $type;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($key % 2 );++$key;?><li><a href="/index.php/admin/product/index/type/<?php echo ($vo["type_id"]); ?>" data-ajax="false" <?php if($typeid == $vo['type_id']): ?>class="ui-btn-active ui-state-persist"<?php endif; ?>><?php echo ($vo["name"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
 				</ul>
 			</div>
 			<ul class="fruit-list">
-				<?php if(is_array($product)): $i = 0; $__LIST__ = $product;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><a href="/index.php/Admin/Product/edit/id/<?php echo ($data["fruit_id"]); ?>" data-ajax="false">
+				<?php if(is_array($product)): $i = 0; $__LIST__ = $product;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><a href="/index.php/admin/product/edit/id/<?php echo ($data["fruit_id"]); ?>" data-ajax="false">
 				<li>
 					<img src="/Public/upload/<?php echo ($data["pic"]); ?>"/ class="admin_product_list_img">	
 					<h2 class="admin_product_list_h2">[<?php echo ($data["name"]); ?>] <?php echo ($data["intro"]); ?></h2>
@@ -38,7 +38,7 @@
 				</li>	
 				</a><?php endforeach; endif; else: echo "" ;endif; ?>	
 			</ul>
-			<a href="/index.php/Admin/Product/add" data-role="button" data-inline="true" data-theme="b" data-ajax="false">+ 添加商品</a>
+			<a href="/index.php/admin/product/add" data-role="button" data-inline="true" data-theme="b" data-ajax="false">+ 添加商品</a>
 		</div>
 	</div> 
 </body>

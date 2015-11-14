@@ -25,11 +25,11 @@
 		<div data-role="content">
 			<div data-role="navbar" >
 				<ul>
-				<?php if(is_array($opinionstatus)): $key = 0; $__LIST__ = $opinionstatus;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($key % 2 );++$key;?><li><a href="/index.php/Admin/Recommend/index/status/<?php echo ($vo["status"]); ?>" data-ajax="false" <?php if($statusnow == $vo['status']): ?>class="ui-btn-active ui-state-persist"<?php endif; ?>><?php echo ($vo["statusname"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+				<?php if(is_array($opinionstatus)): $key = 0; $__LIST__ = $opinionstatus;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($key % 2 );++$key;?><li><a href="/index.php/admin/recommend/index/status/<?php echo ($vo["status"]); ?>" data-ajax="false" <?php if($statusnow == $vo['status']): ?>class="ui-btn-active ui-state-persist"<?php endif; ?>><?php echo ($vo["statusname"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
 				</ul>
 			</div>
 			<ul class="fruit-list">
-				<?php if(is_array($opinion)): $i = 0; $__LIST__ = $opinion;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><a href="/index.php/Admin/Recommend/edit/id/<?php echo ($vo["order_detail_id"]); ?>" data-ajax="false">
+				<?php if(is_array($opinion)): $i = 0; $__LIST__ = $opinion;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><a href="/index.php/admin/recommend/edit/id/<?php echo ($vo["order_detail_id"]); ?>" data-ajax="false">
 				<li class="admin_recommend_list_li">
 					<h2 class="admin_recommend_list_h2"><?php echo (date('Y-m-d H-i',$vo["ctime"])); ?>[<?php echo ($vo["fruit_name"]); ?>] 
 					<br />

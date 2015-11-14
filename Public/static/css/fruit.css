@@ -383,13 +383,12 @@
 	width: 100%;	
 	margin-top:5px;
 	position:relative;
+	min-height:100px
 }
 .fruit-list img{
 	padding:0px;
 	margin:0px;
-	margin-right:4%;
-	border-radius: 10px;
-	box-shadow: 7px 5px 10px #ccc;
+	margin-right:4%;	
 	width: 100%;
 	float:left;
 }

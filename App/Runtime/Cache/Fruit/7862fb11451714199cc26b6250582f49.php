@@ -1,1 +1,0 @@
-<?php if (!defined('THINK_PATH')) exit();?>欢迎来到鲜果超人的世界！

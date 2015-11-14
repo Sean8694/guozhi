@@ -35,10 +35,11 @@
 							<if condition="$vo['zhierbi'] gt 0"><br />使用汁儿币：￥<{$vo.zhierbi}></if>
 							<if condition="$vo['xiaofei'] gt 0"><br />支付小费：￥<{$vo.xiaofei}></if>
 							<if condition="$vo['iscommend'] eq 0">
-								<if condition="$vo['statusold'] eq 4">
-									<div class="myorder-gotockpl" style="margin-left:10px;border-color:#ff3300;">
-										<a href="__APP__/home/index/sharecouponshare/id/<{$vo.order_id}>" data-ajax="false" style="color:#ff3300">发红包</a>
+								<div class="myorder-gotockpl" style="margin-left:10px;border-color:#ff3300;">
+										<a href="__APP__/home/index/sharecouponshare/id/<{$vo.order_id}>" data-ajax="false" style="color:#ff3300">分享红包</a>
 									</div>
+                                <if condition="$vo['statusold'] eq 4">
+									
 									<div class="myorder-gotopl">
 										<a href="__APP__/home/index/comment/id/<{$vo.order_id}>" style="color:#F15353">
 											去评论
@@ -50,7 +51,7 @@
 								</if>
 							<else />
 								<div class="myorder-gotockpl" style="margin-left:10px;border-color:#ff3300;"> 
-									<a href="__APP__/home/index/sharecouponshare/id/<{$vo.order_id}>" data-ajax="false" style="color:#ff3300">发红包</a>
+									<a href="__APP__/home/index/sharecouponshare/id/<{$vo.order_id}>" data-ajax="false" style="color:#ff3300">分享红包</a>
 								</div>
 								<div class="myorder-gotockpl">
 									<a href="__APP__/home/index/comment/id/<{$vo.order_id}>" style="color:#009900">查看评论</a>

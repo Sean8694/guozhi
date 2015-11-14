@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="/Public/static/css/jquery.mobile-1.3.2.min.css">
 <script src="/Public/static/js/jquery-1.8.3.min.js"></script>
 <script src="/Public/static/js/jquery.mobile-1.3.2.min.js"></script>
+<script src="/Public/static/js/jquery.lazyload.js"></script>
 <script src="/Public/static/js/fruit.js"></script>
 <div style='display:none;'>
 	<img src='/Public/static/images/logo.jpg' />
@@ -17,7 +18,7 @@
 <body>
 	<div data-role="page" id="pageone" data-position="fixed" data-dom-cache="false"> 
 		<div data-role="content" style="padding:0px 10px;margin:0 0 20px 0;">
-			<?php if($carnum > 0): ?><form action="/index.php/Fruit/Index/check" name="formcar" method="post">
+			<?php if($carnum > 0): ?><form action="/index.php/fruit/index/check" name="formcar" method="post">
 				<ul class="car-list">
 					<span style="display:none"><?php echo ($jishuqi=0); ?></span>
 					<?php if(is_array($fruit)): $key = 0; $__LIST__ = $fruit;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($key % 2 );++$key;?><li id="fruit_li_<?php echo ($data["car_id"]); ?>">
@@ -32,7 +33,7 @@
 						<?php else: ?>
 							style="background-color: #FF521E;"<?php endif; ?>
 						>
-							<!--img src="/Public/upload/<?php echo ($data["pic"]); ?>" onclick="window.open('/index.php/Fruit/Index/detail/id/1')"/-->	
+							<!--img src="/Public/upload/<?php echo ($data["pic"]); ?>" onclick="window.open('/index.php/fruit/index/detail/id/1')"/-->	
 							<h2>
 								<?php echo ($data["name"]); ?>
 								<span></span>
@@ -50,12 +51,12 @@
 						</div>
 						<div class="fruit_li_addinfo">
 							<?php echo ($data["addinfo"]); ?>
-							<span class="car-del" onclick="carDel(<?php echo ($data["car_id"]); ?>,'/index.php/Fruit/Index',<?php echo ($data["num"]); ?>)">删 除</span>
+							<span class="car-del" onclick="carDel(<?php echo ($data["car_id"]); ?>,'/index.php/fruit/index',<?php echo ($data["num"]); ?>)">删 除</span>
 						</div>
 					</li><?php endforeach; endif; else: echo "" ;endif; ?>	
 				</ul>
 				<div style="float:right;width:100%;margin-top:0px;" id="gotoCheck">
-					<div onclick="window.open('/index.php/Fruit/Index/index')" class="car-list-submit-more">
+					<div onclick="window.open('/index.php/fruit/index/index')" class="car-list-submit-more">
 						  继续添加 
 					</div>
 					<div onclick="document.formcar.submit();" class="car-list-submit">
@@ -69,7 +70,7 @@
 					亲,购物车是空的
 				</p>
 				<p>
-					<div onclick="window.open('/index.php/Fruit/Index/index')" class="car-list-submit">
+					<div onclick="window.open('/index.php/fruit/index/index')" class="car-list-submit">
 						 去选购吧 
 					</div>	
 				</p><?php endif; ?>
@@ -78,8 +79,8 @@
 		<div data-role="footer" data-position="fixed" data-theme="e" data-tap-toggle="false">
 			<div data-role="navbar">
 				<ul>
-				<li><a href="/index.php/Fruit/Index/index" data-icon="grid" data-ajax="false">产品</a></li>
-				<li><a href="/index.php/Fruit/Index/mycar" data-icon="star" class="ui-btn-active ui-state-persist">购物车<span class='carnum' id="carnum"><?php echo ($carnum); ?></span></a></li>
+				<li><a href="/index.php/fruit/index/index" data-icon="grid" data-ajax="false">产品</a></li>
+				<li><a href="/index.php/fruit/index/mycar" data-icon="star" class="ui-btn-active ui-state-persist">购物车<span class='carnum' id="carnum"><?php echo ($carnum); ?></span></a></li>
 				<li><a href="/index.php/home" data-icon="home">个人中心</a></li>
 				</ul>
 			</div>

@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="/Public/static/css/jquery.mobile-1.3.2.min.css">
 <script src="/Public/static/js/jquery-1.8.3.min.js"></script>
 <script src="/Public/static/js/jquery.mobile-1.3.2.min.js"></script>
+<script src="/Public/static/js/jquery.lazyload.js"></script>
 <script src="/Public/static/js/fruit.js"></script>
 <div style='display:none;'>
 	<img src='/Public/static/images/logo.jpg' />
@@ -64,8 +65,8 @@
 					<div class="empl">
 					</div>
 					<div class="detail_buy_button">
-						<?php if($close == 0): ?><a href="javascript:;" id="addtocar" onclick="addtocar(<?php echo ($fruit["0"]["fruit_id"]); ?>,'/index.php/Fruit/Index',1)" class="buy">立即购买</a>
-							<a href="javascript:;" id="addtocar" onclick="addtocar(<?php echo ($fruit["0"]["fruit_id"]); ?>,'/index.php/Fruit/Index',0)" class="car">加入购物车</a>
+						<?php if($close == 0): ?><a href="javascript:;" id="addtocar" onclick="addtocar(<?php echo ($fruit["0"]["fruit_id"]); ?>,'/index.php/fruit/index',1)" class="buy">立即购买</a>
+							<a href="javascript:;" id="addtocar" onclick="addtocar(<?php echo ($fruit["0"]["fruit_id"]); ?>,'/index.php/fruit/index',0)" class="car">加入购物车</a>
 						<?php else: ?>
 							<div style="border:1px solid #999;text-align:center;padding:10px 0;margin:0 10px;">店铺休息中，稍后再来吧...</div><?php endif; ?>
 					</div>
@@ -80,8 +81,8 @@
 		<div data-role="footer" data-position="fixed"  data-theme="e" data-tap-toggle="false">
 			<div data-role="navbar">
 				<ul>
-				<li><a href="/index.php/Fruit/Index/index" data-icon="grid" data-ajax="false">产品</a></li>
-				<li><a href="/index.php/Fruit/Index/mycar" data-icon="star">购物车<span class='carnum'><?php echo ($carnum); ?></span></a></li>
+				<li><a href="/index.php/fruit/index/index" data-icon="grid" data-ajax="false">产品</a></li>
+				<li><a href="/index.php/fruit/index/mycar" data-icon="star">购物车<span class='carnum'><?php echo ($carnum); ?></span></a></li>
 				<li><a href="/index.php/home" data-icon="home">个人中心</a></li>
 				</ul>
 			</div>
