@@ -7,13 +7,13 @@ return array(
 	'FRUIT_APP_URL'	=> 'http://izhier.com/', // 应用目录
     'FRUIT_APP_URL_DE'	=> 'izhier.com', // 应用目录
 	// 微信参数
-	'WEICHAT_APPID'	=> 'wxb057ae600fdf9f41',
-	'WEICHAT_SECRET'=> '9077a0a0302ebc3fdebe5a520973ee39',
+	'WEICHAT_APPID'	=> 'wx659ec57ec2da708e',
+	'WEICHAT_SECRET'=> '32eb64709524ea9eb8d0c9dd8b4a63d0',
 	// 数据库
 	'DB_TYPE'=>'mysql', //设置数据库类型
-	'DB_HOST'=>'123.57.232.61',//设置主机
+	'DB_HOST'=>'localhost',//设置主机
 	'DB_NAME'=>'zhier',//设置数据库名
-	'DB_USER'=>'zhier', //设置用户名
+	'DB_USER'=>'root', //设置用户名
 	'DB_PWD'=>'zhi*er@o1W', //设置密码
 	'DB_PORT'=>'3306', //设置端口号
 	'DB_PREFIX'=>'', //设置表前缀
