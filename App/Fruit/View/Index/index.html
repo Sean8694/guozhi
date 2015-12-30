@@ -4,7 +4,7 @@
     $(function() {
         $("img").lazyload({
             effect : "fadeIn",
-            placeholder : "__PUBLIC__/static/images/loading.gif",
+            placeholder : "http://izhier.oss-cn-beijing.aliyuncs.com/static/images/loading.gif",
 			load : showem
         });
 		/*
@@ -37,13 +37,13 @@
 				<else />	
 				<a href="__URL__/detail/id/<{$data.fruit_id}>" data-ajax="false">
 				</if>
-                <!--style="background:url('__PUBLIC__/upload/<{$data.pic}>');background-size: cover;"-->
+                <!--style="background:url('http://izhier.oss-cn-beijing.aliyuncs.com/upload<{$data.pic}>');background-size: cover;"-->
 				<li class="fruit-list-li" 
 				<if condition="$data['order'] eq '-1'">
 					onclick="alert('今日已售罄,看看别的吧~')"
 				</if>
 				>
-					<img  src="__PUBLIC__/static/images/loading.gif" data-original="__PUBLIC__/upload/<{$data.pic}>" id="<{$key}>">	
+					<img  src="http://izhier.oss-cn-beijing.aliyuncs.com/static/images/loading.gif" data-original="http://izhier.oss-cn-beijing.aliyuncs.com/upload<{$data.pic}>" id="<{$key}>">	
                     <if condition="$data['order'] eq '-1'">
 					<h2>&nbsp;<!--{$data.name}--> 
 						<span style="font-size:16px;">今日售罄</span>
