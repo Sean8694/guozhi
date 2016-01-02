@@ -9,7 +9,7 @@ class IndexController extends Controller {
 		//echo $weiId;exit;
 		if( $weiId && !$_SESSION['user']['user_id'] ){
 			$sign		= I('get.sign');
-			$token		= 'gao_1e_2015';
+			$token		= C('WEICHAT_TOKEN');
 			$chacksign	= MD5("{$token}&{$weiId}");
 			// 登录验证
 			if( $chacksign != $sign ){
@@ -46,7 +46,7 @@ class IndexController extends Controller {
 			$_SESSION['hasJumped']	= 1;
 			// 跳转到获取微信信息页面
 			$base_url	= urlencode(C('FRUIT_APP_URL'));
-			redirect('https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx659ec57ec2da708e&redirect_uri='.$base_url.'%2Findex.php%2FWeichat%2Findex%2Fjumpto%2Faction%2Flocation&response_type=code&scope=snsapi_base&state=123#wechat_redirect');
+			redirect('https://open.weixin.qq.com/connect/oauth2/authorize?appid='.C('WEICHAT_APPID').'&redirect_uri='.$base_url.'%2Findex.php%2FWeichat%2Findex%2Fjumpto%2Faction%2Flocation&response_type=code&scope=snsapi_base&state=123#wechat_redirect');
 		}
 
 		// 检查购物车

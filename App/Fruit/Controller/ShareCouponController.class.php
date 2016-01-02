@@ -9,7 +9,7 @@ class ShareCouponController extends Controller {
 		
 		if( $weiId && !$_SESSION['user']['user_id'] ){
 			$sign		= I('get.sign');
-			$token		= 'gao_1e_2015';
+			$token		= C('WEICHAT_TOKEN');
 			$chacksign	= MD5("{$token}&{$weiId}");
 			// µÇÂ¼ÑéÖ¤
 			if( $chacksign != $sign ){
