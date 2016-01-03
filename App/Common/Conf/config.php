@@ -3,7 +3,7 @@ $BASE_URL = 'izhier.com';
 $WECHAT_KEY = array('wx659ec57ec2da708e', '32eb64709524ea9eb8d0c9dd8b4a63d0', 'gao_1e_2015');
 
 // 测试环境配置
-if (true) {
+if (false) {
 	$BASE_URL = 'sean.ngrok.natapp.cn';
 	$WECHAT_KEY = array('wxa6d29f29a5509fab', 'd4624c36b6795d1d99dcf0547af5443d', 'gao_1e_2015');
 }
