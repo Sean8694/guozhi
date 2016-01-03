@@ -50,7 +50,11 @@
                     </h2>
                     </if>
 					<div><!--<{$data.start}>--> <span>已售<{$data.buys}>份</span></div>
-					<em id="em-<{$key}>" style="display:none;"><span>￥</span> <{$data.price}></em>
+					<if condition="$data['price'] eq $data['original_price']">
+					<em id="em-<{$key}>" style="display:none;"><span>￥</span> <{$data.original_price}></em>
+					<else />
+					<em id="em-<{$key}>" style="display:none;"><span>￥</span> <{$data.price}> <span style="color: #888888;font-size: 20px;"> | <s><{$data.original_price}></s></span></em>
+					</if>
 					
 				</li>	
 				<if condition="$data['order'] eq '-1'">
