@@ -163,6 +163,8 @@ public function getMessage() {
 		$echoStr = $_GET["echostr"];
 		if($this->checkSignature()){
 			\Think\Log::write('验证成功!echostr:'.$echoStr, 'WARN');
+			$config = array('WECHAT_VERIFY_SIGNATURE'=>$_GET["signature"],'WECHAT_VERIFY_TIMESTAMP'=>$_GET["timestamp"],'WECHAT_VERIFY_NONCE'=>$_GET["nonce"],'WECHAT_VERIFY_ECHOSTR'=>$_GET["echostr"]);
+			C($config);
 			echo $echoStr;
 		} else {
 			\Think\Log::write('验证失败!', 'WARN');

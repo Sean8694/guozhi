@@ -61,4 +61,9 @@ return array(
 	// 店铺休息时间
 	'TIME_OPEN' => 10,
 	'TIME_CLOSE' => 23,
+
+	'WECHAT_VERIFY_SIGNATURE' => '',
+	'WECHAT_VERIFY_TIMESTAMP' => '',
+	'WECHAT_VERIFY_NONCE' => '',
+	'WECHAT_VERIFY_ECHOSTR' => '',
 );
