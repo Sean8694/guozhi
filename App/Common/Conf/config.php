@@ -33,7 +33,7 @@ return array(
 	'DB_PREFIX'=>'', //设置表前缀
 	'SESSION_EXPIRE'        =>7200,
 	// 订单状态对应关系
-	'ORDER_STATUS'	=> array('1'=>'<span style="color:red">已下单</span>','2'=>'<span style="color:blue">制作中','3'=>'<span style="color:green">配送中</span>',4=>'已送达',5=>'已退单'),
+	'ORDER_STATUS'	=> array('0'=>'<span style="color:red">待支付</span>', '1'=>'<span style="color:red">已下单</span>','2'=>'<span style="color:blue">制作中','3'=>'<span style="color:green">配送中</span>',4=>'已送达',5=>'已退单'),
 	// 加密参数
 	'ADMIN_SAIT'	=> '8Ip6',
 	// 配送区域
@@ -73,4 +73,12 @@ return array(
 	'DUOLABAO_GEN_ORDER_URL' => $DUOLABAO_GEN_ORDER_URL,
 	'DUOLABAO_SECRET' => $DUOLABAO_SECRET,
 	'DEBUG_MODE' => $DEBUG_MODE,
+
+
+	'CUSTOMER_NUMBER' => '1450431857011',
+	'SHOP_NUMBER' => '57411074951676',
+	'MACHINE_NUMBER' => '1',
+	'CALLBACK_URL' => 'http://'.$BASE_URL.'/index.php/duolabao/index/callback',
+	'DUOLABAO_GEN_ORDER_URL' => $DUOLABAO_GEN_ORDER_URL,
+	'DUOLABAO_SECRET' => $DUOLABAO_SECRET,
 );

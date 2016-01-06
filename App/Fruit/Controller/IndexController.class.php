@@ -149,6 +149,9 @@ class IndexController extends Controller {
 		}else{
 			$close = 0;
 		}
+		if (C('DEBUG_MODE')) {
+			$close = 0;
+		}
 		$this->assign('close',$close);
 
         $this->assign('buys',$buys);
@@ -563,7 +566,7 @@ class IndexController extends Controller {
 		if (is_null($user_order_data['user_id'])) {
 			$user_order_data['user_id'] = '0';
 		}
-		$user_order_data['status']	= 1;
+		$user_order_data['status']	= 0;
 		$user_order_data['price']	= $_SESSION['total_price'];
 		$user_order_data['ctime']	= time();
 		$user_order_data['etime']	= '';
@@ -610,38 +613,16 @@ class IndexController extends Controller {
 			// $this->assign('carnum',0);
 			unset($_SESSION['car']);
 
-
-
-
 			// ================
 			// 插入支付流程
 			// ================
 			$to_pay_price = $order_data['price'];
-			\Think\Log::write('DEBUG_MODE:'.C('DEBUG_MODE'), 'info');
 			if (C('DEBUG_MODE')) {
-				\Think\Log::write('DEBUG_MODE:true', 'info');
 				$to_pay_price = '0.01';
 			}
-			$paraMap = array(
-				'cmd' => 'CREATEORDER',
-				'customerNumber' => '1450431857011',
-				'shopNumber' => '57411074951676',
-				'machineNumber' => '1',
-				'requestId' => $orderid,
-				'amount' => $to_pay_price,
-				'callbackUrl' => C('FRUIT_APP_URL').'index.php/Fruit/Index/duolabaocallback',
-				'description' => 'desc',
-				'extraInfo' => 'extra',
-				);
-			$duolabao_url = C('DUOLABAO_GEN_ORDER_URL').'?'.$this->formatBizQueryParaMap($paraMap, true).'&hmac='.$this->getSign($paraMap, C('DUOLABAO_SECRET'));
-			\Think\Log::write('duolabao_url:'.$duolabao_url, 'info');
-			$duolabao_rsp = file_get_contents($duolabao_url);
-			\Think\Log::write('duolabao_rsp:'.$duolabao_rsp, 'info');
-			$encode_pay_url = $this->getPayUrl($duolabao_rsp);
-			\Think\Log::write('encode_pay_url:'.$encode_pay_url, 'info');
-			$duolabao_pay_url = $this->decrypt($encode_pay_url, C('DUOLABAO_SECRET'));
-			\Think\Log::write('duolabao_pay_url:'.$duolabao_pay_url, 'info');
-			redirect($duolabao_pay_url);
+    		$dlb_payment = D('Duolabao/Payment', 'Service');
+			$payment_url = $dlb_payment->genDLBPayUrl($orderid, $to_pay_price);
+			redirect($payment_url);
 			// ================
 			// 插入支付流程结束
 			// ================
@@ -664,84 +645,6 @@ class IndexController extends Controller {
 		}
 	}
 
-	protected function formatBizQueryParaMap($paraMap,$url='true')
-	{
-		$buff = "";
-		if($url == 'true'){
-			foreach ($paraMap as $k => $v)
-			{
-
-				$buff .= $k . "=" . $v . "&";
-			}
-
-			if (strlen($buff) > 0) 
-			{
-				$buff = substr($buff, 0, strlen($buff)-1);
-			}
-		}else{
-			foreach ($paraMap as $v) {
-				$buff .= $v;
-			}
-		}
-
-		return $buff;
-	}
-	
-	protected function getSign($Obj,$key) {
-		$String = $this->formatBizQueryParaMap($Obj, 'false');
-		$Code = hash_hmac('md5', $String, $key);
-		return $Code;
-	}
-
-	protected function getPayUrl($text) {
-		$txt_ary = split('&', $text);
-		foreach ($txt_ary as $key => $value) {
-			if (substr($value, 0, 4) == 'url=') {
-				return substr($value, 4);
-			}
-		}
-		return '';
-	}
-
-
-	protected function decrypt($url, $key)
-    {	
-
-    	//$brand = $_SESSION['brand'];
-		//$key = M('User')->where(array('id'=>$brand))->getField('dlpaykey');
-		//$url = 多啦宝返回的支付链接
-		$key = substr($key,0,24);//支付密钥商户
-		$url = urldecode($url);//url解码
-		$url = str_replace(' ', '+', $url);//替换空格
-
-        $encrypted = base64_decode($url);//二进制转换
-        $td = mcrypt_module_open(MCRYPT_3DES,'','ecb','');
-        $iv = @mcrypt_create_iv(mcrypt_enc_get_iv_size($td),MCRYPT_RAND);
-        $ks = mcrypt_enc_get_key_size($td);
-        @mcrypt_generic_init($td, $key, $iv);
-        $decrypted = mdecrypt_generic($td, $encrypted);
-        mcrypt_generic_deinit($td);
-        mcrypt_module_close($td);
-        $y=$this->pkcs5_unpad($decrypted);
-        return $y;
-    }
-     
-     
-    protected function pkcs5_unpad($text)
-    {
-        $pad = ord($text{strlen($text)-1});
-        if ($pad > strlen($text)) 
-        {
-        return false;
-        }
-        if (strspn($text, chr($pad), strlen($text) - $pad) != $pad)
-        {
-            return false;
-        }
-        return substr($text, 0, -1 * $pad);
-    }
-
-
 	// 商品评论列表
 	public function commonlist(){
 		$fruit_id	= I('get.id');
@@ -762,53 +665,5 @@ class IndexController extends Controller {
 		$this->assign('commentlist',$commentlist);
 		$this->assign('fruit',$fruit[0]);
 		$this->display();
-	}
-
-	public function duolabaoCallback() {
-		$reCode = I('post.reCode');
-		$requestId = I('post.requestId');
-		$description = I('post.description');
-		$extraInfo = I('post.extraInfo');
-		$hmac = I('post.hmac');
-		if (C('DEBUG_MODE')) {
-			$tmp_ary = array(
-				'reCode' => $reCode,
-				'requestId' => $requestId,
-				'description' => $description,
-				'extraInfo' => $extraInfo,
-				'hmac' => $hmac,
-			 );
-			\Think\Log::write('POST PARAM:'.json_encode($tmp_ary));
-		}
-		if ($reCode == '1') {
-			// 支付成功
-			\Think\Log::write('订单'.$requestId.'支付成功');
-			$paraMap = array(
-				'reCode' => $reCode,
-				'requestId' => $requestId,
-				'description' => $description,
-				'extraInfo' => $extraInfo,
-			 );
-			$sign = $this->getSign($paraMap, C('DUOLABAO_SECRET'));
-			if ($sign == $hmac) {
-				\Think\Log::write('订单'.$requestId.'验证签名成功');
-			} else {
-				\Think\Log::write('订单'.$requestId.'验证签名失败');
-			}
-			
-			$cur_order = M('order')->where(['order_id'=>$requestId])->select();
-			if (is_null($cur_order)) {
-				\Think\Log::write('订单'.$requestId.'找不到了');
-			} else {
-				$proc_order['order_id'] = $requestId;
-				$proc_order['is_payed'] = 1;
-				$proc_order['payed_time'] = date("Y-m-d H:i:s",time());
-				M('order')->save($proc_order);
-			}
-
-		} else {
-			\Think\Log::write('订单'.$requestId.'支付失败');
-		}
-		echo 'success';
 	}
 }
