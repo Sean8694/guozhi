@@ -622,6 +622,9 @@ class IndexController extends Controller {
 			}
     		$dlb_payment = D('Duolabao/Payment', 'Service');
 			$payment_url = $dlb_payment->genDLBPayUrl($orderid, $to_pay_price);
+			$order_info['order_id'] = $orderid;
+			$order_info['pay_url'] = $payment_url;
+			M('order')->save($order_info);
 			redirect($payment_url);
 			// ================
 			// 插入支付流程结束

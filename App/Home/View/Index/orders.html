@@ -45,7 +45,12 @@
 											去评论
 										</a>
 									</div>
-									
+								<elseif condition="$vo['statusold'] eq 0"/>
+									<div class="myorder-gotopl">
+										<a href="<{$vo.pay_url}>" style="color:#F15353">
+											去支付
+										</a>
+									</div>
 								<else />
 									<span class="s2"><{$vo.status}></span>
 								</if>
