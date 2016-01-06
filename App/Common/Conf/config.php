@@ -1,9 +1,13 @@
 <?php
 $BASE_URL = 'izhier.com';
 $WECHAT_KEY = array('wx659ec57ec2da708e', '32eb64709524ea9eb8d0c9dd8b4a63d0', 'gao_1e_2015');
+$DUOLABAO_GEN_ORDER_URL = 'http://pay.duolabao.com/pay/merInterface.action';
+$DUOLABAO_SECRET = '1it8m04351706e1i294o9R72p9Q6HF53h3I6m5L237Q50aVnN4s291741D3u';
+
+$DEBUG_MODE = true;
 
 // 测试环境配置
-if (false) {
+if ($DEBUG_MODE) {
 	$BASE_URL = 'sean.ngrok.natapp.cn';
 	$WECHAT_KEY = array('wxa6d29f29a5509fab', 'd4624c36b6795d1d99dcf0547af5443d', 'gao_1e_2015');
 }
@@ -66,4 +70,7 @@ return array(
 	'WECHAT_VERIFY_TIMESTAMP' => '',
 	'WECHAT_VERIFY_NONCE' => '',
 	'WECHAT_VERIFY_ECHOSTR' => '',
+	'DUOLABAO_GEN_ORDER_URL' => $DUOLABAO_GEN_ORDER_URL,
+	'DUOLABAO_SECRET' => $DUOLABAO_SECRET,
+	'DEBUG_MODE' => $DEBUG_MODE,
 );
