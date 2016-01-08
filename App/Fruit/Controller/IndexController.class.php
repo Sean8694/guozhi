@@ -149,7 +149,7 @@ class IndexController extends Controller {
 		}else{
 			$close = 0;
 		}
-		if (C('DEBUG_MODE')) {
+		if (C('DEBUG_OPENTIME')) {
 			$close = 0;
 		}
 		$this->assign('close',$close);
@@ -582,6 +582,7 @@ class IndexController extends Controller {
 		// 4 订单详情
 		$order_m	= M('order_detail');
 		$fruit_m	= M('fruit');
+		$to_pay_price = 0;
 		foreach( $order as $k=>$v ){
 			$order_data['order_id']		= $orderid;
 			$order_data['fruit_id']		= $v['fruit_id'];
@@ -598,6 +599,7 @@ class IndexController extends Controller {
 			$fruit_re					= $fruit_m->where("fruit_id='".$fruit_data['fruit_id']."'")->select();
 			$fruit_data['buys']		= $fruit_re[0]['buys']+3;
 			$fruit_m->save($fruit_data);
+			$to_pay_price = $to_pay_price + $order_data['price'];
 		}
 		
 		if( $orderid ){
@@ -616,7 +618,6 @@ class IndexController extends Controller {
 			// ================
 			// 插入支付流程
 			// ================
-			$to_pay_price = $order_data['price'];
 			if (C('DEBUG_MODE')) {
 				$to_pay_price = '0.01';
 			}
